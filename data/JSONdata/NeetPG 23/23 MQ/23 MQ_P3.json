@@ -1,0 +1,6666 @@
+{
+  "fileName": "23 MQ_P3",
+  "year": "23",
+  "category": "CQ",
+  "colleges": {
+    "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM": {
+      "GM  (001) - MD(GENERAL MEDICINE)": [
+        {
+          "rank": 19774,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 20275,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 20366,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 101084,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 120568,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PAED(002) - MD(PAEDIATRICS)": [
+        {
+          "rank": 22345,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 22928,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 135592,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ANES(003) - MD(ANAESTHESIA)": [
+        {
+          "rank": 34862,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 48683,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 178864,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PM  (004) - MD(PULMONARY MEDICINE)": [
+        {
+          "rank": 24041,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 137215,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "DVL (005) - MD(DVL)": [
+        {
+          "rank": 15491,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        }
+      ],
+      "RD  (006) - MD(RADIODIAGNOSIS)": [
+        {
+          "rank": 14837,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 17444,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 64475,
+          "candidateCategory": "SC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PSY (007) - MD(PSYCHIATRY)": [
+        {
+          "rank": 64288,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "GS  (014) - MS(GENERAL SURGERY)": [
+        {
+          "rank": 27843,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 35875,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 141642,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ORTHO(015) - MS(ORTHOPAEDICS)": [
+        {
+          "rank": 34399,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 57109,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 171575,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
+        {
+          "rank": 52473,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "ENT (017) - MS(ENT)": [
+        {
+          "rank": 49217,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 163545,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
+        {
+          "rank": 24064,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 26913,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 60029,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 107388,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PATH(026) - MD(PATHOLOGY)": [
+        {
+          "rank": 148303,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 191120,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "FM  (029) - MD(FORENSIC MEDICINE)": [
+        {
+          "rank": 179104,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ]
+    },
+    "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR": {
+      "GM  (001) - MD(GENERAL MEDICINE)": [
+        {
+          "rank": 17197,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 20880,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 25003,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 25282,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 54636,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 85286,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 95010,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PAED(002) - MD(PAEDIATRICS)": [
+        {
+          "rank": 18987,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 24600,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 116959,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 142622,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ANES(003) - MD(ANAESTHESIA)": [
+        {
+          "rank": 66856,
+          "candidateCategory": "SC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 75632,
+          "candidateCategory": "SC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 90701,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 91630,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 158536,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 178823,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 187521,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PM  (004) - MD(PULMONARY MEDICINE)": [
+        {
+          "rank": 35892,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "DVL (005) - MD(DVL)": [
+        {
+          "rank": 19752,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        }
+      ],
+      "RD  (006) - MD(RADIODIAGNOSIS)": [
+        {
+          "rank": 16118,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 16336,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 16444,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 70409,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 104599,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PSY (007) - MD(PSYCHIATRY)": [
+        {
+          "rank": 76712,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 156082,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "GS  (014) - MS(GENERAL SURGERY)": [
+        {
+          "rank": 44557,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 46402,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 48939,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 130985,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 131354,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ORTHO(015) - MS(ORTHOPAEDICS)": [
+        {
+          "rank": 76087,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 80604,
+          "candidateCategory": "SC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 147707,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
+        {
+          "rank": 37297,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "ENT (017) - MS(ENT)": [
+        {
+          "rank": 46914,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        }
+      ],
+      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
+        {
+          "rank": 28809,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 30237,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 32608,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 111477,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PHYSI(024) - MD(PHYSIOLOGY)": [
+        {
+          "rank": 196581,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "PATH(026) - MD(PATHOLOGY)": [
+        {
+          "rank": 87105,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 87678,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 178798,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "MICRO(027) - MD(MICROBIOLOGY)": [
+        {
+          "rank": 110830,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PHARMA(028) - MD(PHARMACOLOGY)": [
+        {
+          "rank": 196663,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "SPM (030) - MD(SPM)": [
+        {
+          "rank": 186923,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ]
+    },
+    "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR": {
+      "GM  (001) - MD(GENERAL MEDICINE)": [
+        {
+          "rank": 16392,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 17067,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 19092,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 19469,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 19963,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 20445,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 84338,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 107857,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 113387,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PAED(002) - MD(PAEDIATRICS)": [
+        {
+          "rank": 23541,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 30668,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 31373,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 151009,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 153524,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ANES(003) - MD(ANAESTHESIA)": [
+        {
+          "rank": 60733,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 85348,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 85749,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 92416,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 93570,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 137124,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 157028,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 191472,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PM  (004) - MD(PULMONARY MEDICINE)": [
+        {
+          "rank": 36209,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 95580,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ],
+      "DVL (005) - MD(DVL)": [
+        {
+          "rank": 20022,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 126766,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "RD  (006) - MD(RADIODIAGNOSIS)": [
+        {
+          "rank": 13514,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 14221,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 60539,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 96182,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PSY (007) - MD(PSYCHIATRY)": [
+        {
+          "rank": 150632,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "GS  (014) - MS(GENERAL SURGERY)": [
+        {
+          "rank": 36184,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 46749,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 46855,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 55743,
+          "candidateCategory": "SC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 59101,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 103255,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 120044,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 127768,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ORTHO(015) - MS(ORTHOPAEDICS)": [
+        {
+          "rank": 49820,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 50526,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 53721,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 173866,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 177321,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
+        {
+          "rank": 38584,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 84211,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ENT (017) - MS(ENT)": [
+        {
+          "rank": 110477,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
+        {
+          "rank": 22208,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 25213,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 26483,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 117283,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 120331,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PHYSI(024) - MD(PHYSIOLOGY)": [
+        {
+          "rank": 110647,
+          "candidateCategory": "OBC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        }
+      ],
+      "PATH(026) - MD(PATHOLOGY)": [
+        {
+          "rank": 96268,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        }
+      ],
+      "SPM (030) - MD(SPM)": [
+        {
+          "rank": 173184,
+          "candidateCategory": "SC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ]
+    },
+    "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR": {
+      "GM  (001) - MD(GENERAL MEDICINE)": [
+        {
+          "rank": 16259,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 16362,
+          "candidateCategory": "OBC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 19681,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 20265,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 53396,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 62715,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 132103,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PAED(002) - MD(PAEDIATRICS)": [
+        {
+          "rank": 19917,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 23521,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 89223,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ANES(003) - MD(ANAESTHESIA)": [
+        {
+          "rank": 60040,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 67237,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 75479,
+          "candidateCategory": "SC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 80565,
+          "candidateCategory": "SC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 108400,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 110711,
+          "candidateCategory": "OBC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PM  (004) - MD(PULMONARY MEDICINE)": [
+        {
+          "rank": 32211,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 59219,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ],
+      "DVL (005) - MD(DVL)": [
+        {
+          "rank": 13047,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 134745,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "RD  (006) - MD(RADIODIAGNOSIS)": [
+        {
+          "rank": 8400,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 9967,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 38472,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PSY (007) - MD(PSYCHIATRY)": [
+        {
+          "rank": 61350,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        }
+      ],
+      "GS  (014) - MS(GENERAL SURGERY)": [
+        {
+          "rank": 21430,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 23285,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 35911,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 36595,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 72089,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 87636,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ORTHO(015) - MS(ORTHOPAEDICS)": [
+        {
+          "rank": 51283,
+          "candidateCategory": "",
+          "gender": "",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 57300,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 76979,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 151706,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
+        {
+          "rank": 65792,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 90437,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ENT (017) - MS(ENT)": [
+        {
+          "rank": 58734,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 175782,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
+        {
+          "rank": 19091,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 21749,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 82614,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ],
+      "BIO (025) - MD(BIOCHEMISTRY)": [
+        {
+          "rank": 139485,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        }
+      ],
+      "PATH(026) - MD(PATHOLOGY)": [
+        {
+          "rank": 134552,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 138731,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 141983,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 146394,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 148294,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 168979,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ]
+    },
+    "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY": {
+      "GM  (001) - MD(GENERAL MEDICINE)": [
+        {
+          "rank": 22998,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 25998,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 26377,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 54542,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 123132,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PAED(002) - MD(PAEDIATRICS)": [
+        {
+          "rank": 33349,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 115463,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ANES(003) - MD(ANAESTHESIA)": [
+        {
+          "rank": 94206,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 95646,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 98792,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 146882,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 167253,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PM  (004) - MD(PULMONARY MEDICINE)": [
+        {
+          "rank": 43327,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "DVL (005) - MD(DVL)": [
+        {
+          "rank": 18206,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 108929,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "RD  (006) - MD(RADIODIAGNOSIS)": [
+        {
+          "rank": 17091,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 19748,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 77297,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PSY (007) - MD(PSYCHIATRY)": [
+        {
+          "rank": 84404,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "GS  (014) - MS(GENERAL SURGERY)": [
+        {
+          "rank": 52366,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 59537,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 61052,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 130903,
+          "candidateCategory": "OBC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 146833,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ORTHO(015) - MS(ORTHOPAEDICS)": [
+        {
+          "rank": 86676,
+          "candidateCategory": "OBC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 183528,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
+        {
+          "rank": 45704,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 71448,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ENT (017) - MS(ENT)": [
+        {
+          "rank": 66422,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 115631,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
+        {
+          "rank": 35281,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 35324,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 113469,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "SPM (030) - MD(SPM)": [
+        {
+          "rank": 192330,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ]
+    },
+    "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY": {
+      "GM  (001) - MD(GENERAL MEDICINE)": [
+        {
+          "rank": 18693,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 21883,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 120329,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 132162,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PAED(002) - MD(PAEDIATRICS)": [
+        {
+          "rank": 27719,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 149160,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ANES(003) - MD(ANAESTHESIA)": [
+        {
+          "rank": 64442,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 84817,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 192214,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PM  (004) - MD(PULMONARY MEDICINE)": [
+        {
+          "rank": 40798,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "DVL (005) - MD(DVL)": [
+        {
+          "rank": 17799,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        }
+      ],
+      "RD  (006) - MD(RADIODIAGNOSIS)": [
+        {
+          "rank": 18027,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 111825,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PSY (007) - MD(PSYCHIATRY)": [
+        {
+          "rank": 88795,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "GS  (014) - MS(GENERAL SURGERY)": [
+        {
+          "rank": 41546,
+          "candidateCategory": "OBC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 49777,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 138629,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 147644,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ORTHO(015) - MS(ORTHOPAEDICS)": [
+        {
+          "rank": 39672,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 43490,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 133288,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
+        {
+          "rank": 37450,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 122205,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ENT (017) - MS(ENT)": [
+        {
+          "rank": 67910,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
+        {
+          "rank": 30082,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 126056,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ANATO(023) - MD(ANATOMY)": [
+        {
+          "rank": 179714,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "PATH(026) - MD(PATHOLOGY)": [
+        {
+          "rank": 116765,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "PHARMA(028) - MD(PHARMACOLOGY)": [
+        {
+          "rank": 199275,
+          "candidateCategory": "ST",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "SPM (030) - MD(SPM)": [
+        {
+          "rank": 169014,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "HA  (034) - MD(HOSPITAL ADMINISTRATION)": [
+        {
+          "rank": 174832,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "TM  (036) - MD(TRANSFUSION MEDICINE)": [
+        {
+          "rank": 134462,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ]
+    },
+    "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD": {
+      "GM  (001) - MD(GENERAL MEDICINE)": [
+        {
+          "rank": 21517,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 21611,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 77032,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 88073,
+          "candidateCategory": "OBC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PAED(002) - MD(PAEDIATRICS)": [
+        {
+          "rank": 32809,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 86461,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ANES(003) - MD(ANAESTHESIA)": [
+        {
+          "rank": 60109,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 177426,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PM  (004) - MD(PULMONARY MEDICINE)": [
+        {
+          "rank": 39058,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 157762,
+          "candidateCategory": "ST",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "DVL (005) - MD(DVL)": [
+        {
+          "rank": 18050,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 123744,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "RD  (006) - MD(RADIODIAGNOSIS)": [
+        {
+          "rank": 14816,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 15580,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 50460,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PSY (007) - MD(PSYCHIATRY)": [
+        {
+          "rank": 55902,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        }
+      ],
+      "GS  (014) - MS(GENERAL SURGERY)": [
+        {
+          "rank": 45496,
+          "candidateCategory": "",
+          "gender": "",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 54003,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 143668,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ORTHO(015) - MS(ORTHOPAEDICS)": [
+        {
+          "rank": 61114,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 69280,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 159373,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
+        {
+          "rank": 58327,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "ENT (017) - MS(ENT)": [
+        {
+          "rank": 61946,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
+        {
+          "rank": 27721,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 99535,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ]
+    },
+    "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR": {
+      "GM  (001) - MD(GENERAL MEDICINE)": [
+        {
+          "rank": 20974,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 28449,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 76492,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PAED(002) - MD(PAEDIATRICS)": [
+        {
+          "rank": 25075,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        }
+      ],
+      "ANES(003) - MD(ANAESTHESIA)": [
+        {
+          "rank": 80495,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 84415,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 88309,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 92149,
+          "candidateCategory": "SC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 158604,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 192846,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PM  (004) - MD(PULMONARY MEDICINE)": [
+        {
+          "rank": 43934,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 142086,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "DVL (005) - MD(DVL)": [
+        {
+          "rank": 17952,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 24082,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ],
+      "RD  (006) - MD(RADIODIAGNOSIS)": [
+        {
+          "rank": 15132,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 15398,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 17690,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 40481,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 84360,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "GS  (014) - MS(GENERAL SURGERY)": [
+        {
+          "rank": 51680,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "ORTHO(015) - MS(ORTHOPAEDICS)": [
+        {
+          "rank": 77408,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 88717,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 137586,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 178997,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
+        {
+          "rank": 72135,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "ENT (017) - MS(ENT)": [
+        {
+          "rank": 84071,
+          "candidateCategory": "SC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 118507,
+          "candidateCategory": "SC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
+        {
+          "rank": 27812,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 112288,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "BIO (025) - MD(BIOCHEMISTRY)": [
+        {
+          "rank": 197949,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PATH(026) - MD(PATHOLOGY)": [
+        {
+          "rank": 143776,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ]
+    },
+    "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD": {
+      "GM  (001) - MD(GENERAL MEDICINE)": [
+        {
+          "rank": 16999,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 18075,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 74820,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 80605,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PAED(002) - MD(PAEDIATRICS)": [
+        {
+          "rank": 23783,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 110390,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ANES(003) - MD(ANAESTHESIA)": [
+        {
+          "rank": 37818,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 47052,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 166728,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PM  (004) - MD(PULMONARY MEDICINE)": [
+        {
+          "rank": 32016,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 138084,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "DVL (005) - MD(DVL)": [
+        {
+          "rank": 16727,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 26231,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ],
+      "RD  (006) - MD(RADIODIAGNOSIS)": [
+        {
+          "rank": 12171,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 13271,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 30161,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ],
+      "GS  (014) - MS(GENERAL SURGERY)": [
+        {
+          "rank": 33377,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 36971,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 114398,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 147240,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ORTHO(015) - MS(ORTHOPAEDICS)": [
+        {
+          "rank": 34920,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 140760,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
+        {
+          "rank": 16213,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 17343,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 99691,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ANATO(023) - MD(ANATOMY)": [
+        {
+          "rank": 175726,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "BIO (025) - MD(BIOCHEMISTRY)": [
+        {
+          "rank": 179434,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "PATH(026) - MD(PATHOLOGY)": [
+        {
+          "rank": 79544,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 117506,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ],
+      "MICRO(027) - MD(MICROBIOLOGY)": [
+        {
+          "rank": 129812,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        }
+      ],
+      "PHARMA(028) - MD(PHARMACOLOGY)": [
+        {
+          "rank": 155866,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "SPM (030) - MD(SPM)": [
+        {
+          "rank": 92554,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        }
+      ],
+      "RT  (033) - MD(RADIO THERAPY)": [
+        {
+          "rank": 49667,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        }
+      ],
+      "EM  (035) - MD(EMERGENCY MEDICINE)": [
+        {
+          "rank": 75496,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "TM  (036) - MD(TRANSFUSION MEDICINE)": [
+        {
+          "rank": 141206,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ]
+    },
+    "SHDN(060) - SHADAN INSTITUTE OF MEDICAL SCIENCES, HYD": {
+      "GM  (001) - MD(GENERAL MEDICINE)": [
+        {
+          "rank": 33249,
+          "candidateCategory": "",
+          "gender": "",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 64044,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PAED(002) - MD(PAEDIATRICS)": [
+        {
+          "rank": 32457,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        }
+      ],
+      "ANES(003) - MD(ANAESTHESIA)": [
+        {
+          "rank": 70892,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        }
+      ],
+      "PM  (004) - MD(PULMONARY MEDICINE)": [
+        {
+          "rank": 198558,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ2"
+        }
+      ],
+      "RD  (006) - MD(RADIODIAGNOSIS)": [
+        {
+          "rank": 30269,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        }
+      ],
+      "GS  (014) - MS(GENERAL SURGERY)": [
+        {
+          "rank": 177319,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
+        {
+          "rank": 83135,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ENT (017) - MS(ENT)": [
+        {
+          "rank": 114315,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        }
+      ],
+      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
+        {
+          "rank": 41493,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        }
+      ],
+      "MICRO(027) - MD(MICROBIOLOGY)": [
+        {
+          "rank": 162135,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        }
+      ]
+    },
+    "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES": {
+      "GM  (001) - MD(GENERAL MEDICINE)": [
+        {
+          "rank": 13424,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 148723,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PAED(002) - MD(PAEDIATRICS)": [
+        {
+          "rank": 31234,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 150192,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ANES(003) - MD(ANAESTHESIA)": [
+        {
+          "rank": 57275,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 65140,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 136047,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PM  (004) - MD(PULMONARY MEDICINE)": [
+        {
+          "rank": 189293,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ2"
+        }
+      ],
+      "DVL (005) - MD(DVL)": [
+        {
+          "rank": 28192,
+          "candidateCategory": "OBC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        }
+      ],
+      "RD  (006) - MD(RADIODIAGNOSIS)": [
+        {
+          "rank": 15692,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 22974,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 129359,
+          "candidateCategory": "OBC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PSY (007) - MD(PSYCHIATRY)": [
+        {
+          "rank": 112058,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        }
+      ],
+      "GS  (014) - MS(GENERAL SURGERY)": [
+        {
+          "rank": 29758,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 44966,
+          "candidateCategory": "OBC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 166099,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ORTHO(015) - MS(ORTHOPAEDICS)": [
+        {
+          "rank": 62815,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 185247,
+          "candidateCategory": "OBC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
+        {
+          "rank": 63371,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        }
+      ],
+      "ENT (017) - MS(ENT)": [
+        {
+          "rank": 50162,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 139832,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
+        {
+          "rank": 37996,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 45121,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 152462,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 154631,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PHYSI(024) - MD(PHYSIOLOGY)": [
+        {
+          "rank": 180797,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        }
+      ],
+      "PATH(026) - MD(PATHOLOGY)": [
+        {
+          "rank": 109099,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        }
+      ],
+      "MICRO(027) - MD(MICROBIOLOGY)": [
+        {
+          "rank": 121180,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        }
+      ]
+    },
+    "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR": {
+      "GM  (001) - MD(GENERAL MEDICINE)": [
+        {
+          "rank": 11899,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 13674,
+          "candidateCategory": "OBC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 13937,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 14910,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 15808,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 16247,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 45506,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 63229,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 73280,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 74012,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PAED(002) - MD(PAEDIATRICS)": [
+        {
+          "rank": 19607,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 20034,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 20919,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 21619,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 50387,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 95122,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ANES(003) - MD(ANAESTHESIA)": [
+        {
+          "rank": 46989,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 47984,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 49179,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 51870,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 68662,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 69737,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 71743,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 91291,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 152133,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 155380,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PM  (004) - MD(PULMONARY MEDICINE)": [
+        {
+          "rank": 34491,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "DVL (005) - MD(DVL)": [
+        {
+          "rank": 14395,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        }
+      ],
+      "RD  (006) - MD(RADIODIAGNOSIS)": [
+        {
+          "rank": 8409,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 10796,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 11813,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 12685,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 50259,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 62486,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PSY (007) - MD(PSYCHIATRY)": [
+        {
+          "rank": 57468,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "GS  (014) - MS(GENERAL SURGERY)": [
+        {
+          "rank": 18891,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 33763,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 35101,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 35676,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 37623,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 38015,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 80949,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 98180,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 111313,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 119378,
+          "candidateCategory": "SC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ORTHO(015) - MS(ORTHOPAEDICS)": [
+        {
+          "rank": 30015,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 95926,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
+        {
+          "rank": 34732,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 35600,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 114903,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 123512,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ENT (017) - MS(ENT)": [
+        {
+          "rank": 35836,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 38047,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 156302,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
+        {
+          "rank": 19252,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 21011,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 21135,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 21956,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 22967,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 71941,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 76015,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PATH(026) - MD(PATHOLOGY)": [
+        {
+          "rank": 74753,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "MICRO(027) - MD(MICROBIOLOGY)": [
+        {
+          "rank": 157876,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        }
+      ],
+      "SPM (030) - MD(SPM)": [
+        {
+          "rank": 123401,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        }
+      ],
+      "EM  (035) - MD(EMERGENCY MEDICINE)": [
+        {
+          "rank": 73916,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ]
+    },
+    "APLO(063) - APOLLO MEDICAL COLLEGE, HYDERABAD": {
+      "GM  (001) - MD(GENERAL MEDICINE)": [
+        {
+          "rank": 11267,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 13281,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 32454,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PAED(002) - MD(PAEDIATRICS)": [
+        {
+          "rank": 18864,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 99325,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ANES(003) - MD(ANAESTHESIA)": [
+        {
+          "rank": 40683,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "PM  (004) - MD(PULMONARY MEDICINE)": [
+        {
+          "rank": 35129,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "RD  (006) - MD(RADIODIAGNOSIS)": [
+        {
+          "rank": 7936,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "GS  (014) - MS(GENERAL SURGERY)": [
+        {
+          "rank": 29552,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        }
+      ],
+      "ORTHO(015) - MS(ORTHOPAEDICS)": [
+        {
+          "rank": 136143,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ENT (017) - MS(ENT)": [
+        {
+          "rank": 167465,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
+        {
+          "rank": 17389,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 106803,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "MICRO(027) - MD(MICROBIOLOGY)": [
+        {
+          "rank": 166681,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "SPM (030) - MD(SPM)": [
+        {
+          "rank": 169776,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "EM  (035) - MD(EMERGENCY MEDICINE)": [
+        {
+          "rank": 38192,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 177055,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ]
+    },
+    "RVMC(064) - RVM INSTITUTE OF MEDICAL SCIENCES AND RESEARCH CENTER, MEDAK": {
+      "GM  (001) - MD(GENERAL MEDICINE)": [
+        {
+          "rank": 18553,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 115728,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PAED(002) - MD(PAEDIATRICS)": [
+        {
+          "rank": 33048,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "ANES(003) - MD(ANAESTHESIA)": [
+        {
+          "rank": 67444,
+          "candidateCategory": "SC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        }
+      ],
+      "RD  (006) - MD(RADIODIAGNOSIS)": [
+        {
+          "rank": 17405,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        }
+      ],
+      "PSY (007) - MD(PSYCHIATRY)": [
+        {
+          "rank": 91464,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "GS  (014) - MS(GENERAL SURGERY)": [
+        {
+          "rank": 15211,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 140826,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ORTHO(015) - MS(ORTHOPAEDICS)": [
+        {
+          "rank": 50452,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        }
+      ],
+      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
+        {
+          "rank": 71759,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 125956,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ENT (017) - MS(ENT)": [
+        {
+          "rank": 80125,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
+        {
+          "rank": 30342,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 140844,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PATH(026) - MD(PATHOLOGY)": [
+        {
+          "rank": 110759,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        }
+      ],
+      "SPM (030) - MD(SPM)": [
+        {
+          "rank": 166423,
+          "candidateCategory": "SC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        }
+      ]
+    },
+    "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR": {
+      "GM  (001) - MD(GENERAL MEDICINE)": [
+        {
+          "rank": 15546,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 20080,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 86271,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PAED(002) - MD(PAEDIATRICS)": [
+        {
+          "rank": 24570,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "ANES(003) - MD(ANAESTHESIA)": [
+        {
+          "rank": 50683,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 72895,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 170537,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 171648,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PM  (004) - MD(PULMONARY MEDICINE)": [
+        {
+          "rank": 35572,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "DVL (005) - MD(DVL)": [
+        {
+          "rank": 14872,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        }
+      ],
+      "RD  (006) - MD(RADIODIAGNOSIS)": [
+        {
+          "rank": 12457,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 84453,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "GS  (014) - MS(GENERAL SURGERY)": [
+        {
+          "rank": 41028,
+          "candidateCategory": "",
+          "gender": "",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 113356,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ORTHO(015) - MS(ORTHOPAEDICS)": [
+        {
+          "rank": 50762,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
+        {
+          "rank": 38741,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        }
+      ],
+      "ENT (017) - MS(ENT)": [
+        {
+          "rank": 170062,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
+        {
+          "rank": 91368,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PHARMA(028) - MD(PHARMACOLOGY)": [
+        {
+          "rank": 106065,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 187407,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "RT  (033) - MD(RADIO THERAPY)": [
+        {
+          "rank": 77944,
+          "candidateCategory": "SC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 144366,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "EM  (035) - MD(EMERGENCY MEDICINE)": [
+        {
+          "rank": 79691,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ]
+    },
+    "MHVR(066) - MAHAVIR INST OF MED SCI, VIKARABAD": {
+      "GM  (001) - MD(GENERAL MEDICINE)": [
+        {
+          "rank": 29571,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "PAED(002) - MD(PAEDIATRICS)": [
+        {
+          "rank": 30722,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "DVL (005) - MD(DVL)": [
+        {
+          "rank": 19852,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        }
+      ],
+      "RD  (006) - MD(RADIODIAGNOSIS)": [
+        {
+          "rank": 19971,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        }
+      ],
+      "GS  (014) - MS(GENERAL SURGERY)": [
+        {
+          "rank": 61399,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "ORTHO(015) - MS(ORTHOPAEDICS)": [
+        {
+          "rank": 94330,
+          "candidateCategory": "OBC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
+        {
+          "rank": 30923,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 145970,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "BIO (025) - MD(BIOCHEMISTRY)": [
+        {
+          "rank": 137784,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        }
+      ],
+      "PATH(026) - MD(PATHOLOGY)": [
+        {
+          "rank": 81212,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        }
+      ],
+      "SPM (030) - MD(SPM)": [
+        {
+          "rank": 195058,
+          "candidateCategory": "",
+          "gender": "",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ]
+    },
+    "VRKW(067) - DR V R K WOMENS MEDICAL COLLEGE": {
+      "PAED(002) - MD(PAEDIATRICS)": [
+        {
+          "rank": 36942,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        }
+      ],
+      "PM  (004) - MD(PULMONARY MEDICINE)": [
+        {
+          "rank": 47668,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        }
+      ],
+      "BIO (025) - MD(BIOCHEMISTRY)": [
+        {
+          "rank": 191103,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ1"
+        }
+      ],
+      "PHARMA(028) - MD(PHARMACOLOGY)": [
+        {
+          "rank": 154924,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "MSM",
+          "admissionType": "MQ2"
+        }
+      ]
+    },
+    "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA": {
+      "GM  (001) - MD(GENERAL MEDICINE)": [
+        {
+          "rank": 25132,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 29765,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 123054,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 124942,
+          "candidateCategory": "OBC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PAED(002) - MD(PAEDIATRICS)": [
+        {
+          "rank": 25421,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P1",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 149899,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ANES(003) - MD(ANAESTHESIA)": [
+        {
+          "rank": 94828,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 99271,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 108925,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        },
+        {
+          "rank": 196667,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PM  (004) - MD(PULMONARY MEDICINE)": [
+        {
+          "rank": 47337,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 163369,
+          "candidateCategory": "OBC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "DVL (005) - MD(DVL)": [
+        {
+          "rank": 21467,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "RD  (006) - MD(RADIODIAGNOSIS)": [
+        {
+          "rank": 18426,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ1"
+        }
+      ],
+      "PSY (007) - MD(PSYCHIATRY)": [
+        {
+          "rank": 93625,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 122377,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "GS  (014) - MS(GENERAL SURGERY)": [
+        {
+          "rank": 63302,
+          "candidateCategory": "SC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 163533,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ORTHO(015) - MS(ORTHOPAEDICS)": [
+        {
+          "rank": 66795,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 165684,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
+        {
+          "rank": 72509,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "ENT (017) - MS(ENT)": [
+        {
+          "rank": 99811,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
+        {
+          "rank": 34083,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        }
+      ],
+      "PATH(026) - MD(PATHOLOGY)": [
+        {
+          "rank": 105409,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 190786,
+          "candidateCategory": "ST",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ]
+    },
+    "MAMS(070) - MAMATA ACADEMY OF MED SCI, BACHUPALLY": {
+      "PATH(026) - MD(PATHOLOGY)": [
+        {
+          "rank": 100579,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 115497,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 154379,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ]
+    },
+    "SURB(071) - SURABHI INST OF MED SCI, SIDDIPET": {
+      "GM  (001) - MD(GENERAL MEDICINE)": [
+        {
+          "rank": 28781,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 30433,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 110463,
+          "candidateCategory": "BC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P2",
+          "admissionType": "MQ2"
+        }
+      ],
+      "PAED(002) - MD(PAEDIATRICS)": [
+        {
+          "rank": 34840,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 156556,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "ANES(003) - MD(ANAESTHESIA)": [
+        {
+          "rank": 99411,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 183999,
+          "candidateCategory": "OC",
+          "gender": "M",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
+        {
+          "rank": 50573,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 146820,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ],
+      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
+        {
+          "rank": 39782,
+          "candidateCategory": "BC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ1"
+        },
+        {
+          "rank": 135505,
+          "candidateCategory": "OC",
+          "gender": "F",
+          "isMIN": false,
+          "isPH": false,
+          "allottedCategory": "",
+          "allottedGender": "",
+          "phase": "P3",
+          "admissionType": "MQ2"
+        }
+      ]
+    }
+  }
+}

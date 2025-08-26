@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desire - NEET PG Counselling Data</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>🎯 Desire</h1>
+        <p>NEET PG Counselling Data Analytics</p>
+    </div>
+
+    <div class="container">
+
+
+        <div class="filters">
+            <!-- Rank Entry - Top Priority -->
+            <div class="filter-section">
+                <h3>🎯 NEET Rank Range</h3>
+                <div class="rank-inputs">
+                    <input type="number" id="minRank" placeholder="Min Rank">
+                    <span>to</span>
+                    <input type="number" id="maxRank" placeholder="Max Rank">
+                </div>
+            </div>
+            
+            <!-- Quick Filters -->
+            <div class="filter-section">
+                <h3>📅 Year</h3>
+                <div class="toggle-group">
+                    <label class="toggle"><input type="checkbox" value="22" class="yearCheckbox" checked><span class="slider"></span>2022</label>
+                    <label class="toggle"><input type="checkbox" value="23" class="yearCheckbox" checked><span class="slider"></span>2023</label>
+                    <label class="toggle"><input type="checkbox" value="24" class="yearCheckbox" checked><span class="slider"></span>2024</label>
+                </div>
+            </div>
+            
+            <div class="filter-section">
+                <h3>🎫 Quota</h3>
+                <div class="toggle-group" id="quotaToggles">
+                    <!-- Populated dynamically -->
+                </div>
+            </div>
+            
+            <div class="filter-section">
+                <h3>👥 Category</h3>
+                <div class="toggle-group">
+                    <label class="toggle"><input type="checkbox" value="OC" class="categoryCheckbox" checked><span class="slider"></span>OC</label>
+                    <label class="toggle"><input type="checkbox" value="BCA" class="categoryCheckbox"><span class="slider"></span>BCA</label>
+                    <label class="toggle"><input type="checkbox" value="BCB" class="categoryCheckbox"><span class="slider"></span>BCB</label>
+                    <label class="toggle"><input type="checkbox" value="BCD" class="categoryCheckbox"><span class="slider"></span>BCD</label>
+                    <label class="toggle"><input type="checkbox" value="BCE" class="categoryCheckbox"><span class="slider"></span>BCE</label>
+                    <label class="toggle"><input type="checkbox" value="SC" class="categoryCheckbox"><span class="slider"></span>SC</label>
+                    <label class="toggle"><input type="checkbox" value="ST" class="categoryCheckbox"><span class="slider"></span>ST</label>
+                </div>
+            </div>
+            
+            <div class="filter-section">
+                <h3>⭐ Special</h3>
+                <div class="toggle-group">
+                    <label class="toggle"><input type="checkbox" id="minCheckbox"><span class="slider"></span>MIN</label>
+                    <label class="toggle"><input type="checkbox" id="phCheckbox"><span class="slider"></span>PH</label>
+                </div>
+            </div>
+            
+            <div class="filter-section">
+                <h3>👤 Gender</h3>
+                <div class="toggle-group">
+                    <label class="toggle"><input type="checkbox" value="M" class="genderCheckbox" checked><span class="slider"></span>GEN</label>
+                    <label class="toggle"><input type="checkbox" value="F" class="genderCheckbox" checked><span class="slider"></span>FEM</label>
+                </div>
+            </div>
+            
+            <!-- Colleges & Courses -->
+            <div class="filter-section">
+                <h3>🏥 Colleges</h3>
+                <input type="text" id="collegeSearch" placeholder="Search colleges..." class="search-input">
+                <div class="toggle-container" id="collegeToggles"></div>
+            </div>
+            
+            <div class="filter-section">
+                <h3>📚 Courses</h3>
+                <input type="text" id="courseSearch" placeholder="Search courses..." class="search-input">
+                <div class="toggle-container" id="courseToggles"></div>
+            </div>
+            
+            <div class="filter-actions">
+                <button onclick="searchData()" class="btn-primary">🔍 Search</button>
+                <button onclick="clearFilters()" class="btn-secondary">🗑️ Clear</button>
+            </div>
+        </div>
+
+
+
+        <div class="data-container">
+            <div class="data-header">
+                <h2>Search Results</h2>
+                <div class="results-controls">
+                    <div id="resultCount"></div>
+                    <div class="sort-controls">
+                        <label>Sort by:</label>
+                        <select id="sortSelect">
+                            <option value="rank-asc">Rank (Low to High)</option>
+                            <option value="rank-desc">Rank (High to Low)</option>
+                            <option value="year-asc">Year (Old to New)</option>
+                            <option value="year-desc">Year (New to Old)</option>
+                            <option value="college-asc">College (A-Z)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="data-content" id="dataContent">
+                <div class="loading">Loading counselling data...</div>
+            </div>
+        </div>
+        
+        <div class="disclaimer">
+            <p><strong>Disclaimer:</strong> This application is for informational purposes only. Always verify data with official counselling authorities.</p>
+            <p><strong>Developer Note:</strong> I'm a doctor, not a software engineer - appreciate the effort and don't complain! For donations or support: <a href="mailto:devaprasadreddy@gmail.com">devaprasadreddy@gmail.com</a></p>
+            <p><small>© 2025 Dr_DP. All rights reserved. Version 1.0</small></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+{
+  "counsellingFiles": [
+    {
+      "path": "data/JSONdata/NeetPG 22/22 CQ/22 CQ P1.json",
+      "year": "22",
+      "category": "CQ",
+      "fileName": "22 CQ P1.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 22/22 CQ/22 CQ P2.json",
+      "year": "22",
+      "category": "CQ",
+      "fileName": "22 CQ P2.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 22/22 CQ/22 CQ P3.json",
+      "year": "22",
+      "category": "CQ",
+      "fileName": "22 CQ P3.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 22/22 CQ/22 CQ P5.json",
+      "year": "22",
+      "category": "CQ",
+      "fileName": "22 CQ P5.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 22/22 MQ/22 MQ P1.json",
+      "year": "22",
+      "category": "MQ",
+      "fileName": "22 MQ P1.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 22/22 MQ/22 MQ P2.json",
+      "year": "22",
+      "category": "MQ",
+      "fileName": "22 MQ P2.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 22/22 MQ/22 MQ P3.json",
+      "year": "22",
+      "category": "MQ",
+      "fileName": "22 MQ P3.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 22/22 MQ/22 MQ STRAY.json",
+      "year": "22",
+      "category": "MQ",
+      "fileName": "22 MQ STRAY.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 23/23 CQ/23 CQ_P1.json",
+      "year": "23",
+      "category": "CQ",
+      "fileName": "23 CQ_P1.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 23/23 CQ/23 CQ_P2.json",
+      "year": "23",
+      "category": "CQ",
+      "fileName": "23 CQ_P2.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 23/23 CQ/23 CQ_P3.json",
+      "year": "23",
+      "category": "CQ",
+      "fileName": "23 CQ_P3.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 23/23 CQ/23 CQ_Stray.json",
+      "year": "23",
+      "category": "CQ",
+      "fileName": "23 CQ_Stray.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 23/23 MQ/23 MQ_P1.json",
+      "year": "23",
+      "category": "MQ",
+      "fileName": "23 MQ_P1.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 23/23 MQ/23 MQ_P2.json",
+      "year": "23",
+      "category": "MQ",
+      "fileName": "23 MQ_P2.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 23/23 MQ/23 MQ_P3.json",
+      "year": "23",
+      "category": "MQ",
+      "fileName": "23 MQ_P3.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 23/23 MQ/23 MQ_Stray.json",
+      "year": "23",
+      "category": "MQ",
+      "fileName": "23 MQ_Stray.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 24/24 CQ/24 CQ P1.json",
+      "year": "24",
+      "category": "CQ",
+      "fileName": "24 CQ P1.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 24/24 CQ/24 CQ P2.json",
+      "year": "24",
+      "category": "CQ",
+      "fileName": "24 CQ P2.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 24/24 CQ/24 CQ P4.json",
+      "year": "24",
+      "category": "CQ",
+      "fileName": "24 CQ P4.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 24/24 CQ/24 CQ P5.json",
+      "year": "24",
+      "category": "CQ",
+      "fileName": "24 CQ P5.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 24/24 CQ/24 CQ STRAY.json",
+      "year": "24",
+      "category": "CQ",
+      "fileName": "24 CQ STRAY.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 24/24 MQ/24 MQ P1.json",
+      "year": "24",
+      "category": "MQ",
+      "fileName": "24 MQ P1.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 24/24 MQ/24 MQ P2.json",
+      "year": "24",
+      "category": "MQ",
+      "fileName": "24 MQ P2.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 24/24 MQ/24 MQ P3.json",
+      "year": "24",
+      "category": "MQ",
+      "fileName": "24 MQ P3.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 24/24 MQ/24 MQ STRAY.json",
+      "year": "24",
+      "category": "MQ",
+      "fileName": "24 MQ STRAY.json"
+    }
+  ],
+  "meritFiles": [
+    {
+      "path": "data/JSONdata/NeetPG 22/22 CQ/2022 CQ Merit List.json",
+      "year": "22",
+      "category": "CQ",
+      "fileName": "2022 CQ Merit List.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 22/22 MQ/2022 MQ Merit list.json",
+      "year": "22",
+      "category": "MQ",
+      "fileName": "2022 MQ Merit list.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 23/23 CQ/23 CQ merit list.json",
+      "year": "23",
+      "category": "CQ",
+      "fileName": "23 CQ merit list.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 23/23 MQ/23 MQ Merit List.json",
+      "year": "23",
+      "category": "MQ",
+      "fileName": "23 MQ Merit List.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 24/24 CQ/24 CQ Merit list.json",
+      "year": "24",
+      "category": "CQ",
+      "fileName": "24 CQ Merit list.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 24/24 MQ/24 MQ Merit List.json",
+      "year": "24",
+      "category": "MQ",
+      "fileName": "24 MQ Merit List.json"
+    }
+  ]
+}
