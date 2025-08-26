@@ -469,6 +469,7 @@ function displayResults(data) {
                         ${candidate.isMIN ? ' | <span style="color: orange; font-weight: bold;">MIN</span>' : ''}
                         ${candidate.isPH ? ' | <span style="color: red; font-weight: bold;">PH</span>' : ''}
                         ${candidate.fileName && candidate.fileName.toLowerCase().includes('stray') ? ' | <span style="color: orange; font-weight: bold;">STRAY</span>' : ''}
+                        ${candidate.admissionType === 'S' ? ' | <span style="color: orange; font-weight: bold;">SERVICE</span>' : ''}
                     </div>
                 </div>
             `;
