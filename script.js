@@ -107,7 +107,6 @@ function hideLoadingSpinner() {
         spinner.remove();
     }
 }
-}
 
 function normalizeCourse(courseName) {
     // Extract course code and normalize based on it
