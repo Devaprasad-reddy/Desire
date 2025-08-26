@@ -4,7 +4,7 @@ A comprehensive web application for viewing and analyzing NEET PG counselling da
 
 ## ✨ Features
 
-- **Multi-year data support** - 2022, 2023, 2024 counselling data
+- **Multi-year data support** - 2022, 2023, 2024 counselling data.
 - **Advanced filtering** - By year, category, college, course, rank range
 - **Rank history tracking** - Click any rank to see counselling progression
 - **Course normalization** - Merges similar courses with same codes
