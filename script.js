@@ -4,6 +4,9 @@ let isDataLoaded = false;
 
 // Load all JSON files using manifest
 async function loadData() {
+    // Show loading spinner
+    showLoadingSpinner();
+    
     const dataContent = document.getElementById('dataContent');
     dataContent.innerHTML = '<div class="loading">Loading counselling data...</div>';
     
@@ -74,10 +77,36 @@ async function loadData() {
         populateDropdowns();
         dataContent.innerHTML = '<div class="loading">Data loaded successfully! Use filters above to search.</div>';
         
+        // Hide loading spinner
+        hideLoadingSpinner();
+        
     } catch (error) {
         console.error('Could not load manifest:', error);
         dataContent.innerHTML = '<div class="error">Could not load data. Please ensure data_manifest.json exists.</div>';
+        
+        // Hide loading spinner on error
+        hideLoadingSpinner();
     }
+}
+
+function showLoadingSpinner() {
+    const spinner = document.createElement('div');
+    spinner.id = 'loadingSpinner';
+    spinner.innerHTML = `
+        <div class="spinner-overlay">
+            <div class="spinner"></div>
+            <p>Loading counselling data...</p>
+        </div>
+    `;
+    document.body.appendChild(spinner);
+}
+
+function hideLoadingSpinner() {
+    const spinner = document.getElementById('loadingSpinner');
+    if (spinner) {
+        spinner.remove();
+    }
+}
 }
 
 function normalizeCourse(courseName) {
