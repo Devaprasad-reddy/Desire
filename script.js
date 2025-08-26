@@ -484,7 +484,9 @@ function searchData() {
         if (selectedCourses.length > 0 && !selectedCourses.includes(candidate.course)) return false;
         if (selectedGenders.length > 0 && !selectedGenders.includes(candidate.gender)) return false;
         if (minFilter && !candidate.isMIN) return false;
+        if (!minFilter && candidate.isMIN) return false;
         if (phFilter && !candidate.isPH) return false;
+        if (!phFilter && candidate.isPH) return false;
         
         return true;
     });
