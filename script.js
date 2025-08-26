@@ -11,17 +11,18 @@ async function loadData() {
     dataContent.innerHTML = '<div class="loading">Loading counselling data...</div>';
     
     try {
-        // Load manifest
-        const manifestResponse = await fetch('data_manifest.json');
+        // Load manifest with error handling for GitHub Pages
+        const manifestResponse = await fetch('./data_manifest.json');
+        if (!manifestResponse.ok) {
+            throw new Error(`Failed to load manifest: ${manifestResponse.status}`);
+        }
         const manifest = await manifestResponse.json();
         
         // Load counselling data with cache busting
         const cacheBuster = Date.now();
         for (const fileInfo of manifest.counsellingFiles) {
             try {
-                const response = await fetch(`${fileInfo.path}?v=${cacheBuster}`, {
-                    cache: 'no-cache'
-                });
+                const response = await fetch(`./${fileInfo.path}?v=${cacheBuster}`);
                 if (response.ok) {
                     const data = await response.json();
                     processData(data);
@@ -34,7 +35,7 @@ async function loadData() {
         // Load merit list data
         for (const fileInfo of manifest.meritFiles) {
             try {
-                const response = await fetch(fileInfo.path);
+                const response = await fetch(`./${fileInfo.path}`);
                 if (response.ok) {
                     const data = await response.json();
                     meritData[`${fileInfo.year}_${fileInfo.category}`] = data.rankMap;
@@ -544,13 +545,13 @@ function showRankHistory(rank, year, category) {
     const rankHistory = [];
     
     // Get manifest and load all files to find history
-    fetch('data_manifest.json')
+    fetch('./data_manifest.json')
         .then(response => response.json())
         .then(async manifest => {
             for (const fileInfo of manifest.counsellingFiles) {
                 if (fileInfo.year === year && fileInfo.category === category) {
                     try {
-                        const response = await fetch(fileInfo.path);
+                        const response = await fetch(`./${fileInfo.path}`);
                         if (response.ok) {
                             const data = await response.json();
                             
