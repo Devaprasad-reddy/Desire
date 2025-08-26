@@ -4,6 +4,28 @@ let isDataLoaded = false;
 
 // Load all JSON files using manifest
 async function loadData() {
+    // Check for cached data first
+    const cached = localStorage.getItem('desireDataCache');
+    if (cached) {
+        try {
+            const cacheData = JSON.parse(cached);
+            const cacheAge = Date.now() - cacheData.timestamp;
+            
+            // Use cache if less than 24 hours old
+            if (cacheAge < 24 * 60 * 60 * 1000) {
+                allData = cacheData.data;
+                meritData = cacheData.merit;
+                isDataLoaded = true;
+                populateDropdowns();
+                loadSearchState();
+                document.getElementById('dataContent').innerHTML = '<div class="loading">Data loaded from cache! Use filters above to search.</div>';
+                return;
+            }
+        } catch (e) {
+            console.log('Cache invalid, loading fresh data');
+        }
+    }
+    
     // Show loading spinner
     showLoadingSpinner();
     
@@ -76,6 +98,21 @@ async function loadData() {
         
         isDataLoaded = true;
         populateDropdowns();
+        
+        // Cache data in localStorage for faster subsequent loads
+        try {
+            localStorage.setItem('desireDataCache', JSON.stringify({
+                data: allData,
+                merit: meritData,
+                timestamp: Date.now()
+            }));
+        } catch (e) {
+            console.log('Could not cache data:', e);
+        }
+        
+        // Restore last search state
+        loadSearchState();
+        
         dataContent.innerHTML = '<div class="loading">Data loaded successfully! Use filters above to search.</div>';
         
         // Hide loading spinner
@@ -381,11 +418,47 @@ function clearAll(type) {
     document.querySelectorAll(`.${type}Checkbox`).forEach(cb => cb.checked = false);
 }
 
+function saveSearchState() {
+    const searchState = {
+        minRank: document.getElementById('minRank').value,
+        maxRank: document.getElementById('maxRank').value,
+        years: Array.from(document.querySelectorAll('.yearCheckbox:checked')).map(cb => cb.value),
+        quotas: Array.from(document.querySelectorAll('.quotaCheckbox:checked')).map(cb => cb.value),
+        categories: Array.from(document.querySelectorAll('.categoryCheckbox:checked')).map(cb => cb.value),
+        genders: Array.from(document.querySelectorAll('.genderCheckbox:checked')).map(cb => cb.value),
+        minFilter: document.getElementById('minCheckbox').checked,
+        phFilter: document.getElementById('phCheckbox').checked,
+        sortBy: document.getElementById('sortSelect').value
+    };
+    localStorage.setItem('desireSearchState', JSON.stringify(searchState));
+}
+
+function loadSearchState() {
+    const saved = localStorage.getItem('desireSearchState');
+    if (saved) {
+        const state = JSON.parse(saved);
+        document.getElementById('minRank').value = state.minRank || '';
+        document.getElementById('maxRank').value = state.maxRank || '';
+        
+        // Restore checkboxes
+        document.querySelectorAll('.yearCheckbox').forEach(cb => cb.checked = state.years.includes(cb.value));
+        document.querySelectorAll('.quotaCheckbox').forEach(cb => cb.checked = state.quotas.includes(cb.value));
+        document.querySelectorAll('.categoryCheckbox').forEach(cb => cb.checked = state.categories.includes(cb.value));
+        document.querySelectorAll('.genderCheckbox').forEach(cb => cb.checked = state.genders.includes(cb.value));
+        
+        document.getElementById('minCheckbox').checked = state.minFilter || false;
+        document.getElementById('phCheckbox').checked = state.phFilter || false;
+        document.getElementById('sortSelect').value = state.sortBy || 'rank-asc';
+    }
+}
+
 function searchData() {
     if (!isDataLoaded) {
         alert('Data is still loading. Please wait...');
         return;
     }
+    
+    saveSearchState();
     
     const minRank = parseInt(document.getElementById('minRank').value) || 0;
     const maxRank = parseInt(document.getElementById('maxRank').value) || Infinity;
