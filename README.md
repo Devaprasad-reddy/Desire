@@ -16,7 +16,7 @@ A comprehensive web application for viewing and analyzing NEET PG counselling da
 
 ## 🚀 Live Demo
 
-Access the application at: `https://Devaprasad-reddy.github.io/desire`
+Access the application at: `https://devaprasad-reddy.github.io/Desire/`
 
 ## 📁 File Structure
 
