@@ -1,10 +1,10 @@
-# 🎯 Desire - NEET PG Counselling Data Viewer
+# 🎯 Desire - NEET PG 2025 Counselling Data Viewer
 
 A comprehensive web application for viewing and analyzing NEET PG counselling data across multiple years and categories. Features advanced filtering, rank history tracking, and GitHub Pages deployment.
 
 ## ✨ Features
 
-- **Multi-year data support** - 2022, 2023, 2024 counselling data.
+- **Multi-year data support** - 2022, 2023, 2024, 2025(soon) counselling data.
 - **Advanced filtering** - By year, category, college, course, rank range
 - **Rank history tracking** - Click any rank to see counselling progression
 - **Course normalization** - Merges similar courses with same codes
