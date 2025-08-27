@@ -7,10 +7,6 @@
       "BIO (025) - MD(BIOCHEMISTRY)": [
         {
           "rank": 128637,
-          "candidateCategory": "OC",
-          "gender": "F",
-          "isMIN": false,
-          "isPH": false,
           "allottedCategory": "UNR",
           "allottedGender": "SC",
           "phase": "P5",
@@ -20,10 +16,6 @@
       "HA  (034) - MD(HOSPITAL ADMINISTRATION)": [
         {
           "rank": 88592,
-          "candidateCategory": "BCA",
-          "gender": "F",
-          "isMIN": false,
-          "isPH": false,
           "allottedCategory": "OPEN",
           "allottedGender": "GEN",
           "phase": "P5",
@@ -35,10 +27,6 @@
       "ANES(003) - MD(ANAESTHESIA)": [
         {
           "rank": 28753,
-          "candidateCategory": "BCA",
-          "gender": "F",
-          "isMIN": false,
-          "isPH": false,
           "allottedCategory": "OPEN",
           "allottedGender": "GEN",
           "phase": "P5",
@@ -50,10 +38,6 @@
       "PHARMA(028) - MD(PHARMACOLOGY)": [
         {
           "rank": 128955,
-          "candidateCategory": "OC",
-          "gender": "F",
-          "isMIN": false,
-          "isPH": false,
           "allottedCategory": "UNR",
           "allottedGender": "ST",
           "phase": "P5",
@@ -63,10 +47,6 @@
       "SPM (030) - MD(SPM)": [
         {
           "rank": 132819,
-          "candidateCategory": "OC",
-          "gender": "F",
-          "isMIN": false,
-          "isPH": false,
           "allottedCategory": "ST",
           "allottedGender": "GEN",
           "phase": "P5",
@@ -76,10 +56,6 @@
       "RT  (033) - MD(RADIO THERAPY)": [
         {
           "rank": 44194,
-          "candidateCategory": "BCE",
-          "gender": "F",
-          "isMIN": true,
-          "isPH": false,
           "allottedCategory": "UNR",
           "allottedGender": "OPEN",
           "phase": "P5",
@@ -91,10 +67,6 @@
       "ENT (017) - MS(ENT)": [
         {
           "rank": 48631,
-          "candidateCategory": "SC",
-          "gender": "F",
-          "isMIN": false,
-          "isPH": false,
           "allottedCategory": "SC",
           "allottedGender": "GEN",
           "phase": "P5",
@@ -106,10 +78,6 @@
       "SPM (030) - MD(SPM)": [
         {
           "rank": 146061,
-          "candidateCategory": "SC",
-          "gender": "F",
-          "isMIN": false,
-          "isPH": false,
           "allottedCategory": "UNR",
           "allottedGender": "BCB",
           "phase": "P5",
@@ -121,10 +89,6 @@
       "MICRO(027) - MD(MICROBIOLOGY)": [
         {
           "rank": 118780,
-          "candidateCategory": "BCE",
-          "gender": "M",
-          "isMIN": true,
-          "isPH": false,
           "allottedCategory": "BCB",
           "allottedGender": "GEN",
           "phase": "P5",
@@ -136,10 +100,6 @@
       "TM  (036) - MD(TRANSFUSION MEDICINE)": [
         {
           "rank": 73975,
-          "candidateCategory": "BCB",
-          "gender": "F",
-          "isMIN": false,
-          "isPH": false,
           "allottedCategory": "UNR",
           "allottedGender": "OPEN",
           "phase": "P5",
@@ -151,10 +111,6 @@
       "PATH(026) - MD(PATHOLOGY)": [
         {
           "rank": 58252,
-          "candidateCategory": "BCB",
-          "gender": "F",
-          "isMIN": false,
-          "isPH": false,
           "allottedCategory": "BCB",
           "allottedGender": "FEM",
           "phase": "P5",

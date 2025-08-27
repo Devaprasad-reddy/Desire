@@ -13,7 +13,7 @@
     
     <!-- PWA Manifest -->
     <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#007cba">
+    <meta name="theme-color" content="#764ba2">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="Desire">
@@ -23,7 +23,6 @@
 <body>
     <div class="header">
         <h1>🎯 Desire</h1>
-        <p>NEET PG Counselling Data Analytics</p>
     </div>
 
     <div class="container">
@@ -51,6 +50,17 @@
             </div>
             
             <div class="filter-section">
+                <h3>🎯 Data Source</h3>
+                <div class="data-source-toggle">
+                    <span class="toggle-label left active" id="telanganaLabel">Telangana</span>
+                    <div class="toggle-switch" id="dataSourceToggle">
+                        <div class="toggle-slider"></div>
+                    </div>
+                    <span class="toggle-label right" id="allIndiaLabel">All India</span>
+                </div>
+            </div>
+            
+            <div class="filter-section">
                 <h3>🎫 Quota</h3>
                 <div class="toggle-group" id="quotaToggles">
                     <!-- Populated dynamically -->
@@ -58,7 +68,7 @@
             </div>
             
             <div class="filter-section">
-                <h3>👥 Category</h3>
+                <h3 id="categoryFilterSection">👥 Category</h3>
                 <div class="toggle-group">
                     <label class="toggle"><input type="checkbox" value="OC" class="categoryCheckbox" checked><span class="slider"></span>OC</label>
                     <label class="toggle"><input type="checkbox" value="BCA" class="categoryCheckbox"><span class="slider"></span>BCA</label>
@@ -70,7 +80,7 @@
                 </div>
             </div>
             
-            <div class="filter-section">
+            <div class="filter-section" id="specialFilter">
                 <h3>⭐ Special</h3>
                 <div class="toggle-group">
                     <label class="toggle"><input type="checkbox" id="minCheckbox"><span class="slider"></span>MIN</label>
@@ -78,24 +88,33 @@
                 </div>
             </div>
             
-            <div class="filter-section">
-                <h3>👤 Gender</h3>
+            <div class="filter-section" id="femaleQuotaFilter">
+                <h3>♀️ Female Quota</h3>
                 <div class="toggle-group">
                     <label class="toggle"><input type="checkbox" value="M" class="genderCheckbox" checked><span class="slider"></span>GEN</label>
-                    <label class="toggle"><input type="checkbox" value="F" class="genderCheckbox" checked><span class="slider"></span>FEM</label>
+                    <label class="toggle"><input type="checkbox" value="F" class="genderCheckbox"><span class="slider"></span>FEM</label>
                 </div>
             </div>
             
             <!-- Colleges & Courses -->
             <div class="filter-section">
                 <h3>🏥 Colleges</h3>
-                <input type="text" id="collegeSearch" placeholder="Search colleges..." class="search-input">
+                <input type="text" id="collegeSearch" placeholder="Search college name, state, pincode, district..." class="search-input">
                 <div class="toggle-container" id="collegeToggles"></div>
             </div>
             
+            <div class="filter-section" id="courseTypeSection" style="display: none;">
+                <h3>🎓 Course Type</h3>
+                <div class="toggle-group" id="courseTypeToggles">
+                    <label class="toggle"><input type="checkbox" value="MD/MS" class="courseTypeCheckbox" checked><span class="slider"></span>MD/MS</label>
+                    <label class="toggle"><input type="checkbox" value="DNB" class="courseTypeCheckbox" checked><span class="slider"></span>DNB</label>
+                    <label class="toggle"><input type="checkbox" value="DIPLOMA" class="courseTypeCheckbox"><span class="slider"></span>DIPLOMA</label>
+                </div>
+            </div>
+            
             <div class="filter-section">
-                <h3>📚 Courses</h3>
-                <input type="text" id="courseSearch" placeholder="Search courses..." class="search-input">
+                <h3>📚 Subject</h3>
+                <input type="text" id="courseSearch" placeholder="Search subjects..." class="search-input">
                 <div class="toggle-container" id="courseToggles"></div>
             </div>
             
@@ -131,8 +150,8 @@
         
         <div class="disclaimer">
             <p><strong>Disclaimer:</strong> This application is for informational purposes only. Always verify data with official counselling authorities.</p>
-            <p><strong>Developer Note:</strong> I'm a doctor, not a software engineer - appreciate the effort and don't complain! <br> For donations or support: <a href="mailto:devaprasadreddy@gmail.com">devaprasadreddy@gmail.com</a></p>
-            <p><small>©Dr_DP 2025. All rights reserved. Version 1.2</small></p>
+            <p><strong>Developer Note:</strong> For support: <a href="mailto:devaprasadreddy@gmail.com">devaprasadreddy@gmail.com</a></p>
+            <p><small>©Dr_DP 2025. All rights reserved. Version 1.6</small></p>
         </div>
     </div>
 

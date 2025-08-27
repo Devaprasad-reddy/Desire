@@ -10,7 +10,6 @@ A comprehensive web application for viewing and analyzing NEET PG counselling da
 - **Course normalization** - Merges similar courses with same codes
 - **Duplicate handling** - Shows latest phase assignments (P1 → P2 → P3)
 - **STRAY assignments** - Highlights late/upgrade assignments
-- **State rank lookup** - Integrated merit list data
 - **Responsive design** - Works on desktop and mobile
 - **GitHub Pages ready** - Static hosting compatible
 
@@ -80,7 +79,6 @@ Desire/
 - **Use rank history**: Click ranks to understand counselling flow
 - **Check STRAY tags**: These show final upgrades/reassignments
 - **Sort by rank**: Default sorting shows merit order
-- **State ranks**: Integrated from official merit lists
 
 ## 🛠️ Technical Stack
 

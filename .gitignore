@@ -9,6 +9,16 @@ server.js
 package.json
 package-lock.json
 search.html
+normalize_institutes.js
+preprocess-filters.js
+
+# Python parsers (keep locally for future parsing)
+*.py
+AIQ*.py
+merit_*.py
+debug_*.py
+fix_*.py
+scan_*.py
 
 # Node modules and dependencies
 node_modules/

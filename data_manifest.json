@@ -149,44 +149,90 @@
       "year": "24",
       "category": "MQ",
       "fileName": "24 MQ STRAY.json"
-    }
-  ],
-  "meritFiles": [
+    },
     {
-      "path": "data/JSONdata/NeetPG 22/22 CQ/2022 CQ Merit List.json",
+      "path": "data/JSONdata/NeetPG 22/22 AIQ/22 AIQ R1.json",
       "year": "22",
-      "category": "CQ",
-      "fileName": "2022 CQ Merit List.json"
+      "category": "AIQ",
+      "phase": "R1",
+      "fileName": "22 AIQ R1.json"
     },
     {
-      "path": "data/JSONdata/NeetPG 22/22 MQ/2022 MQ Merit list.json",
+      "path": "data/JSONdata/NeetPG 22/22 AIQ/22 AIQ R2.json",
       "year": "22",
-      "category": "MQ",
-      "fileName": "2022 MQ Merit list.json"
+      "category": "AIQ",
+      "phase": "R2",
+      "fileName": "22 AIQ R2.json"
     },
     {
-      "path": "data/JSONdata/NeetPG 23/23 CQ/23 CQ merit list.json",
+      "path": "data/JSONdata/NeetPG 22/22 AIQ/22 AIQ R3.json",
+      "year": "22",
+      "category": "AIQ",
+      "phase": "R3",
+      "fileName": "22 AIQ R3.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 22/22 AIQ/22 AIQ STRAY.json",
+      "year": "22",
+      "category": "AIQ",
+      "phase": "STRAY",
+      "fileName": "22 AIQ STRAY.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 23/23 AIQ/23 AIQ R1.json",
       "year": "23",
-      "category": "CQ",
-      "fileName": "23 CQ merit list.json"
+      "category": "AIQ",
+      "phase": "R1",
+      "fileName": "23 AIQ R1.json"
     },
     {
-      "path": "data/JSONdata/NeetPG 23/23 MQ/23 MQ Merit List.json",
+      "path": "data/JSONdata/NeetPG 23/23 AIQ/23 AIQ R2.json",
       "year": "23",
-      "category": "MQ",
-      "fileName": "23 MQ Merit List.json"
+      "category": "AIQ",
+      "phase": "R2",
+      "fileName": "23 AIQ R2.json"
     },
     {
-      "path": "data/JSONdata/NeetPG 24/24 CQ/24 CQ Merit list.json",
-      "year": "24",
-      "category": "CQ",
-      "fileName": "24 CQ Merit list.json"
+      "path": "data/JSONdata/NeetPG 23/23 AIQ/23 AIQ R3.json",
+      "year": "23",
+      "category": "AIQ",
+      "phase": "R3",
+      "fileName": "23 AIQ R3.json"
     },
     {
-      "path": "data/JSONdata/NeetPG 24/24 MQ/24 MQ Merit List.json",
+      "path": "data/JSONdata/NeetPG 23/23 AIQ/23 AIQ Stray.json",
+      "year": "23",
+      "category": "AIQ",
+      "phase": "STRAY",
+      "fileName": "23 AIQ Stray.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 24/24 AIQ/24 AIQ R1.json",
       "year": "24",
-      "category": "MQ",
-      "fileName": "24 MQ Merit List.json"
+      "category": "AIQ",
+      "phase": "R1",
+      "fileName": "24 AIQ R1.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 24/24 AIQ/24 AIQ R2.json",
+      "year": "24",
+      "category": "AIQ",
+      "phase": "R2",
+      "fileName": "24 AIQ R2.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 24/24 AIQ/24 AIQ R3.json",
+      "year": "24",
+      "category": "AIQ",
+      "phase": "R3",
+      "fileName": "24 AIQ R3.json"
+    },
+    {
+      "path": "data/JSONdata/NeetPG 24/24 AIQ/24 AIQ Stray.json",
+      "year": "24",
+      "category": "AIQ",
+      "phase": "STRAY",
+      "fileName": "24 AIQ Stray.json"
     }
   ]
 }
