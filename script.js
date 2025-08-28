@@ -627,7 +627,11 @@ function searchData() {
         } else { // telangana
             const isMQ = ['MQ1', 'MQ2', 'MQ3'].includes(candidate.admissionType);
 
-            if (!isMQ) { // These filters do not apply to Management Quota
+            // Filters that apply to ALL Telangana candidates (CQ and MQ)
+            if (candidate.isPH && !phFilter) return false;
+            if (candidate.isMIN && !minFilter) return false;
+
+            if (!isMQ) { // Filters that ONLY apply to Competent Quota (non-MQ)
                 // Category Check (now includes 'MIN' if minFilter is checked)
                 if (selectedCategories.length === 0) return false;
                 if (!selectedCategories.includes(candidate.candidateCategory)) return false;
@@ -639,9 +643,7 @@ function searchData() {
                 if (selectedGenders.length === 0) return false;
                 if (candidate.gender && !selectedGenders.includes(candidate.gender)) return false;
 
-                // Special Status Check
-                if (candidate.isMIN && !minFilter) return false;
-                if (candidate.isPH && !phFilter) return false;
+                // Special Status Check (MRC is only for non-MQ)
                 if (candidate.isMRC && !mrcFilter) return false;
 
                 // Local/UNR Check
