@@ -4,27 +4,6 @@ let currentDataSource = 'telangana'; // 'telangana' or 'aiq'
 
 // Load all JSON files using manifest
 async function loadDataInternal() {
-    // Check for cached data first
-    const cached = localStorage.getItem(`desireDataCache_${currentDataSource}`);
-    if (cached) {
-        try {
-            const cacheData = JSON.parse(cached);
-            const cacheAge = Date.now() - cacheData.timestamp;
-            
-            // Use cache if less than 24 hours old
-            if (cacheAge < 24 * 60 * 60 * 1000) {
-                allData = cacheData.data; // This will be specific to the cached source
-                isDataLoaded = true;
-                populateDropdowns();
-                loadSearchState();
-                document.getElementById('dataContent').innerHTML = '<div class="loading">Data loaded from cache! Use filters above to search.</div>';
-                return;
-            }
-        } catch (e) {
-            console.log('Cache invalid, loading fresh data');
-        }
-    }
-    
     // Show loading spinner
     showLoadingSpinner();
     
@@ -88,16 +67,6 @@ async function loadDataInternal() {
         
         isDataLoaded = true;
         populateDropdowns();
-        
-        // Cache data in localStorage for faster subsequent loads
-        try {
-            localStorage.setItem(`desireDataCache_${currentDataSource}`, JSON.stringify({
-                data: allData,
-                timestamp: Date.now()
-            }));
-        } catch (e) {
-            console.log('Could not cache data:', e);
-        }
         
         // Restore last search state
         loadSearchState();
@@ -843,11 +812,7 @@ function toggleHamburgerMenu(event) {
 }
 
 function refreshData() {
-    console.log('Refreshing data and clearing cache...');
-    
-    // Clear local storage cache for both data sources to ensure a fresh fetch
-    localStorage.removeItem('desireDataCache_telangana');
-    localStorage.removeItem('desireDataCache_aiq');
+    console.log('Refreshing data...');
     
     // Reset internal state before reloading
     allData = [];
