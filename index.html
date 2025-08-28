@@ -18,6 +18,29 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="Desire">
 
+    <style>
+        /* Additional styles for mobile button layout */
+        @media (max-width: 768px) {
+            .filter-actions {
+                display: flex;
+                gap: 10px; /* Adds space between buttons */
+                align-items: stretch;
+            }
+
+            .filter-actions button {
+                padding: 12px;
+                flex-shrink: 1; /* Allow buttons to shrink */
+                min-width: 50px; /* Ensure icon-only buttons have a decent size */
+            }
+
+            .filter-actions .btn-primary {
+                flex-grow: 3; /* Make search button take more space */
+            }
+            .filter-actions .btn-secondary {
+                flex-grow: 1; /* Let icon buttons take less space */
+            }
+        }
+    </style>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -120,8 +143,8 @@
             
             <div class="filter-actions">
                 <button onclick="searchData()" class="btn-primary">🔍 Search</button>
-                <button onclick="clearFilters()" class="btn-secondary">🗑️ Clear Filters</button>
-                <button onclick="refreshData()" class="btn-secondary">🔄 Refresh Data</button>
+                <button onclick="clearFilters()" class="btn-secondary" title="Clear Filters">🗑️</button>
+                <button onclick="refreshData()" class="btn-secondary" title="Refresh Data">🔄</button>
             </div>
         </div>
 
