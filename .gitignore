@@ -1,28 +1,9 @@
-# Development and parsing tools (keep locally for future uploads)
-batch_parser.js
-merit_parser.js
-debug_parser.js
-debug_webapp.js
-debug_complete.js
-generate_manifest.js
-server.js
-package.json
-package-lock.json
-search.html
-normalize_institutes.js
-preprocess-filters.js
-
-# Python parsers (keep locally for future parsing)
-*.py
-AIQ*.py
-merit_*.py
-debug_*.py
-fix_*.py
-scan_*.py
-
 # Node modules and dependencies
 node_modules/
 npm-debug.log*
+server.js
+package.json
+package-lock.json
 
 # PDF source data (too large for GitHub)
 data/PDFdata/
@@ -37,7 +18,5 @@ Thumbs.db
 *.tmp
 *.log
 
-AIQ QUOTAS.txt
-findquotas.js
-normalizeQuotas.js
-
+#debug files
+debug/

@@ -2,6 +2,102 @@ let allData = [];
 let isDataLoaded = false;
 let currentDataSource = 'aiq'; // 'telangana' or 'aiq'
 
+// Hardcoded map for AIQ courses based on the All_Courses.json file.
+// This replaces the dynamic parsing logic with a simple, robust lookup.
+const aiqCourseMap = {
+  "(NBEMS) ANAESTHESIOLOGY": { type: "DNB", subject: "ANAESTHESIOLOGY" },
+  "(NBEMS) ANATOMY": { type: "DNB", subject: "ANATOMY" },
+  "(NBEMS) BIOCHEMISTRY": { type: "DNB", subject: "BIOCHEMISTRY" },
+  "(NBEMS) CARDIO VASCULAR SURGERY (6Y)": { type: "DNB", subject: "CARDIO VASCULAR SURGERY (6Y)" },
+  "(NBEMS) COMMUNITY MEDICINE": { type: "DNB", subject: "COMMUNITY MEDICINE" },
+  "(NBEMS) DERMATOLOGY": { type: "DNB", subject: "DERMATOLOGY" },
+  "(NBEMS) E.N.T.": { type: "DNB", subject: "E.N.T." },
+  "(NBEMS) EMERGENCY MEDICINE": { type: "DNB", subject: "EMERGENCY MEDICINE" },
+  "(NBEMS) FAMILY MEDICINE": { type: "DNB", subject: "FAMILY MEDICINE" },
+  "(NBEMS) FORENSIC MEDICINE": { type: "DNB", subject: "FORENSIC MEDICINE" },
+  "(NBEMS) GENERAL MEDICINE": { type: "DNB", subject: "GENERAL MEDICINE" },
+  "(NBEMS) GENERAL SURGERY": { type: "DNB", subject: "GENERAL SURGERY" },
+  "(NBEMS) GERIATRICS": { type: "DNB", subject: "GERIATRICS" },
+  "(NBEMS) HOSPITAL ADMINISTRATION": { type: "DNB", subject: "HOSPITAL ADMINISTRATION" },
+  "(NBEMS) MICROBIOLOGY": { type: "DNB", subject: "MICROBIOLOGY" },
+  "(NBEMS) NEURO SURGERY (6Y)": { type: "DNB", subject: "NEURO SURGERY (6Y)" },
+  "(NBEMS) NUCLEAR MEDICINE": { type: "DNB", subject: "NUCLEAR MEDICINE" },
+  "(NBEMS) OBSTETRICS & GYNAECOLOGY": { type: "DNB", subject: "OBSTETRICS & GYNAECOLOGY" },
+  "(NBEMS) OPHTHALMOLOGY": { type: "DNB", subject: "OPHTHALMOLOGY" },
+  "(NBEMS) ORTHOPAEDICS": { type: "DNB", subject: "ORTHOPAEDICS" },
+  "(NBEMS) PAEDIATRIC SURGERY (6Y)": { type: "DNB", subject: "PAEDIATRIC SURGERY (6Y)" },
+  "(NBEMS) PAEDIATRICS": { type: "DNB", subject: "PAEDIATRICS" },
+  "(NBEMS) PALLIATIVE MEDICINE": { type: "DNB", subject: "PALLIATIVE MEDICINE" },
+  "(NBEMS) PATHOLOGY": { type: "DNB", subject: "PATHOLOGY" },
+  "(NBEMS) PHARMACOLOGY": { type: "DNB", subject: "PHARMACOLOGY" },
+  "(NBEMS) PHYSICAL MEDICINE & REHABILITATION": { type: "DNB", subject: "PHYSICAL MEDICINE & REHABILITATION" },
+  "(NBEMS) PHYSIOLOGY": { type: "DNB", subject: "PHYSIOLOGY" },
+  "(NBEMS) PLASTIC SURGERY (6Y)": { type: "DNB", subject: "PLASTIC SURGERY (6Y)" },
+  "(NBEMS) PSYCHIATRY": { type: "DNB", subject: "PSYCHIATRY" },
+  "(NBEMS) RADIATION ONCOLOGY": { type: "DNB", subject: "RADIATION ONCOLOGY" },
+  "(NBEMS) RADIODIAGNOSIS": { type: "DNB", subject: "RADIODIAGNOSIS" },
+  "(NBEMS) RESPIRATORY MEDICINE": { type: "DNB", subject: "RESPIRATORY MEDICINE" },
+  "(NBEMS) TRANSFUSION MEDICINE": { type: "DNB", subject: "TRANSFUSION MEDICINE" },
+  "DIPLOMA ANAESTHESIOLOGY": { type: "DIPLOMA", subject: "ANAESTHESIOLOGY" },
+  "DIPLOMA COMMUNITY MEDICINE": { type: "DIPLOMA", subject: "COMMUNITY MEDICINE" },
+  "DIPLOMA DERMATOLOGY": { type: "DIPLOMA", subject: "DERMATOLOGY" },
+  "DIPLOMA DIABETOLOGY": { type: "DIPLOMA", subject: "DIABETOLOGY" },
+  "DIPLOMA E.N.T.": { type: "DIPLOMA", subject: "E.N.T." },
+  "DIPLOMA EMERGENCY MEDICINE": { type: "DIPLOMA", subject: "EMERGENCY MEDICINE" },
+  "DIPLOMA FAMILY MEDICINE": { type: "DIPLOMA", subject: "FAMILY MEDICINE" },
+  "DIPLOMA FORENSIC MEDICINE": { type: "DIPLOMA", subject: "FORENSIC MEDICINE" },
+  "DIPLOMA HOSPITAL ADMINISTRATION": { type: "DIPLOMA", subject: "HOSPITAL ADMINISTRATION" },
+  "DIPLOMA MICROBIOLOGY": { type: "DIPLOMA", subject: "MICROBIOLOGY" },
+  "DIPLOMA OBSTETRICS & GYNAECOLOGY": { type: "DIPLOMA", subject: "OBSTETRICS & GYNAECOLOGY" },
+  "DIPLOMA OPHTHALMOLOGY": { type: "DIPLOMA", subject: "OPHTHALMOLOGY" },
+  "DIPLOMA ORTHOPAEDICS": { type: "DIPLOMA", subject: "ORTHOPAEDICS" },
+  "DIPLOMA PAEDIATRICS": { type: "DIPLOMA", subject: "PAEDIATRICS" },
+  "DIPLOMA PATHOLOGY": { type: "DIPLOMA", subject: "PATHOLOGY" },
+  "DIPLOMA PHYSICAL MEDICINE & REHABILITATION": { type: "DIPLOMA", subject: "PHYSICAL MEDICINE & REHABILITATION" },
+  "DIPLOMA PSYCHIATRY": { type: "DIPLOMA", subject: "PSYCHIATRY" },
+  "DIPLOMA RADIATION ONCOLOGY": { type: "DIPLOMA", subject: "RADIATION ONCOLOGY" },
+  "DIPLOMA RADIODIAGNOSIS": { type: "DIPLOMA", subject: "RADIODIAGNOSIS" },
+  "DIPLOMA RESPIRATORY MEDICINE": { type: "DIPLOMA", subject: "RESPIRATORY MEDICINE" },
+  "DIPLOMA SPORTS MEDICINE": { type: "DIPLOMA", subject: "SPORTS MEDICINE" },
+  "DIPLOMA TRANSFUSION MEDICINE": { type: "DIPLOMA", subject: "TRANSFUSION MEDICINE" },
+  "M.Ch. NEURO SURGERY (6Y)": { type: "M.Ch.", subject: "NEURO SURGERY (6Y)" },
+  "MD AEROSPACE MEDICINE": { type: "MD", subject: "AEROSPACE MEDICINE" },
+  "MD ANAESTHESIOLOGY": { type: "MD", subject: "ANAESTHESIOLOGY" },
+  "MD BIOCHEMISTRY": { type: "MD", subject: "BIOCHEMISTRY" },
+  "MD COMMUNITY MEDICINE": { type: "MD", subject: "COMMUNITY MEDICINE" },
+  "MD DERMATOLOGY": { type: "MD", subject: "DERMATOLOGY" },
+  "MD EMERGENCY MEDICINE": { type: "MD", subject: "EMERGENCY MEDICINE" },
+  "MD FAMILY MEDICINE": { type: "MD", subject: "FAMILY MEDICINE" },
+  "MD FORENSIC MEDICINE": { type: "MD", subject: "FORENSIC MEDICINE" },
+  "MD GENERAL MEDICINE": { type: "MD", subject: "GENERAL MEDICINE" },
+  "MD GERIATRICS": { type: "MD", subject: "GERIATRICS" },
+  "MD HOSPITAL ADMINISTRATION": { type: "MD", subject: "HOSPITAL ADMINISTRATION" },
+  "MD LABORATORY MEDICINE": { type: "MD", subject: "LABORATORY MEDICINE" },
+  "MD MICROBIOLOGY": { type: "MD", subject: "MICROBIOLOGY" },
+  "MD NUCLEAR MEDICINE": { type: "MD", subject: "NUCLEAR MEDICINE" },
+  "MD PAEDIATRICS": { type: "MD", subject: "PAEDIATRICS" },
+  "MD PALLIATIVE MEDICINE": { type: "MD", subject: "PALLIATIVE MEDICINE" },
+  "MD PATHOLOGY": { type: "MD", subject: "PATHOLOGY" },
+  "MD PHARMACOLOGY": { type: "MD", subject: "PHARMACOLOGY" },
+  "MD PHYSICAL MEDICINE & REHABILITATION": { type: "MD", subject: "PHYSICAL MEDICINE & REHABILITATION" },
+  "MD PHYSIOLOGY": { type: "MD", subject: "PHYSIOLOGY" },
+  "MD PSYCHIATRY": { type: "MD", subject: "PSYCHIATRY" },
+  "MD RADIATION ONCOLOGY": { type: "MD", subject: "RADIATION ONCOLOGY" },
+  "MD RADIODIAGNOSIS": { type: "MD", subject: "RADIODIAGNOSIS" },
+  "MD RESPIRATORY MEDICINE": { type: "MD", subject: "RESPIRATORY MEDICINE" },
+  "MD SPORTS MEDICINE": { type: "MD", subject: "SPORTS MEDICINE" },
+  "MD TRANSFUSION MEDICINE": { type: "MD", subject: "TRANSFUSION MEDICINE" },
+  "MD TROPICAL MEDICINE": { type: "MD", subject: "TROPICAL MEDICINE" },
+  "MD/MS ANATOMY": { type: "MD/MS", subject: "ANATOMY" },
+  "MD/MS OBSTETRICS & GYNAECOLOGY": { type: "MD/MS", subject: "OBSTETRICS & GYNAECOLOGY" },
+  "MPH COMMUNITY MEDICINE": { type: "MPH", subject: "COMMUNITY MEDICINE" },
+  "MS E.N.T.": { type: "MS", subject: "E.N.T." },
+  "MS GENERAL SURGERY": { type: "MS", subject: "GENERAL SURGERY" },
+  "MS OPHTHALMOLOGY": { type: "MS", subject: "OPHTHALMOLOGY" },
+  "MS ORTHOPAEDICS": { type: "MS", subject: "ORTHOPAEDICS" },
+  "MS TRAUMATOLOGY": { type: "MS", subject: "TRAUMATOLOGY" }
+};
+
 // Load all JSON files using manifest
 async function loadDataInternal() {
     // Show loading spinner
@@ -126,6 +222,7 @@ async function toggleDataSource(source) {
     document.getElementById('collegeToggles').innerHTML = '';
     document.getElementById('courseToggles').innerHTML = '';
     document.getElementById('categoryToggles').innerHTML = ''; // Clear dynamic categories
+    if (document.getElementById('courseTypeToggles')) document.getElementById('courseTypeToggles').innerHTML = '';
     
     // Reset search inputs
     document.getElementById('collegeSearch').value = '';
@@ -279,7 +376,28 @@ function processData(jsonData, fileInfo) {
             // Map AIQ fields to our internal model
             candidateData.rank = candidate.Rank;
             candidateData.college = candidate.Institute;
-            candidateData.course = normalizeCourse(candidate.Course);
+            
+            // The python script has already normalized the course names in the JSON files.
+            // e.g., "MD RADIODIAGNOSIS", "DNB GENERAL SURGERY"
+            const courseStr = candidate.Course || '';
+            candidateData.course = courseStr;
+
+            // NEW: Use the hardcoded map to get type and subject
+            const mapping = aiqCourseMap[courseStr];
+            if (mapping) {
+                let type = mapping.type;
+                // Consolidate MD, MS, MD/MS into a single 'MD/MS' type for filtering
+                if (type === 'MD' || type === 'MS' || type === 'MD/MS') {
+                    type = 'MD/MS';
+                }
+                candidateData.courseType = type;
+                candidateData.courseSubject = mapping.subject;
+            } else {
+                // Fallback for any courses not in the map
+                candidateData.courseType = 'OTHER';
+                candidateData.courseSubject = courseStr;
+            }
+            
             candidateData.admissionType = (candidate.Quota || '').replace('Managemen t', 'Management'); // Fix typo
             candidateData.remarks = candidate.Remarks;
             candidateData.allottedCategory = candidate.AllottedCategory;
@@ -367,13 +485,34 @@ function getCollegeAbbreviation(collegeName) {
 
 function populateDropdowns() {
     // Get unique colleges, courses, and admission types
-    allColleges = [...new Set(allData.map(item => item.college))].sort();
+    allColleges = [...new Set(allData.map(item => item.college).filter(Boolean))].sort();
     
-    allCourses = [...new Set(allData.map(item => item.course))].sort((a, b) => {
-        const codeA = a.match(/\((\d+)\)/)?.[1] || '999';
-        const codeB = b.match(/\((\d+)\)/)?.[1] || '999';
-        return parseInt(codeA) - parseInt(codeB);
-    });
+    // NEW LOGIC for courses based on data source
+    if (currentDataSource === 'aiq') {
+        // For AIQ, we use the subject part of the course, and filter out any that weren't parsed correctly
+        allCourses = [...new Set(allData.filter(c => c.courseType !== 'OTHER').map(item => item.courseSubject).filter(Boolean))].sort();
+
+        // NEW: Populate course types dynamically from the data itself for precision
+        const allCourseTypes = [...new Set(allData.map(item => item.courseType).filter(type => type && type !== 'OTHER'))].sort((a, b) => {
+            const customOrder = ['MD/MS', 'DNB', 'DIPLOMA', 'M.Ch.', 'MPH'];
+            const indexA = customOrder.indexOf(a);
+            const indexB = customOrder.indexOf(b);
+
+            if (indexA !== -1 && indexB !== -1) return indexA - indexB; // Both in custom order
+            if (indexA !== -1) return -1; // A is in order, B is not
+            if (indexB !== -1) return 1;  // B is in order, A is not
+            return a.localeCompare(b); // Neither in order, sort alphabetically
+        });
+        populateCourseTypeToggles(allCourseTypes);
+
+    } else {
+        // For Telangana, keep the old logic with course codes
+        allCourses = [...new Set(allData.map(item => item.course).filter(Boolean))].sort((a, b) => {
+            const codeA = a.match(/\((\d+)\)/)?.[1] || '999';
+            const codeB = b.match(/\((\d+)\)/)?.[1] || '999';
+            return parseInt(codeA) - parseInt(codeB);
+        });
+    }
     
     // Get unique categories from the data itself
     // Filter out 'MIN' as it has its own special filter
@@ -382,7 +521,6 @@ function populateDropdowns() {
         if (b === 'OC') return 1;
         return a.localeCompare(b); // Alphabetical for the rest
     });
-    const admissionTypes = [...new Set(allData.map(item => item.admissionType).filter(type => type))].sort();
     
     populateToggles('college', allColleges);
     populateToggles('course', allCourses); // This will populate for both AIQ and Telangana
@@ -408,50 +546,66 @@ function populateDropdowns() {
         categoryContainer.appendChild(label);
     });
 
-    // Populate quota toggles with descriptions, NS first
+    // --- NEW QUOTA POPULATION LOGIC ---
     const quotaContainer = document.getElementById('quotaToggles');
-    // Clear previous quotas before populating
-    quotaContainer.innerHTML = ''; 
-    
-    const quotaDescriptions = {
-        'NS': 'NS (Regular)',
-        'S': 'S (In-Service)',
-        'MQ1': 'MQ1 (B Category)',
-        'MQ2': 'MQ2 (C Category)', 
-        'MQ3': 'MQ3 (NRI/Institutional)'
-    };
-    
-    // Sort to put NS first
-    const sortedTypes = admissionTypes.sort((a, b) => {
-        if (a === 'NS') return -1;
-        if (b === 'NS') return 1;
-        return a.localeCompare(b);
-    });
-    
-    sortedTypes.forEach(type => {
-        const label = document.createElement('label');
-        label.className = 'toggle';
-        
-        const checkbox = document.createElement('input');
-        checkbox.type = 'checkbox';
-        checkbox.value = type;
-        checkbox.className = 'quotaCheckbox';
-        
-        // Check NS by default
-        if (type === 'NS') {
+    quotaContainer.innerHTML = ''; // Clear previous quotas
+
+    if (currentDataSource === 'aiq') {
+        // AIQ Quota Filter - Reverted to simple horizontal toggles
+        let allAiqQuotas = [...new Set(allData.map(item => item.admissionType).filter(Boolean))];
+
+        // Custom sort to put "All India", "DNB Quota", and "Management" first
+        allAiqQuotas.sort((a, b) => {
+            const customOrder = ['All India', 'DNB Quota', 'Management/Paid Seats Quota'];
+            const indexA = customOrder.indexOf(a);
+            const indexB = customOrder.indexOf(b);
+
+            if (indexA !== -1 && indexB !== -1) return indexA - indexB;
+            if (indexA !== -1) return -1;
+            if (indexB !== -1) return 1;
+            return a.localeCompare(b);
+        });
+
+        // Populate the container directly with horizontal toggles
+        allAiqQuotas.forEach(quota => {
+            const label = document.createElement('label');
+            label.className = 'toggle';
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.value = quota;
+            checkbox.className = 'quotaCheckbox';
             checkbox.checked = true;
-        }
+            const slider = document.createElement('span');
+            slider.className = 'slider';
+            const text = document.createTextNode(quota);
+            label.appendChild(checkbox);
+            label.appendChild(slider);
+            label.appendChild(text);
+            quotaContainer.appendChild(label);
+        });
+
+    } else { // Telangana Quota Filter - Horizontal toggles
+        const admissionTypes = [...new Set(allData.map(item => item.admissionType).filter(type => type))];
+        const quotaDescriptions = { 'NS': 'NS (Regular)', 'S': 'S (In-Service)', 'MQ1': 'MQ1 (B Category)', 'MQ2': 'MQ2 (C Category)', 'MQ3': 'MQ3 (NRI/Institutional)' };
+        const sortedTypes = admissionTypes.sort((a, b) => { if (a === 'NS') return -1; if (b === 'NS') return 1; return a.localeCompare(b); });
         
-        const slider = document.createElement('span');
-        slider.className = 'slider';
-        
-        const text = document.createTextNode(quotaDescriptions[type] || type);
-        
-        label.appendChild(checkbox);
-        label.appendChild(slider);
-        label.appendChild(text);
-        quotaContainer.appendChild(label);
-    });
+        sortedTypes.forEach(type => {
+            const label = document.createElement('label');
+            label.className = 'toggle';
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.value = type;
+            checkbox.className = 'quotaCheckbox';
+            if (type === 'NS') checkbox.checked = true;
+            const slider = document.createElement('span');
+            slider.className = 'slider';
+            const text = document.createTextNode(quotaDescriptions[type] || type);
+            label.appendChild(checkbox);
+            label.appendChild(slider);
+            label.appendChild(text);
+            quotaContainer.appendChild(label);
+        });
+    }
     
     // Initialize event listeners for search inputs only once
     // Check if listeners are already attached to avoid duplicates
@@ -467,6 +621,31 @@ function populateDropdowns() {
         });
         document.getElementById('courseSearch')._hasEventListener = true;
     }
+}
+
+function populateCourseTypeToggles(courseTypes) {
+    const container = document.getElementById('courseTypeToggles');
+    if (!container) return;
+
+    // Clear previous content
+    container.innerHTML = '';
+
+    courseTypes.forEach(type => {
+        const label = document.createElement('label');
+        label.className = 'toggle';
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.value = type;
+        checkbox.className = 'courseTypeCheckbox';
+        checkbox.checked = true; // Default to checked
+        const slider = document.createElement('span');
+        slider.className = 'slider';
+        const text = document.createTextNode(type);
+        label.appendChild(checkbox);
+        label.appendChild(slider);
+        label.appendChild(text);
+        container.appendChild(label);
+    });
 }
 
 function populateToggles(type, items) {
@@ -630,6 +809,9 @@ function searchData() {
     const selectedCourses = Array.from(document.querySelectorAll('.courseCheckbox:checked')).map(cb => cb.value);
     let selectedCategories = Array.from(document.querySelectorAll('.categoryCheckbox:checked')).map(cb => cb.value);
     
+    // Get selected course types for AIQ mode
+    const selectedCourseTypes = Array.from(document.querySelectorAll('.courseTypeCheckbox:checked')).map(cb => cb.value);
+
     // Get special filters
     const minFilter = document.getElementById('minCheckbox').checked;
     const phFilter = document.getElementById('phCheckbox').checked;
@@ -661,18 +843,27 @@ function searchData() {
         if (selectedColleges.length === 0) return false;
         if (!selectedColleges.includes(candidate.college)) return false;
 
-        if (selectedCourses.length === 0) return false;
-        if (!selectedCourses.includes(candidate.course)) return false;
-
         // --- Start of data source specific filtering ---
 
         if (currentDataSource === 'aiq') {
-            // AIQ Filtering: Only category and PH filters apply.
+            // AIQ Filtering:
+
+            // Course Type filter
+            if (selectedCourseTypes.length === 0) return false;
+            if (!selectedCourseTypes.includes(candidate.courseType)) return false;
+
+            // Course Subject filter
+            if (selectedCourses.length === 0) return false;
+            if (!selectedCourses.includes(candidate.courseSubject)) return false;
+
             if (selectedCategories.length === 0) return false;
             if (!selectedCategories.includes(candidate.candidateCategory)) return false;
             if (candidate.isPH && !phFilter) return false;
 
         } else { // telangana
+            if (selectedCourses.length === 0) return false;
+            if (!selectedCourses.includes(candidate.course)) return false;
+
             const isMQ = ['MQ1', 'MQ2', 'MQ3'].includes(candidate.admissionType);
 
             // Filters that apply to ALL Telangana candidates (CQ and MQ)
