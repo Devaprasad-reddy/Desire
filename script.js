@@ -579,7 +579,7 @@ function loadSearchState() {
             // Set AIQ defaults as requested
             const defaultQuotas = ["All India", "DNB Quota"];
             const defaultCourseTypes = ["MD/MS", "DNB"];
-            const defaultCategory = "OPEN";
+            const defaultCategory = "OC";
 
             document.querySelectorAll('.yearCheckbox').forEach(cb => cb.checked = true);
             
