@@ -513,26 +513,20 @@ function searchData() {
         const isMQ = ['MQ1', 'MQ2', 'MQ3'].includes(candidate.admissionType);
 
         if (!isMQ) {
-            // Category filter is also opt-in
+            // Category Check (now includes 'MIN' if minFilter is checked)
             if (selectedCategories.length === 0) return false;
             if (!selectedCategories.includes(candidate.candidateCategory)) return false;
 
-            // Special/Gender filters are treated as a single group of exclusive "pools".
-            // A candidate is categorized into the most specific pool they qualify for.
-            let bucket = '';
-            if (candidate.isMIN) bucket = 'MIN';
-            else if (candidate.isPH) bucket = 'PH';
-            else if (candidate.gender === 'F') bucket = 'FEM';
-            else bucket = 'GEN';
+            // Gender Check
+            const selectedGenders = [];
+            if (showGen) selectedGenders.push('M');
+            if (showFem) selectedGenders.push('F');
+            if (selectedGenders.length === 0) return false;
+            if (!selectedGenders.includes(candidate.gender)) return false;
 
-            const selectedBuckets = [];
-            if (showGen) selectedBuckets.push('GEN');
-            if (showFem) selectedBuckets.push('FEM');
-            if (minFilter) selectedBuckets.push('MIN');
-            if (phFilter) selectedBuckets.push('PH');
-
-            if (selectedBuckets.length === 0) return false; // If no pools are selected, show nothing.
-            if (!selectedBuckets.includes(bucket)) return false; // Candidate must belong to a selected pool.
+            // Special Status Check: A candidate with a special status is only shown if that filter is checked.
+            if (candidate.isMIN && !minFilter) return false;
+            if (candidate.isPH && !phFilter) return false;
         }
 
         return true;
