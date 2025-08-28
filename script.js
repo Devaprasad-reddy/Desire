@@ -647,32 +647,41 @@ function searchData() {
         if (selectedCourses.length === 0) return false;
         if (!selectedCourses.includes(candidate.course)) return false;
 
-        const isMQ = ['MQ1', 'MQ2', 'MQ3'].includes(candidate.admissionType);
+        // --- Start of data source specific filtering ---
 
-        if (!isMQ) {
-            // Category Check (now includes 'MIN' if minFilter is checked)
+        if (currentDataSource === 'aiq') {
+            // AIQ Filtering: Only category and PH filters apply.
             if (selectedCategories.length === 0) return false;
             if (!selectedCategories.includes(candidate.candidateCategory)) return false;
-
-            // Gender Check
-            const selectedGenders = [];
-            if (showGen) selectedGenders.push('M');
-            if (showFem) selectedGenders.push('F');
-            if (selectedGenders.length === 0) return false;
-            if (candidate.gender && !selectedGenders.includes(candidate.gender)) return false;
-
-            // Special Status Check: A candidate with a special status is only shown if that filter is checked.
-            if (candidate.isMIN && !minFilter) return false;
             if (candidate.isPH && !phFilter) return false;
-            if (candidate.isMRC && !mrcFilter) return false;
 
-            // Local/UNR Check
-            const selectedLocalStatus = [];
-            if (localFilter) selectedLocalStatus.push(true);
-            if (unrFilter) selectedLocalStatus.push(false);
-            if (selectedLocalStatus.length === 0) return false;
-            // candidate.isLocal is true for LOC, false for UNR
-            if (!selectedLocalStatus.includes(candidate.isLocal)) return false;
+        } else { // telangana
+            const isMQ = ['MQ1', 'MQ2', 'MQ3'].includes(candidate.admissionType);
+
+            if (!isMQ) { // These filters do not apply to Management Quota
+                // Category Check (now includes 'MIN' if minFilter is checked)
+                if (selectedCategories.length === 0) return false;
+                if (!selectedCategories.includes(candidate.candidateCategory)) return false;
+
+                // Gender Check
+                const selectedGenders = [];
+                if (showGen) selectedGenders.push('M');
+                if (showFem) selectedGenders.push('F');
+                if (selectedGenders.length === 0) return false;
+                if (candidate.gender && !selectedGenders.includes(candidate.gender)) return false;
+
+                // Special Status Check
+                if (candidate.isMIN && !minFilter) return false;
+                if (candidate.isPH && !phFilter) return false;
+                if (candidate.isMRC && !mrcFilter) return false;
+
+                // Local/UNR Check
+                const selectedLocalStatus = [];
+                if (localFilter) selectedLocalStatus.push(true);
+                if (unrFilter) selectedLocalStatus.push(false);
+                if (selectedLocalStatus.length === 0) return false;
+                if (!selectedLocalStatus.includes(candidate.isLocal)) return false;
+            }
         }
 
         return true;
