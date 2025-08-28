@@ -101,6 +101,14 @@ async function toggleDataSource(source) {
  
     // Adjust filter visibility
     document.getElementById('specialFilter').style.display = 'block';
+
+    // Change PH label to PwD for AIQ mode and back for Telangana
+    const phCheckbox = document.getElementById('phCheckbox');
+    const phLabel = phCheckbox.closest('label');
+    if (phLabel && phLabel.lastChild.nodeType === Node.TEXT_NODE) {
+        phLabel.lastChild.textContent = (source === 'aiq') ? ' PwD' : ' PH';
+    }
+
     document.getElementById('minCheckbox').parentElement.style.display = source === 'telangana' ? 'flex' : 'none';
     document.getElementById('phCheckbox').parentElement.style.display = 'flex';
     document.getElementById('femaleQuotaFilter').style.display = source === 'telangana' ? 'block' : 'none';
@@ -296,8 +304,14 @@ function processData(jsonData, fileInfo) {
             candidateData.isPH = allottedCat.includes('PWD');
             candidateData.isMIN = false; // Not applicable for AIQ
             candidateData.gender = 'M'; // Not available in AIQ data
-             candidateData.candidateCategory = allottedCat.replace('-PWD', '').trim();
+            // Get base category by removing PWD suffix (with or without hyphen)
+            candidateData.candidateCategory = allottedCat.replace(/-PWD| PWD/g, '').trim();
 
+            // Normalize OPEN/OPEN GENERAL to OC to match the filter's checkbox value
+            if (candidateData.candidateCategory === 'OPEN' || candidateData.candidateCategory === 'OPEN GENERAL') {
+                candidateData.candidateCategory = 'OC';
+            }
+            
             allData.push(candidateData);
         }
     } else if (fileInfo.category === 'CQ' || fileInfo.category === 'MQ') {
