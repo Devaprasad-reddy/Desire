@@ -1,6 +1,6 @@
 let allData = [];
 let isDataLoaded = false;
-let currentDataSource = 'telangana'; // 'telangana' or 'aiq'
+let currentDataSource = 'aiq'; // 'telangana' or 'aiq'
 
 // Load all JSON files using manifest
 async function loadDataInternal() {
@@ -126,8 +126,7 @@ async function toggleDataSource(source) {
     // Load data for the selected source
     await loadDataInternal();
     
-    loadSearchState(); // Load state after dropdowns are populated and data source is set
-    saveSearchState(); // Save the new data source state
+    saveSearchState(); // Save the current state for this data source
 }
 
 function showLoadingSpinner() {
@@ -521,20 +520,20 @@ function saveSearchState() {
         quotas: Array.from(document.querySelectorAll('.quotaCheckbox:checked')).map(cb => cb.value),
         categories: Array.from(document.querySelectorAll('.categoryCheckbox:checked')).map(cb => cb.value),
         genders: Array.from(document.querySelectorAll('.genderCheckbox:checked')).map(cb => cb.value),
+        courseTypes: Array.from(document.querySelectorAll('.courseTypeCheckbox:checked')).map(cb => cb.value),
         minFilter: document.getElementById('minCheckbox').checked,
         phFilter: document.getElementById('phCheckbox').checked,
         // Save new filter states
         localFilter: document.getElementById('localCheckbox').checked,
         unrFilter: document.getElementById('unrCheckbox').checked,
         mrcFilter: document.getElementById('mrcCheckbox').checked,
-        sortBy: document.getElementById('sortSelect').value,
-        currentDataSource: currentDataSource, // Save current data source
+        sortBy: document.getElementById('sortSelect').value
     };
-    localStorage.setItem('desireSearchState', JSON.stringify(searchState));
+    sessionStorage.setItem(`desireSearchState_${currentDataSource}`, JSON.stringify(searchState));
 }
 
 function loadSearchState() {
-    const saved = localStorage.getItem('desireSearchState');
+    const saved = sessionStorage.getItem(`desireSearchState_${currentDataSource}`);
     if (saved) {
         const state = JSON.parse(saved);
         document.getElementById('minRank').value = state.minRank || '';
@@ -544,16 +543,51 @@ function loadSearchState() {
         document.querySelectorAll('.yearCheckbox').forEach(cb => cb.checked = state.years.includes(cb.value));
         document.querySelectorAll('.quotaCheckbox').forEach(cb => cb.checked = state.quotas.includes(cb.value));
         document.querySelectorAll('.categoryCheckbox').forEach(cb => cb.checked = state.categories.includes(cb.value));
-        document.querySelectorAll('.genderCheckbox').forEach(cb => cb.checked = state.genders.includes(cb.value));
+        
+        if (state.genders) {
+            document.querySelectorAll('.genderCheckbox').forEach(cb => cb.checked = state.genders.includes(cb.value));
+        }
+        if (state.courseTypes) {
+            document.querySelectorAll('.courseTypeCheckbox').forEach(cb => cb.checked = state.courseTypes.includes(cb.value));
+        }
         
         document.getElementById('minCheckbox').checked = state.minFilter || false;
         document.getElementById('phCheckbox').checked = state.phFilter || false;
         document.getElementById('sortSelect').value = state.sortBy || 'rank-asc';
 
         // Restore new filters, defaulting to true if not saved previously
-        document.getElementById('localCheckbox').checked = state.localFilter !== false;
-        document.getElementById('unrCheckbox').checked = state.unrFilter !== false;
-        document.getElementById('mrcCheckbox').checked = state.mrcFilter !== false;
+        document.getElementById('localCheckbox').checked = state.hasOwnProperty('localFilter') ? state.localFilter : true;
+        document.getElementById('unrCheckbox').checked = state.hasOwnProperty('unrFilter') ? state.unrFilter : true;
+        document.getElementById('mrcCheckbox').checked = state.hasOwnProperty('mrcFilter') ? state.mrcFilter : true;
+    } else {
+        // No saved state, apply defaults for the current mode
+        if (currentDataSource === 'aiq') {
+            // Set AIQ defaults as requested
+            const defaultQuotas = ["All India", "DNB Quota"];
+            const defaultCourseTypes = ["MD/MS", "DNB"];
+            const defaultCategory = "OPEN";
+
+            document.querySelectorAll('.yearCheckbox').forEach(cb => cb.checked = true);
+            
+            document.querySelectorAll('.quotaCheckbox').forEach(cb => {
+                cb.checked = defaultQuotas.includes(cb.value);
+            });
+
+            document.querySelectorAll('.courseTypeCheckbox').forEach(cb => {
+                cb.checked = defaultCourseTypes.includes(cb.value);
+            });
+
+            document.querySelectorAll('.categoryCheckbox').forEach(cb => cb.checked = (cb.value === defaultCategory));
+        } else { // telangana defaults
+            document.querySelectorAll('.yearCheckbox').forEach(cb => cb.checked = true);
+            // Set default filters for Telangana mode as requested
+            document.querySelectorAll('.categoryCheckbox').forEach(cb => cb.checked = (cb.value === 'OC')); // 'OPEN' category
+            document.querySelectorAll('.quotaCheckbox').forEach(cb => cb.checked = (cb.value === 'NS'));
+            document.querySelectorAll('.genderCheckbox').forEach(cb => cb.checked = (cb.value === 'M')); // 'GEN' only
+            document.getElementById('localCheckbox').checked = true;
+            document.getElementById('unrCheckbox').checked = true;
+            document.getElementById('mrcCheckbox').checked = true;
+        }
     }
     // Always start with hamburger filters off
     document.getElementById('showOnlyPH').checked = false;
@@ -814,15 +848,14 @@ function toggleHamburgerMenu(event) {
 }
 
 function refreshData() {
-    console.log('Refreshing data...');
+    console.log('Hard refreshing: Clearing all user state and reloading...');
     
-    // Reset internal state before reloading
-    allData = [];
-    isDataLoaded = false;
+    // Clear all saved filter states from localStorage to ensure a clean start
+    sessionStorage.removeItem('desireSearchState_telangana');
+    sessionStorage.removeItem('desireSearchState_aiq');
     
-    // Call the main data loading function. It will handle showing the spinner,
-    // fetching data, populating filters, and restoring the search state.
-    loadDataInternal();
+    // Reload the page to reset the entire application state
+    location.reload();
 }
 
 function clearFilters() {
@@ -976,13 +1009,11 @@ function displayRankHistory(rank, year, category, history) {
 
 // Load data when page loads
 window.addEventListener('load', () => {
-    // Load saved search state first to set currentDataSource
-    loadSearchState(); 
-    // Initialize data source toggle event listener and trigger initial data load
+    // Initialize data source toggle event listener
     document.getElementById('dataSourceToggle').addEventListener('click', () => {
         toggleDataSource(currentDataSource === 'telangana' ? 'aiq' : 'telangana');
     });
-    toggleDataSource(currentDataSource); // Trigger initial data load and UI setup based on currentDataSource
+    toggleDataSource(currentDataSource); // Trigger initial data load and UI setup
 
     // Close hamburger menu if clicking outside
     window.addEventListener('click', () => {
