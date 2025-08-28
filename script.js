@@ -648,6 +648,22 @@ function displayResults(data) {
     }).join('');
 }
 
+function refreshData() {
+    console.log('Refreshing data and clearing cache...');
+    
+    // Clear local storage cache for both data sources to ensure a fresh fetch
+    localStorage.removeItem('desireDataCache_telangana');
+    localStorage.removeItem('desireDataCache_aiq');
+    
+    // Reset internal state before reloading
+    allData = [];
+    isDataLoaded = false;
+    
+    // Call the main data loading function. It will handle showing the spinner,
+    // fetching data, populating filters, and restoring the search state.
+    loadDataInternal();
+}
+
 function clearFilters() {
     document.getElementById('minRank').value = '';
     document.getElementById('maxRank').value = '';
