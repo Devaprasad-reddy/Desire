@@ -479,7 +479,7 @@ function searchData() {
     const selectedQuotas = Array.from(document.querySelectorAll('.quotaCheckbox:checked')).map(cb => cb.value);
     const selectedColleges = Array.from(document.querySelectorAll('.collegeCheckbox:checked')).map(cb => cb.value);
     const selectedCourses = Array.from(document.querySelectorAll('.courseCheckbox:checked')).map(cb => cb.value);
-    const selectedCategories = Array.from(document.querySelectorAll('.categoryCheckbox:checked')).map(cb => cb.value);
+    let selectedCategories = Array.from(document.querySelectorAll('.categoryCheckbox:checked')).map(cb => cb.value);
     
     // Get special filters
     const minFilter = document.getElementById('minCheckbox').checked;
@@ -487,21 +487,53 @@ function searchData() {
     const showGen = document.querySelector('.genderCheckbox[value="M"]').checked;
     const showFem = document.querySelector('.genderCheckbox[value="F"]').checked;
     
+    // If the MIN special filter is checked, we should also consider candidates
+    // with the 'MIN' category. This effectively adds 'MIN' to the list of
+    // selected categories for the purpose of this search.
+    if (minFilter) {
+        selectedCategories.push('MIN');
+    }
+
     let filteredData = allData.filter(candidate => {
-        if (selectedYears.length > 0 && !selectedYears.includes(candidate.year)) return false;
-        if (selectedQuotas.length > 0 && !selectedQuotas.includes(candidate.admissionType)) return false;
+        // "Opt-in" filtering: if a filter group has no selections, no results should pass.
+        if (selectedYears.length === 0) return false;
+        if (!selectedYears.includes(candidate.year)) return false;
+
+        if (selectedQuotas.length === 0) return false;
+        if (!selectedQuotas.includes(candidate.admissionType)) return false;
+
         if (candidate.rank < minRank || candidate.rank > maxRank) return false;
-        if (selectedCategories.length > 0 && !selectedCategories.includes(candidate.candidateCategory)) return false;
-        if (selectedColleges.length > 0 && !selectedColleges.includes(candidate.college)) return false;
-        if (selectedCourses.length > 0 && !selectedCourses.includes(candidate.course)) return false;
-        if (showGen !== showFem) { // Only apply filter if one is checked, not both
-            if (showGen && candidate.gender === 'F') return false; // If GEN is checked, hide FEM quota
-            if (showFem && candidate.gender === 'M') return false; // If FEM is checked, hide GEN
+
+        if (selectedColleges.length === 0) return false;
+        if (!selectedColleges.includes(candidate.college)) return false;
+
+        if (selectedCourses.length === 0) return false;
+        if (!selectedCourses.includes(candidate.course)) return false;
+
+        const isMQ = ['MQ1', 'MQ2', 'MQ3'].includes(candidate.admissionType);
+
+        if (!isMQ) {
+            // Category filter is also opt-in
+            if (selectedCategories.length === 0) return false;
+            if (!selectedCategories.includes(candidate.candidateCategory)) return false;
+
+            // Special/Gender filters are treated as a single group of exclusive "pools".
+            // A candidate is categorized into the most specific pool they qualify for.
+            let bucket = '';
+            if (candidate.isMIN) bucket = 'MIN';
+            else if (candidate.isPH) bucket = 'PH';
+            else if (candidate.gender === 'F') bucket = 'FEM';
+            else bucket = 'GEN';
+
+            const selectedBuckets = [];
+            if (showGen) selectedBuckets.push('GEN');
+            if (showFem) selectedBuckets.push('FEM');
+            if (minFilter) selectedBuckets.push('MIN');
+            if (phFilter) selectedBuckets.push('PH');
+
+            if (selectedBuckets.length === 0) return false; // If no pools are selected, show nothing.
+            if (!selectedBuckets.includes(bucket)) return false; // Candidate must belong to a selected pool.
         }
-        if (minFilter && !candidate.isMIN) return false; // If MIN is checked, hide non-MIN
-        if (!minFilter && candidate.isMIN) return false; // If MIN is UNchecked, hide MIN
-        if (phFilter && !candidate.isPH) return false; // If PH is checked, hide non-PH
-        if (!phFilter && candidate.isPH) return false; // If PH is UNchecked, hide PH
 
         return true;
     });
