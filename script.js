@@ -439,7 +439,7 @@ function saveSearchState() {
         minFilter: document.getElementById('minCheckbox').checked,
         phFilter: document.getElementById('phCheckbox').checked,
         sortBy: document.getElementById('sortSelect').value,
-        currentDataSource: currentDataSource // Save current data source
+        currentDataSource: currentDataSource, // Save current data source
     };
     localStorage.setItem('desireSearchState', JSON.stringify(searchState));
 }
@@ -461,6 +461,9 @@ function loadSearchState() {
         document.getElementById('phCheckbox').checked = state.phFilter || false;
         document.getElementById('sortSelect').value = state.sortBy || 'rank-asc';
     }
+    // Always start with hamburger filters off
+    document.getElementById('showOnlyPH').checked = false;
+    document.getElementById('showOnlyMIN').checked = false;
 }
 
 function searchData() {
@@ -468,6 +471,10 @@ function searchData() {
         alert('Data is still loading. Please wait...');
         return;
     }
+
+    // Grab hamburger filter state at the beginning of the search
+    const showOnlyPH = document.getElementById('showOnlyPH').checked;
+    const showOnlyMIN = document.getElementById('showOnlyMIN').checked;
     
     saveSearchState();
     
@@ -532,11 +539,24 @@ function searchData() {
         return true;
     });
     
+    // Apply hamburger menu filters only if the corresponding main filter is active
+    if (showOnlyPH && phFilter && showOnlyMIN && minFilter) {
+        filteredData = filteredData.filter(c => c.isPH || c.isMIN);
+    } else if (showOnlyPH && phFilter) {
+        filteredData = filteredData.filter(c => c.isPH);
+    } else if (showOnlyMIN && minFilter) {
+        filteredData = filteredData.filter(c => c.isMIN);
+    }
+    
     // Apply sorting
     const sortBy = document.getElementById('sortSelect').value;
     filteredData = sortResults(filteredData, sortBy);
     
     displayResults(filteredData);
+
+    // Reset hamburger filters after every search
+    document.getElementById('showOnlyPH').checked = false;
+    document.getElementById('showOnlyMIN').checked = false;
 }
 
 function sortResults(data, sortBy) {
@@ -648,6 +668,11 @@ function displayResults(data) {
     }).join('');
 }
 
+function toggleHamburgerMenu(event) {
+    event.stopPropagation();
+    document.getElementById('hamburgerContent').parentElement.classList.toggle('show');
+}
+
 function refreshData() {
     console.log('Refreshing data and clearing cache...');
     
@@ -683,6 +708,10 @@ function clearFilters() {
     document.querySelectorAll('.courseCheckbox').forEach(cb => cb.checked = false);
     document.getElementById('minCheckbox').checked = false;
     document.getElementById('phCheckbox').checked = false;
+
+    // Clear hamburger filters
+    document.getElementById('showOnlyPH').checked = false;
+    document.getElementById('showOnlyMIN').checked = false;
     
     // Reset search filters by showing all toggles
     if (allColleges.length > 0) filterCheckboxes('college', '');
@@ -801,4 +830,12 @@ window.addEventListener('load', () => {
         toggleDataSource(currentDataSource === 'telangana' ? 'aiq' : 'telangana');
     });
     toggleDataSource(currentDataSource); // Trigger initial data load and UI setup based on currentDataSource
+
+    // Close hamburger menu if clicking outside
+    window.addEventListener('click', () => {
+        const menu = document.querySelector('.hamburger-menu.show');
+        if (menu) {
+            menu.classList.remove('show');
+        }
+    });
 });
