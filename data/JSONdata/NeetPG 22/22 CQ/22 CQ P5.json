@@ -1,122 +1,68 @@
-{
-  "fileName": "22 CQ P5",
-  "year": "22",
-  "category": "CQ",
-  "colleges": {
-    "NIMS(001) - NIZAM INSTITUTE OF MEDICAL SCIENCES, HYD": {
-      "BIO (025) - MD(BIOCHEMISTRY)": [
-        {
-          "rank": 128637,
-          "allottedCategory": "UNR",
-          "allottedGender": "SC",
-          "phase": "P5",
-          "admissionType": "NS"
-        }
-      ],
-      "HA  (034) - MD(HOSPITAL ADMINISTRATION)": [
-        {
-          "rank": 88592,
-          "allottedCategory": "OPEN",
-          "allottedGender": "GEN",
-          "phase": "P5",
-          "admissionType": "NS"
-        }
-      ]
-    },
-    "GAND(010) - GANDHI MEDICAL COLLEGE, SECUNDERABAD": {
-      "ANES(003) - MD(ANAESTHESIA)": [
-        {
-          "rank": 28753,
-          "allottedCategory": "OPEN",
-          "allottedGender": "GEN",
-          "phase": "P5",
-          "admissionType": "NS"
-        }
-      ]
-    },
-    "OMCH(011) - OSMANIA MEDICAL COLLEGE, HYDERABAD": {
-      "PHARMA(028) - MD(PHARMACOLOGY)": [
-        {
-          "rank": 128955,
-          "allottedCategory": "UNR",
-          "allottedGender": "ST",
-          "phase": "P5",
-          "admissionType": "NS"
-        }
-      ],
-      "SPM (030) - MD(SPM)": [
-        {
-          "rank": 132819,
-          "allottedCategory": "ST",
-          "allottedGender": "GEN",
-          "phase": "P5",
-          "admissionType": "NS"
-        }
-      ],
-      "RT  (033) - MD(RADIO THERAPY)": [
-        {
-          "rank": 44194,
-          "allottedCategory": "UNR",
-          "allottedGender": "OPEN",
-          "phase": "P5",
-          "admissionType": "NS"
-        }
-      ]
-    },
-    "KKTI(012) - KAKATIYA MEDICAL COLLEGE, WARANGAL": {
-      "ENT (017) - MS(ENT)": [
-        {
-          "rank": 48631,
-          "allottedCategory": "SC",
-          "allottedGender": "GEN",
-          "phase": "P5",
-          "admissionType": "NS"
-        }
-      ]
-    },
-    "GMCM(014) - GOVT MEDICAL COLLEGE, MAHABUBNAGAR": {
-      "SPM (030) - MD(SPM)": [
-        {
-          "rank": 146061,
-          "allottedCategory": "UNR",
-          "allottedGender": "BCB",
-          "phase": "P5",
-          "admissionType": "NS"
-        }
-      ]
-    },
-    "ESIM(016) - ESI  MEDICAL COLLEGE, SANATHNAGAR, HYD": {
-      "MICRO(027) - MD(MICROBIOLOGY)": [
-        {
-          "rank": 118780,
-          "allottedCategory": "BCB",
-          "allottedGender": "GEN",
-          "phase": "P5",
-          "admissionType": "NS"
-        }
-      ]
-    },
-    "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY": {
-      "TM  (036) - MD(TRANSFUSION MEDICINE)": [
-        {
-          "rank": 73975,
-          "allottedCategory": "UNR",
-          "allottedGender": "OPEN",
-          "phase": "P5",
-          "admissionType": "NS"
-        }
-      ]
-    },
-    "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD": {
-      "PATH(026) - MD(PATHOLOGY)": [
-        {
-          "rank": 58252,
-          "allottedCategory": "BCB",
-          "allottedGender": "FEM",
-          "phase": "P5",
-          "admissionType": "NS"
-        }
-      ]
-    }
+[
+  {
+    "college": "NIMS(001) - NIZAM INSTITUTE OF MEDICAL SCIENCES, HYD",
+    "course": "BIO (025) - MD(BIOCHEMISTRY)",
+    "rank": 128637,
+    "adm_details": "NS-UNR-SC-FEM-P5"
+  },
+  {
+    "college": "NIMS(001) - NIZAM INSTITUTE OF MEDICAL SCIENCES, HYD",
+    "course": "HA (034) - MD(HOSPITAL ADMINISTRATION)",
+    "rank": 88592,
+    "adm_details": "NS-LOC-OPEN-GEN-P5"
+  },
+  {
+    "college": "GAND(010) - GANDHI MEDICAL COLLEGE, SECUNDERABAD",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 28753,
+    "adm_details": "NS-LOC-OPEN-GEN-P5"
+  },
+  {
+    "college": "OMCH(011) - OSMANIA MEDICAL COLLEGE, HYDERABAD",
+    "course": "PHARMA(028) - MD(PHARMACOLOGY)",
+    "rank": 128955,
+    "adm_details": "NS-UNR-ST-FEM-P5"
+  },
+  {
+    "college": "OMCH(011) - OSMANIA MEDICAL COLLEGE, HYDERABAD",
+    "course": "SPM (030) - MD(SPM)",
+    "rank": 132819,
+    "adm_details": "NS-LOC-ST-GEN-P5"
+  },
+  {
+    "college": "OMCH(011) - OSMANIA MEDICAL COLLEGE, HYDERABAD",
+    "course": "RT (033) - MD(RADIO THERAPY)",
+    "rank": 44194,
+    "adm_details": "NS-UNR-OPEN-GEN-P5"
+  },
+  {
+    "college": "KKTI(012) - KAKATIYA MEDICAL COLLEGE, WARANGAL",
+    "course": "ENT (017) - MS(ENT)",
+    "rank": 48631,
+    "adm_details": "NS-LOC-SC-GEN-P5"
+  },
+  {
+    "college": "GMCM(014) - GOVT MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "SPM (030) - MD(SPM)",
+    "rank": 146061,
+    "adm_details": "NS-UNR-BCB-FEM-P5"
+  },
+  {
+    "college": "ESIM(016) - ESI MEDICAL COLLEGE, SANATHNAGAR, HYD",
+    "course": "MICRO(027) - MD(MICROBIOLOGY)",
+    "rank": 118780,
+    "adm_details": "NS-LOC-BCB-GEN-P5"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "TM (036) - MD(TRANSFUSION MEDICINE)",
+    "rank": 73975,
+    "adm_details": "NS-UNR-OPEN-GEN-P5"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 58252,
+    "adm_details": "NS-LOC-BCB-FEM-P5"
   }
-}
+]

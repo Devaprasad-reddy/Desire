@@ -262,20 +262,6 @@ button:hover {
     color: white;
 }
 
-.candidate-card {
-    border: 1px solid #e1e5e9;
-    margin-bottom: 10px;
-    padding: 15px;
-    border-radius: 8px;
-    transition: all 0.3s ease;
-}
-
-.candidate-card:hover {
-    background: #f8f9fa;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
 .loading {
     text-align: center;
     padding: 40px;
@@ -287,24 +273,6 @@ button:hover {
     color: #e74c3c;
     text-align: center;
     padding: 20px;
-}
-
-.file-section {
-    margin-bottom: 30px;
-    border: 1px solid #e1e5e9;
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-.file-header {
-    background: #f8f9fa;
-    padding: 15px;
-    font-weight: 600;
-    border-bottom: 1px solid #e1e5e9;
-}
-
-.file-content {
-    padding: 15px;
 }
 
 .search-input {
@@ -338,18 +306,6 @@ button:hover {
     cursor: pointer;
     margin-bottom: 5px;
 }
-
-.clickable-rank {
-    color: #007cba;
-    cursor: pointer;
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-.clickable-rank:hover {
-    color: #005a8b;
-}
-
 .disclaimer {
     background: rgba(255, 255, 255, 0.9);
     padding: 20px;
@@ -538,7 +494,7 @@ button:hover {
 .candidate-details { font-size: 0.85rem; color: #7f8c8d; margin-bottom: 8px; line-height: 1.4; }
 
 .candidate-tags { display: flex; flex-wrap: wrap; gap: 6px; }
-.tag-min, .tag-ph, .tag-stray, .tag-service {
+.tag-min, .tag-ph, .tag-stray, .tag-service, .tag-mrc {
     display: inline-block;
     padding: 3px 8px;
     font-size: 0.75rem;
@@ -550,6 +506,7 @@ button:hover {
 .tag-ph { background-color: #e74c3c; } /* Red */
 .tag-stray { background-color: #f39c12; } /* Orange */
 .tag-service { background-color: #27ae60; } /* Green */
+.tag-mrc { background-color: #3498db; } /* Blue */
 
 .detail-fem {
     color: #e91e63; /* Pink */

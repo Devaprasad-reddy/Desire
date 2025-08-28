@@ -31,7 +31,11 @@ data/PDFdata/
 .vscode/
 .DS_Store
 Thumbs.db
+.venv/
 
 # Temporary files
 *.tmp
 *.log
+
+AIQ QUOTAS.txt
+findquotas.js

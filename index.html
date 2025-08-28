@@ -77,6 +77,16 @@
         .hamburger-menu.show .hamburger-content {
             display: block;
         }
+        .candidate-year {
+            font-size: 0.8rem;
+            color: #6c757d; /* A muted gray color */
+            margin-top: 2px;
+            margin-bottom: 5px;
+        }
+        .detail-unr {
+            color: #1abc9c; /* A teal color */
+            font-weight: bold;
+        }
     </style>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -116,7 +126,7 @@
                     <div class="toggle-switch" id="dataSourceToggle">
                         <div class="toggle-slider"></div>
                     </div>
-                    <span class="toggle-label right" id="allIndiaLabel">All India</span>
+                    <span class="toggle-label right" id="allIndiaLabel">All India (BETA)</span>
                 </div>
             </div>
             
@@ -127,24 +137,44 @@
                 </div>
             </div>
             
-            <div class="filter-section">
-                <h3 id="categoryFilterSection">👥 Category</h3>
-                <div class="toggle-group">
-                    <label class="toggle"><input type="checkbox" value="OC" class="categoryCheckbox" checked><span class="slider"></span>OC</label>
-                    <label class="toggle"><input type="checkbox" value="BCA" class="categoryCheckbox"><span class="slider"></span>BCA</label>
-                    <label class="toggle"><input type="checkbox" value="BCB" class="categoryCheckbox"><span class="slider"></span>BCB</label>
-                    <label class="toggle"><input type="checkbox" value="BCD" class="categoryCheckbox"><span class="slider"></span>BCD</label>
-                    <label class="toggle"><input type="checkbox" value="BCE" class="categoryCheckbox"><span class="slider"></span>BCE</label>
-                    <label class="toggle"><input type="checkbox" value="SC" class="categoryCheckbox"><span class="slider"></span>SC</label>
-                    <label class="toggle"><input type="checkbox" value="ST" class="categoryCheckbox"><span class="slider"></span>ST</label>
+            <div id="categoryFilterSection" class="filter-section">
+                <h3>👥 Category</h3>
+                <div class="toggle-group" id="categoryToggles">
+                    <!-- Categories will be populated here by the script -->
                 </div>
             </div>
             
             <div class="filter-section" id="specialFilter">
-                <h3>⭐ Special</h3>
+a                <h3>⭐ Special Status</h3>
                 <div class="toggle-group">
-                    <label class="toggle"><input type="checkbox" id="minCheckbox"><span class="slider"></span>MIN</label>
+                    <label class="toggle"><input type="checkbox" id="minCheckbox"><span class="slider"></span>MSM/MIN</label>
                     <label class="toggle"><input type="checkbox" id="phCheckbox"><span class="slider"></span>PH</label>
+                </div>
+            </div>
+            
+            <div class="filter-section" id="localStatusFilter">
+                <h3>📍 Local Status</h3>
+                <div class="toggle-group">
+                    <label class="toggle">
+                        <input type="checkbox" id="localCheckbox" checked>
+                        <span class="slider"></span>
+                        LOC
+                    </label>
+                    <label class="toggle">
+                        <input type="checkbox" id="unrCheckbox" checked>
+                        <span class="slider"></span>
+                        UNR
+                    </label>
+                </div>
+            </div>
+            <div class="filter-section" id="meritStatusFilter">
+                <h3>🏅 Merit Status</h3>
+                <div class="toggle-group">
+                    <label class="toggle">
+                        <input type="checkbox" id="mrcCheckbox" checked>
+                        <span class="slider"></span>
+                        MRC
+                    </label>
                 </div>
             </div>
             
@@ -208,7 +238,7 @@
                             <label class="toggle"><input type="checkbox" id="showOnlyPH" onchange="searchData()">
                                 <span class="slider"></span>Only show PH</label>
                             <label class="toggle"><input type="checkbox" id="showOnlyMIN" onchange="searchData()">
-                                <span class="slider"></span>Only show MIN</label>
+                                <span class="slider"></span>Only show MSM/MIN</label>
                         </div>
                     </div>
                 </div>
@@ -221,7 +251,7 @@
         <div class="disclaimer">
             <p><strong>Disclaimer:</strong> This application is for informational purposes only. Always verify data with official counselling authorities.</p>
             <p><strong>Developer Note:</strong> For support: <a href="mailto:devaprasadreddy@gmail.com">devaprasadreddy@gmail.com</a></p>
-            <p><small>©Dr_DP 2025. All rights reserved. Version 1.8</small></p>
+            <p><small>©Dr_DP 2025. All rights reserved. Version 2.0</small></p>
         </div>
     </div>
 

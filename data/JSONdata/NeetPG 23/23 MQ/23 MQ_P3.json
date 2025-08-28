@@ -1,3324 +1,3344 @@
-{
-  "fileName": "23 MQ_P3",
-  "year": "23",
-  "category": "CQ",
-  "colleges": {
-    "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM": {
-      "GM  (001) - MD(GENERAL MEDICINE)": [
-        {
-          "rank": 19774,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 20275,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 20366,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 101084,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 120568,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PAED(002) - MD(PAEDIATRICS)": [
-        {
-          "rank": 22345,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 22928,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 135592,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ANES(003) - MD(ANAESTHESIA)": [
-        {
-          "rank": 34862,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 48683,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 178864,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PM  (004) - MD(PULMONARY MEDICINE)": [
-        {
-          "rank": 24041,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 137215,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "DVL (005) - MD(DVL)": [
-        {
-          "rank": 15491,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        }
-      ],
-      "RD  (006) - MD(RADIODIAGNOSIS)": [
-        {
-          "rank": 14837,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 17444,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 64475,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PSY (007) - MD(PSYCHIATRY)": [
-        {
-          "rank": 64288,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "GS  (014) - MS(GENERAL SURGERY)": [
-        {
-          "rank": 27843,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 35875,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 141642,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ORTHO(015) - MS(ORTHOPAEDICS)": [
-        {
-          "rank": 34399,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 57109,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 171575,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
-        {
-          "rank": 52473,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "ENT (017) - MS(ENT)": [
-        {
-          "rank": 49217,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 163545,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
-        {
-          "rank": 24064,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 26913,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 60029,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 107388,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PATH(026) - MD(PATHOLOGY)": [
-        {
-          "rank": 148303,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 191120,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "FM  (029) - MD(FORENSIC MEDICINE)": [
-        {
-          "rank": 179104,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ]
-    },
-    "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR": {
-      "GM  (001) - MD(GENERAL MEDICINE)": [
-        {
-          "rank": 17197,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 20880,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 25003,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 25282,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 54636,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 85286,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 95010,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PAED(002) - MD(PAEDIATRICS)": [
-        {
-          "rank": 18987,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 24600,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 116959,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 142622,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ANES(003) - MD(ANAESTHESIA)": [
-        {
-          "rank": 66856,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 75632,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 90701,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 91630,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 158536,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 178823,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 187521,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PM  (004) - MD(PULMONARY MEDICINE)": [
-        {
-          "rank": 35892,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "DVL (005) - MD(DVL)": [
-        {
-          "rank": 19752,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        }
-      ],
-      "RD  (006) - MD(RADIODIAGNOSIS)": [
-        {
-          "rank": 16118,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 16336,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 16444,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 70409,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 104599,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PSY (007) - MD(PSYCHIATRY)": [
-        {
-          "rank": 76712,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 156082,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "GS  (014) - MS(GENERAL SURGERY)": [
-        {
-          "rank": 44557,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 46402,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 48939,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 130985,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 131354,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ORTHO(015) - MS(ORTHOPAEDICS)": [
-        {
-          "rank": 76087,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 80604,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 147707,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
-        {
-          "rank": 37297,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "ENT (017) - MS(ENT)": [
-        {
-          "rank": 46914,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        }
-      ],
-      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
-        {
-          "rank": 28809,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 30237,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 32608,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 111477,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PHYSI(024) - MD(PHYSIOLOGY)": [
-        {
-          "rank": 196581,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "PATH(026) - MD(PATHOLOGY)": [
-        {
-          "rank": 87105,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 87678,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 178798,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "MICRO(027) - MD(MICROBIOLOGY)": [
-        {
-          "rank": 110830,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PHARMA(028) - MD(PHARMACOLOGY)": [
-        {
-          "rank": 196663,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "SPM (030) - MD(SPM)": [
-        {
-          "rank": 186923,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ]
-    },
-    "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR": {
-      "GM  (001) - MD(GENERAL MEDICINE)": [
-        {
-          "rank": 16392,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 17067,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 19092,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 19469,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 19963,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 20445,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 84338,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 107857,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 113387,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PAED(002) - MD(PAEDIATRICS)": [
-        {
-          "rank": 23541,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 30668,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 31373,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 151009,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 153524,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ANES(003) - MD(ANAESTHESIA)": [
-        {
-          "rank": 60733,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 85348,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 85749,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 92416,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 93570,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 137124,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 157028,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 191472,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PM  (004) - MD(PULMONARY MEDICINE)": [
-        {
-          "rank": 36209,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 95580,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ],
-      "DVL (005) - MD(DVL)": [
-        {
-          "rank": 20022,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 126766,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "RD  (006) - MD(RADIODIAGNOSIS)": [
-        {
-          "rank": 13514,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 14221,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 60539,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 96182,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PSY (007) - MD(PSYCHIATRY)": [
-        {
-          "rank": 150632,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "GS  (014) - MS(GENERAL SURGERY)": [
-        {
-          "rank": 36184,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 46749,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 46855,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 55743,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 59101,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 103255,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 120044,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 127768,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ORTHO(015) - MS(ORTHOPAEDICS)": [
-        {
-          "rank": 49820,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 50526,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 53721,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 173866,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 177321,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
-        {
-          "rank": 38584,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 84211,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ENT (017) - MS(ENT)": [
-        {
-          "rank": 110477,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
-        {
-          "rank": 22208,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 25213,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 26483,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 117283,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 120331,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PHYSI(024) - MD(PHYSIOLOGY)": [
-        {
-          "rank": 110647,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        }
-      ],
-      "PATH(026) - MD(PATHOLOGY)": [
-        {
-          "rank": 96268,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        }
-      ],
-      "SPM (030) - MD(SPM)": [
-        {
-          "rank": 173184,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ]
-    },
-    "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR": {
-      "GM  (001) - MD(GENERAL MEDICINE)": [
-        {
-          "rank": 16259,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 16362,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 19681,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 20265,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 53396,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 62715,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 132103,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PAED(002) - MD(PAEDIATRICS)": [
-        {
-          "rank": 19917,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 23521,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 89223,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ANES(003) - MD(ANAESTHESIA)": [
-        {
-          "rank": 60040,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 67237,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 75479,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 80565,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 108400,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 110711,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PM  (004) - MD(PULMONARY MEDICINE)": [
-        {
-          "rank": 32211,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 59219,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ],
-      "DVL (005) - MD(DVL)": [
-        {
-          "rank": 13047,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 134745,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "RD  (006) - MD(RADIODIAGNOSIS)": [
-        {
-          "rank": 8400,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 9967,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 38472,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PSY (007) - MD(PSYCHIATRY)": [
-        {
-          "rank": 61350,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        }
-      ],
-      "GS  (014) - MS(GENERAL SURGERY)": [
-        {
-          "rank": 21430,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 23285,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 35911,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 36595,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 72089,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 87636,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ORTHO(015) - MS(ORTHOPAEDICS)": [
-        {
-          "rank": 51283,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 57300,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 76979,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 151706,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
-        {
-          "rank": 65792,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 90437,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ENT (017) - MS(ENT)": [
-        {
-          "rank": 58734,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 175782,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
-        {
-          "rank": 19091,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 21749,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 82614,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ],
-      "BIO (025) - MD(BIOCHEMISTRY)": [
-        {
-          "rank": 139485,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        }
-      ],
-      "PATH(026) - MD(PATHOLOGY)": [
-        {
-          "rank": 134552,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 138731,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 141983,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 146394,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 148294,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 168979,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ]
-    },
-    "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY": {
-      "GM  (001) - MD(GENERAL MEDICINE)": [
-        {
-          "rank": 22998,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 25998,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 26377,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 54542,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 123132,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PAED(002) - MD(PAEDIATRICS)": [
-        {
-          "rank": 33349,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 115463,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ANES(003) - MD(ANAESTHESIA)": [
-        {
-          "rank": 94206,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 95646,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 98792,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 146882,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 167253,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PM  (004) - MD(PULMONARY MEDICINE)": [
-        {
-          "rank": 43327,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "DVL (005) - MD(DVL)": [
-        {
-          "rank": 18206,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 108929,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "RD  (006) - MD(RADIODIAGNOSIS)": [
-        {
-          "rank": 17091,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 19748,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 77297,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PSY (007) - MD(PSYCHIATRY)": [
-        {
-          "rank": 84404,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "GS  (014) - MS(GENERAL SURGERY)": [
-        {
-          "rank": 52366,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 59537,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 61052,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 130903,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 146833,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ORTHO(015) - MS(ORTHOPAEDICS)": [
-        {
-          "rank": 86676,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 183528,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
-        {
-          "rank": 45704,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 71448,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ENT (017) - MS(ENT)": [
-        {
-          "rank": 66422,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 115631,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
-        {
-          "rank": 35281,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 35324,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 113469,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "SPM (030) - MD(SPM)": [
-        {
-          "rank": 192330,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ]
-    },
-    "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY": {
-      "GM  (001) - MD(GENERAL MEDICINE)": [
-        {
-          "rank": 18693,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 21883,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 120329,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 132162,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PAED(002) - MD(PAEDIATRICS)": [
-        {
-          "rank": 27719,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 149160,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ANES(003) - MD(ANAESTHESIA)": [
-        {
-          "rank": 64442,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 84817,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 192214,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PM  (004) - MD(PULMONARY MEDICINE)": [
-        {
-          "rank": 40798,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "DVL (005) - MD(DVL)": [
-        {
-          "rank": 17799,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        }
-      ],
-      "RD  (006) - MD(RADIODIAGNOSIS)": [
-        {
-          "rank": 18027,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 111825,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PSY (007) - MD(PSYCHIATRY)": [
-        {
-          "rank": 88795,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "GS  (014) - MS(GENERAL SURGERY)": [
-        {
-          "rank": 41546,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 49777,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 138629,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 147644,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ORTHO(015) - MS(ORTHOPAEDICS)": [
-        {
-          "rank": 39672,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 43490,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 133288,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
-        {
-          "rank": 37450,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 122205,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ENT (017) - MS(ENT)": [
-        {
-          "rank": 67910,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
-        {
-          "rank": 30082,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 126056,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ANATO(023) - MD(ANATOMY)": [
-        {
-          "rank": 179714,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "PATH(026) - MD(PATHOLOGY)": [
-        {
-          "rank": 116765,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "PHARMA(028) - MD(PHARMACOLOGY)": [
-        {
-          "rank": 199275,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "SPM (030) - MD(SPM)": [
-        {
-          "rank": 169014,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "HA  (034) - MD(HOSPITAL ADMINISTRATION)": [
-        {
-          "rank": 174832,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "TM  (036) - MD(TRANSFUSION MEDICINE)": [
-        {
-          "rank": 134462,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ]
-    },
-    "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD": {
-      "GM  (001) - MD(GENERAL MEDICINE)": [
-        {
-          "rank": 21517,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 21611,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 77032,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 88073,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PAED(002) - MD(PAEDIATRICS)": [
-        {
-          "rank": 32809,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 86461,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ANES(003) - MD(ANAESTHESIA)": [
-        {
-          "rank": 60109,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 177426,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PM  (004) - MD(PULMONARY MEDICINE)": [
-        {
-          "rank": 39058,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 157762,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "DVL (005) - MD(DVL)": [
-        {
-          "rank": 18050,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 123744,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "RD  (006) - MD(RADIODIAGNOSIS)": [
-        {
-          "rank": 14816,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 15580,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 50460,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PSY (007) - MD(PSYCHIATRY)": [
-        {
-          "rank": 55902,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        }
-      ],
-      "GS  (014) - MS(GENERAL SURGERY)": [
-        {
-          "rank": 45496,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 54003,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 143668,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ORTHO(015) - MS(ORTHOPAEDICS)": [
-        {
-          "rank": 61114,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 69280,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 159373,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
-        {
-          "rank": 58327,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "ENT (017) - MS(ENT)": [
-        {
-          "rank": 61946,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
-        {
-          "rank": 27721,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 99535,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ]
-    },
-    "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR": {
-      "GM  (001) - MD(GENERAL MEDICINE)": [
-        {
-          "rank": 20974,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 28449,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 76492,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PAED(002) - MD(PAEDIATRICS)": [
-        {
-          "rank": 25075,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        }
-      ],
-      "ANES(003) - MD(ANAESTHESIA)": [
-        {
-          "rank": 80495,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 84415,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 88309,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 92149,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 158604,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 192846,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PM  (004) - MD(PULMONARY MEDICINE)": [
-        {
-          "rank": 43934,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 142086,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "DVL (005) - MD(DVL)": [
-        {
-          "rank": 17952,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 24082,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ],
-      "RD  (006) - MD(RADIODIAGNOSIS)": [
-        {
-          "rank": 15132,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 15398,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 17690,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 40481,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 84360,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "GS  (014) - MS(GENERAL SURGERY)": [
-        {
-          "rank": 51680,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "ORTHO(015) - MS(ORTHOPAEDICS)": [
-        {
-          "rank": 77408,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 88717,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 137586,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 178997,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
-        {
-          "rank": 72135,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "ENT (017) - MS(ENT)": [
-        {
-          "rank": 84071,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 118507,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
-        {
-          "rank": 27812,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 112288,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "BIO (025) - MD(BIOCHEMISTRY)": [
-        {
-          "rank": 197949,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PATH(026) - MD(PATHOLOGY)": [
-        {
-          "rank": 143776,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ]
-    },
-    "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD": {
-      "GM  (001) - MD(GENERAL MEDICINE)": [
-        {
-          "rank": 16999,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 18075,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 74820,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 80605,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PAED(002) - MD(PAEDIATRICS)": [
-        {
-          "rank": 23783,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 110390,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ANES(003) - MD(ANAESTHESIA)": [
-        {
-          "rank": 37818,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 47052,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 166728,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PM  (004) - MD(PULMONARY MEDICINE)": [
-        {
-          "rank": 32016,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 138084,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "DVL (005) - MD(DVL)": [
-        {
-          "rank": 16727,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 26231,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ],
-      "RD  (006) - MD(RADIODIAGNOSIS)": [
-        {
-          "rank": 12171,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 13271,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 30161,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ],
-      "GS  (014) - MS(GENERAL SURGERY)": [
-        {
-          "rank": 33377,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 36971,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 114398,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 147240,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ORTHO(015) - MS(ORTHOPAEDICS)": [
-        {
-          "rank": 34920,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 140760,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
-        {
-          "rank": 16213,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 17343,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 99691,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ANATO(023) - MD(ANATOMY)": [
-        {
-          "rank": 175726,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "BIO (025) - MD(BIOCHEMISTRY)": [
-        {
-          "rank": 179434,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "PATH(026) - MD(PATHOLOGY)": [
-        {
-          "rank": 79544,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 117506,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ],
-      "MICRO(027) - MD(MICROBIOLOGY)": [
-        {
-          "rank": 129812,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        }
-      ],
-      "PHARMA(028) - MD(PHARMACOLOGY)": [
-        {
-          "rank": 155866,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "SPM (030) - MD(SPM)": [
-        {
-          "rank": 92554,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        }
-      ],
-      "RT  (033) - MD(RADIO THERAPY)": [
-        {
-          "rank": 49667,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        }
-      ],
-      "EM  (035) - MD(EMERGENCY MEDICINE)": [
-        {
-          "rank": 75496,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "TM  (036) - MD(TRANSFUSION MEDICINE)": [
-        {
-          "rank": 141206,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ]
-    },
-    "SHDN(060) - SHADAN INSTITUTE OF MEDICAL SCIENCES, HYD": {
-      "GM  (001) - MD(GENERAL MEDICINE)": [
-        {
-          "rank": 33249,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 64044,
-          "phase": "MSM",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PAED(002) - MD(PAEDIATRICS)": [
-        {
-          "rank": 32457,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        }
-      ],
-      "ANES(003) - MD(ANAESTHESIA)": [
-        {
-          "rank": 70892,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        }
-      ],
-      "PM  (004) - MD(PULMONARY MEDICINE)": [
-        {
-          "rank": 198558,
-          "phase": "MSM",
-          "admissionType": "MQ2"
-        }
-      ],
-      "RD  (006) - MD(RADIODIAGNOSIS)": [
-        {
-          "rank": 30269,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        }
-      ],
-      "GS  (014) - MS(GENERAL SURGERY)": [
-        {
-          "rank": 177319,
-          "phase": "MSM",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
-        {
-          "rank": 83135,
-          "phase": "MSM",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ENT (017) - MS(ENT)": [
-        {
-          "rank": 114315,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        }
-      ],
-      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
-        {
-          "rank": 41493,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        }
-      ],
-      "MICRO(027) - MD(MICROBIOLOGY)": [
-        {
-          "rank": 162135,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        }
-      ]
-    },
-    "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES": {
-      "GM  (001) - MD(GENERAL MEDICINE)": [
-        {
-          "rank": 13424,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 148723,
-          "phase": "MSM",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PAED(002) - MD(PAEDIATRICS)": [
-        {
-          "rank": 31234,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 150192,
-          "phase": "MSM",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ANES(003) - MD(ANAESTHESIA)": [
-        {
-          "rank": 57275,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 65140,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 136047,
-          "phase": "MSM",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PM  (004) - MD(PULMONARY MEDICINE)": [
-        {
-          "rank": 189293,
-          "phase": "MSM",
-          "admissionType": "MQ2"
-        }
-      ],
-      "DVL (005) - MD(DVL)": [
-        {
-          "rank": 28192,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        }
-      ],
-      "RD  (006) - MD(RADIODIAGNOSIS)": [
-        {
-          "rank": 15692,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 22974,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 129359,
-          "phase": "MSM",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PSY (007) - MD(PSYCHIATRY)": [
-        {
-          "rank": 112058,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        }
-      ],
-      "GS  (014) - MS(GENERAL SURGERY)": [
-        {
-          "rank": 29758,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 44966,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 166099,
-          "phase": "MSM",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ORTHO(015) - MS(ORTHOPAEDICS)": [
-        {
-          "rank": 62815,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 185247,
-          "phase": "MSM",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
-        {
-          "rank": 63371,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        }
-      ],
-      "ENT (017) - MS(ENT)": [
-        {
-          "rank": 50162,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 139832,
-          "phase": "MSM",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
-        {
-          "rank": 37996,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 45121,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 152462,
-          "phase": "MSM",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 154631,
-          "phase": "MSM",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PHYSI(024) - MD(PHYSIOLOGY)": [
-        {
-          "rank": 180797,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        }
-      ],
-      "PATH(026) - MD(PATHOLOGY)": [
-        {
-          "rank": 109099,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        }
-      ],
-      "MICRO(027) - MD(MICROBIOLOGY)": [
-        {
-          "rank": 121180,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        }
-      ]
-    },
-    "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR": {
-      "GM  (001) - MD(GENERAL MEDICINE)": [
-        {
-          "rank": 11899,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 13674,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 13937,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 14910,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 15808,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 16247,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 45506,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 63229,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 73280,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 74012,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PAED(002) - MD(PAEDIATRICS)": [
-        {
-          "rank": 19607,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 20034,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 20919,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 21619,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 50387,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 95122,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ANES(003) - MD(ANAESTHESIA)": [
-        {
-          "rank": 46989,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 47984,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 49179,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 51870,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 68662,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 69737,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 71743,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 91291,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 152133,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 155380,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PM  (004) - MD(PULMONARY MEDICINE)": [
-        {
-          "rank": 34491,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "DVL (005) - MD(DVL)": [
-        {
-          "rank": 14395,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        }
-      ],
-      "RD  (006) - MD(RADIODIAGNOSIS)": [
-        {
-          "rank": 8409,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 10796,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 11813,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 12685,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 50259,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 62486,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PSY (007) - MD(PSYCHIATRY)": [
-        {
-          "rank": 57468,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "GS  (014) - MS(GENERAL SURGERY)": [
-        {
-          "rank": 18891,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 33763,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 35101,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 35676,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 37623,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 38015,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 80949,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 98180,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 111313,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 119378,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ORTHO(015) - MS(ORTHOPAEDICS)": [
-        {
-          "rank": 30015,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 95926,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
-        {
-          "rank": 34732,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 35600,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 114903,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 123512,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ENT (017) - MS(ENT)": [
-        {
-          "rank": 35836,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 38047,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 156302,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
-        {
-          "rank": 19252,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 21011,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 21135,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 21956,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 22967,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 71941,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 76015,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PATH(026) - MD(PATHOLOGY)": [
-        {
-          "rank": 74753,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "MICRO(027) - MD(MICROBIOLOGY)": [
-        {
-          "rank": 157876,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        }
-      ],
-      "SPM (030) - MD(SPM)": [
-        {
-          "rank": 123401,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        }
-      ],
-      "EM  (035) - MD(EMERGENCY MEDICINE)": [
-        {
-          "rank": 73916,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ]
-    },
-    "APLO(063) - APOLLO MEDICAL COLLEGE, HYDERABAD": {
-      "GM  (001) - MD(GENERAL MEDICINE)": [
-        {
-          "rank": 11267,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 13281,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 32454,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PAED(002) - MD(PAEDIATRICS)": [
-        {
-          "rank": 18864,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 99325,
-          "phase": "P1",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ANES(003) - MD(ANAESTHESIA)": [
-        {
-          "rank": 40683,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "PM  (004) - MD(PULMONARY MEDICINE)": [
-        {
-          "rank": 35129,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "RD  (006) - MD(RADIODIAGNOSIS)": [
-        {
-          "rank": 7936,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "GS  (014) - MS(GENERAL SURGERY)": [
-        {
-          "rank": 29552,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        }
-      ],
-      "ORTHO(015) - MS(ORTHOPAEDICS)": [
-        {
-          "rank": 136143,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ENT (017) - MS(ENT)": [
-        {
-          "rank": 167465,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
-        {
-          "rank": 17389,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 106803,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "MICRO(027) - MD(MICROBIOLOGY)": [
-        {
-          "rank": 166681,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "SPM (030) - MD(SPM)": [
-        {
-          "rank": 169776,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "EM  (035) - MD(EMERGENCY MEDICINE)": [
-        {
-          "rank": 38192,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 177055,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ]
-    },
-    "RVMC(064) - RVM INSTITUTE OF MEDICAL SCIENCES AND RESEARCH CENTER, MEDAK": {
-      "GM  (001) - MD(GENERAL MEDICINE)": [
-        {
-          "rank": 18553,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 115728,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PAED(002) - MD(PAEDIATRICS)": [
-        {
-          "rank": 33048,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "ANES(003) - MD(ANAESTHESIA)": [
-        {
-          "rank": 67444,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        }
-      ],
-      "RD  (006) - MD(RADIODIAGNOSIS)": [
-        {
-          "rank": 17405,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        }
-      ],
-      "PSY (007) - MD(PSYCHIATRY)": [
-        {
-          "rank": 91464,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "GS  (014) - MS(GENERAL SURGERY)": [
-        {
-          "rank": 15211,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 140826,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ORTHO(015) - MS(ORTHOPAEDICS)": [
-        {
-          "rank": 50452,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        }
-      ],
-      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
-        {
-          "rank": 71759,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 125956,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ENT (017) - MS(ENT)": [
-        {
-          "rank": 80125,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
-        {
-          "rank": 30342,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 140844,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PATH(026) - MD(PATHOLOGY)": [
-        {
-          "rank": 110759,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        }
-      ],
-      "SPM (030) - MD(SPM)": [
-        {
-          "rank": 166423,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        }
-      ]
-    },
-    "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR": {
-      "GM  (001) - MD(GENERAL MEDICINE)": [
-        {
-          "rank": 15546,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 20080,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 86271,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PAED(002) - MD(PAEDIATRICS)": [
-        {
-          "rank": 24570,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "ANES(003) - MD(ANAESTHESIA)": [
-        {
-          "rank": 50683,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 72895,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 170537,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 171648,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PM  (004) - MD(PULMONARY MEDICINE)": [
-        {
-          "rank": 35572,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "DVL (005) - MD(DVL)": [
-        {
-          "rank": 14872,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        }
-      ],
-      "RD  (006) - MD(RADIODIAGNOSIS)": [
-        {
-          "rank": 12457,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 84453,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "GS  (014) - MS(GENERAL SURGERY)": [
-        {
-          "rank": 41028,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 113356,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ORTHO(015) - MS(ORTHOPAEDICS)": [
-        {
-          "rank": 50762,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
-        {
-          "rank": 38741,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        }
-      ],
-      "ENT (017) - MS(ENT)": [
-        {
-          "rank": 170062,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
-        {
-          "rank": 91368,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PHARMA(028) - MD(PHARMACOLOGY)": [
-        {
-          "rank": 106065,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 187407,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "RT  (033) - MD(RADIO THERAPY)": [
-        {
-          "rank": 77944,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 144366,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "EM  (035) - MD(EMERGENCY MEDICINE)": [
-        {
-          "rank": 79691,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ]
-    },
-    "MHVR(066) - MAHAVIR INST OF MED SCI, VIKARABAD": {
-      "GM  (001) - MD(GENERAL MEDICINE)": [
-        {
-          "rank": 29571,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "PAED(002) - MD(PAEDIATRICS)": [
-        {
-          "rank": 30722,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "DVL (005) - MD(DVL)": [
-        {
-          "rank": 19852,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        }
-      ],
-      "RD  (006) - MD(RADIODIAGNOSIS)": [
-        {
-          "rank": 19971,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        }
-      ],
-      "GS  (014) - MS(GENERAL SURGERY)": [
-        {
-          "rank": 61399,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "ORTHO(015) - MS(ORTHOPAEDICS)": [
-        {
-          "rank": 94330,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
-        {
-          "rank": 30923,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 145970,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "BIO (025) - MD(BIOCHEMISTRY)": [
-        {
-          "rank": 137784,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        }
-      ],
-      "PATH(026) - MD(PATHOLOGY)": [
-        {
-          "rank": 81212,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        }
-      ],
-      "SPM (030) - MD(SPM)": [
-        {
-          "rank": 195058,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ]
-    },
-    "VRKW(067) - DR V R K WOMENS MEDICAL COLLEGE": {
-      "PAED(002) - MD(PAEDIATRICS)": [
-        {
-          "rank": 36942,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        }
-      ],
-      "PM  (004) - MD(PULMONARY MEDICINE)": [
-        {
-          "rank": 47668,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        }
-      ],
-      "BIO (025) - MD(BIOCHEMISTRY)": [
-        {
-          "rank": 191103,
-          "phase": "MSM",
-          "admissionType": "MQ1"
-        }
-      ],
-      "PHARMA(028) - MD(PHARMACOLOGY)": [
-        {
-          "rank": 154924,
-          "phase": "MSM",
-          "admissionType": "MQ2"
-        }
-      ]
-    },
-    "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA": {
-      "GM  (001) - MD(GENERAL MEDICINE)": [
-        {
-          "rank": 25132,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 29765,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 123054,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 124942,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PAED(002) - MD(PAEDIATRICS)": [
-        {
-          "rank": 25421,
-          "phase": "P1",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 149899,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ANES(003) - MD(ANAESTHESIA)": [
-        {
-          "rank": 94828,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 99271,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 108925,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        },
-        {
-          "rank": 196667,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PM  (004) - MD(PULMONARY MEDICINE)": [
-        {
-          "rank": 47337,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 163369,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "DVL (005) - MD(DVL)": [
-        {
-          "rank": 21467,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "RD  (006) - MD(RADIODIAGNOSIS)": [
-        {
-          "rank": 18426,
-          "phase": "P2",
-          "admissionType": "MQ1"
-        }
-      ],
-      "PSY (007) - MD(PSYCHIATRY)": [
-        {
-          "rank": 93625,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 122377,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "GS  (014) - MS(GENERAL SURGERY)": [
-        {
-          "rank": 63302,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 163533,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ORTHO(015) - MS(ORTHOPAEDICS)": [
-        {
-          "rank": 66795,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 165684,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
-        {
-          "rank": 72509,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "ENT (017) - MS(ENT)": [
-        {
-          "rank": 99811,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
-        {
-          "rank": 34083,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        }
-      ],
-      "PATH(026) - MD(PATHOLOGY)": [
-        {
-          "rank": 105409,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 190786,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ]
-    },
-    "MAMS(070) - MAMATA ACADEMY OF MED SCI, BACHUPALLY": {
-      "PATH(026) - MD(PATHOLOGY)": [
-        {
-          "rank": 100579,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 115497,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 154379,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ]
-    },
-    "SURB(071) - SURABHI INST OF MED SCI, SIDDIPET": {
-      "GM  (001) - MD(GENERAL MEDICINE)": [
-        {
-          "rank": 28781,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 30433,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 110463,
-          "phase": "P2",
-          "admissionType": "MQ2"
-        }
-      ],
-      "PAED(002) - MD(PAEDIATRICS)": [
-        {
-          "rank": 34840,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 156556,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "ANES(003) - MD(ANAESTHESIA)": [
-        {
-          "rank": 99411,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 183999,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OPTHAL(016) - MS(OPTHALMOLOGY)": [
-        {
-          "rank": 50573,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 146820,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ],
-      "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)": [
-        {
-          "rank": 39782,
-          "phase": "P3",
-          "admissionType": "MQ1"
-        },
-        {
-          "rank": 135505,
-          "phase": "P3",
-          "admissionType": "MQ2"
-        }
-      ]
-    }
+[
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 19774,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 20275,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 20366,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 101084,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 120568,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 22345,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 22928,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 135592,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 34862,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 48683,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 178864,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "PM (004) - MD(PULMONARY MEDICINE)",
+    "rank": 24041,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "PM (004) - MD(PULMONARY MEDICINE)",
+    "rank": 137215,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "DVL (005) - MD(DVL)",
+    "rank": 15491,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 14837,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 17444,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 64475,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "PSY (007) - MD(PSYCHIATRY)",
+    "rank": 64288,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 27843,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 35875,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 141642,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 34399,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 57109,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 171575,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 52473,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "ENT (017) - MS(ENT)",
+    "rank": 49217,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "ENT (017) - MS(ENT)",
+    "rank": 163545,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 24064,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 26913,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 60029,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 107388,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 148303,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 191120,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "MMTA(051) - MAMATHA MEDICAL COLLEGE, KHAMMAM",
+    "course": "FM (029) - MD(FORENSIC MEDICINE)",
+    "rank": 179104,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 17197,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 20880,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 25003,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 25282,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 54636,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 85286,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 95010,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 18987,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 24600,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 116959,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 142622,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 66856,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 75632,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 90701,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 91630,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 158536,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 178823,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 187521,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "PM (004) - MD(PULMONARY MEDICINE)",
+    "rank": 35892,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "DVL (005) - MD(DVL)",
+    "rank": 19752,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 16118,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 16336,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 16444,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 70409,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 104599,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "PSY (007) - MD(PSYCHIATRY)",
+    "rank": 76712,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "PSY (007) - MD(PSYCHIATRY)",
+    "rank": 156082,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 44557,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 46402,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 48939,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 130985,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 131354,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 76087,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 80604,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 147707,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 37297,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ENT (017) - MS(ENT)",
+    "rank": 46914,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 28809,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 30237,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 32608,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 111477,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "PHYSI(024) - MD(PHYSIOLOGY)",
+    "rank": 196581,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 87105,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 87678,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 178798,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "MICRO(027) - MD(MICROBIOLOGY)",
+    "rank": 110830,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "PHARMA(028) - MD(PHARMACOLOGY)",
+    "rank": 196663,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "CARK(052) - CHALMEDA ANAND RAO INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "SPM (030) - MD(SPM)",
+    "rank": 186923,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 16392,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 17067,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 19092,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 19469,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 19963,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 20445,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 84338,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 107857,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 113387,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 23541,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 30668,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 31373,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 151009,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 153524,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 60733,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 85348,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 85749,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 92416,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 93570,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 137124,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 157028,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 191472,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "PM (004) - MD(PULMONARY MEDICINE)",
+    "rank": 36209,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "PM (004) - MD(PULMONARY MEDICINE)",
+    "rank": 95580,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "DVL (005) - MD(DVL)",
+    "rank": 20022,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "DVL (005) - MD(DVL)",
+    "rank": 126766,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 13514,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 14221,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 60539,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 96182,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "PSY (007) - MD(PSYCHIATRY)",
+    "rank": 150632,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 36184,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 46749,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 46855,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 55743,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 59101,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 103255,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 120044,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 127768,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 49820,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 50526,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 53721,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 173866,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 177321,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 38584,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 84211,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "ENT (017) - MS(ENT)",
+    "rank": 110477,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 22208,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 25213,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 26483,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 117283,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 120331,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "PHYSI(024) - MD(PHYSIOLOGY)",
+    "rank": 110647,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 96268,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "PRTM(053) - PRATHIMA INSTITUTE OF MEDICAL SCIENCES, KARIMNAGAR",
+    "course": "SPM (030) - MD(SPM)",
+    "rank": 173184,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 16259,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 16362,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 19681,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 20265,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 53396,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 62715,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 132103,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 19917,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 23521,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 89223,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 60040,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 67237,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 75479,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 80565,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 108400,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 110711,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "PM (004) - MD(PULMONARY MEDICINE)",
+    "rank": 32211,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "PM (004) - MD(PULMONARY MEDICINE)",
+    "rank": 59219,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "DVL (005) - MD(DVL)",
+    "rank": 13047,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "DVL (005) - MD(DVL)",
+    "rank": 134745,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 8400,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 9967,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 38472,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "PSY (007) - MD(PSYCHIATRY)",
+    "rank": 61350,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 21430,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 23285,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 35911,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 36595,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 72089,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 87636,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 51283,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 57300,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 76979,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 151706,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 65792,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 90437,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "ENT (017) - MS(ENT)",
+    "rank": 58734,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "ENT (017) - MS(ENT)",
+    "rank": 175782,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 19091,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 21749,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 82614,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "BIO (025) - MD(BIOCHEMISTRY)",
+    "rank": 139485,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 134552,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 138731,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 141983,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 146394,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 148294,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "SVSM(054) - SRI VENKATA SAI MEDICAL COLLEGE, MAHABUBNAGAR",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 168979,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 22998,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 25998,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 26377,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 54542,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 123132,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 33349,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 115463,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 94206,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 95646,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 98792,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 146882,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 167253,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "PM (004) - MD(PULMONARY MEDICINE)",
+    "rank": 43327,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "DVL (005) - MD(DVL)",
+    "rank": 18206,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "DVL (005) - MD(DVL)",
+    "rank": 108929,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 17091,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 19748,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 77297,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "PSY (007) - MD(PSYCHIATRY)",
+    "rank": 84404,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 52366,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 59537,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 61052,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 130903,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 146833,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 86676,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 183528,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 45704,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 71448,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "ENT (017) - MS(ENT)",
+    "rank": 66422,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "ENT (017) - MS(ENT)",
+    "rank": 115631,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 35281,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 35324,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 113469,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MNRS(055) - MNR MEDICAL COLLEGE AND HOSPITAL, SANGAREDDY",
+    "course": "SPM (030) - MD(SPM)",
+    "rank": 192330,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 18693,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 21883,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 120329,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 132162,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 27719,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 149160,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 64442,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 84817,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 192214,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "PM (004) - MD(PULMONARY MEDICINE)",
+    "rank": 40798,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "DVL (005) - MD(DVL)",
+    "rank": 17799,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 18027,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 111825,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "PSY (007) - MD(PSYCHIATRY)",
+    "rank": 88795,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 41546,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 49777,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 138629,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 147644,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 39672,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 43490,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 133288,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 37450,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 122205,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "ENT (017) - MS(ENT)",
+    "rank": 67910,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 30082,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 126056,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "ANATO(023) - MD(ANATOMY)",
+    "rank": 179714,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 116765,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "PHARMA(028) - MD(PHARMACOLOGY)",
+    "rank": 199275,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "SPM (030) - MD(SPM)",
+    "rank": 169014,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "HA (034) - MD(HOSPITAL ADMINISTRATION)",
+    "rank": 174832,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "KMNI(056) - KAMINENI INSTITUTE OF MEDICAL SCIENCES, NARKETPALLY",
+    "course": "TM (036) - MD(TRANSFUSION MEDICINE)",
+    "rank": 134462,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 21517,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 21611,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 77032,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 88073,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 32809,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 86461,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 60109,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 177426,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "PM (004) - MD(PULMONARY MEDICINE)",
+    "rank": 39058,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "PM (004) - MD(PULMONARY MEDICINE)",
+    "rank": 157762,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "DVL (005) - MD(DVL)",
+    "rank": 18050,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "DVL (005) - MD(DVL)",
+    "rank": 123744,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 14816,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 15580,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 50460,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "PSY (007) - MD(PSYCHIATRY)",
+    "rank": 55902,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 45496,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 54003,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 143668,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 61114,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 69280,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 159373,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 58327,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "ENT (017) - MS(ENT)",
+    "rank": 61946,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 27721,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "BASK(057) - BHASKAR MEDICAL COLLEGE, MOINABAD",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 99535,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 20974,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 28449,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 76492,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 25075,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 80495,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 84415,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 88309,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 92149,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 158604,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 192846,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "PM (004) - MD(PULMONARY MEDICINE)",
+    "rank": 43934,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "PM (004) - MD(PULMONARY MEDICINE)",
+    "rank": 142086,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "DVL (005) - MD(DVL)",
+    "rank": 17952,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "DVL (005) - MD(DVL)",
+    "rank": 24082,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 15132,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 15398,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 17690,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 40481,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 84360,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 51680,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 77408,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 88717,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 137586,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 178997,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 72135,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "ENT (017) - MS(ENT)",
+    "rank": 84071,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "ENT (017) - MS(ENT)",
+    "rank": 118507,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 27812,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 112288,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "BIO (025) - MD(BIOCHEMISTRY)",
+    "rank": 197949,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MEDI(058) - MEDICITI INSTITUTE OF MEDICAL SCIENCES, GHANPUR",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 143776,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 16999,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 18075,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 74820,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 80605,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 23783,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 110390,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 37818,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 47052,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 166728,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "PM (004) - MD(PULMONARY MEDICINE)",
+    "rank": 32016,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "PM (004) - MD(PULMONARY MEDICINE)",
+    "rank": 138084,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "DVL (005) - MD(DVL)",
+    "rank": 16727,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "DVL (005) - MD(DVL)",
+    "rank": 26231,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 12171,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 13271,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 30161,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 33377,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 36971,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 114398,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 147240,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 34920,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 140760,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 16213,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 17343,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 99691,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "ANATO(023) - MD(ANATOMY)",
+    "rank": 175726,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "BIO (025) - MD(BIOCHEMISTRY)",
+    "rank": 179434,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 79544,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 117506,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "MICRO(027) - MD(MICROBIOLOGY)",
+    "rank": 129812,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "PHARMA(028) - MD(PHARMACOLOGY)",
+    "rank": 155866,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "SPM (030) - MD(SPM)",
+    "rank": 92554,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "RT (033) - MD(RADIO THERAPY)",
+    "rank": 49667,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "EM (035) - MD(EMERGENCY MEDICINE)",
+    "rank": 75496,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "KMHD(059) - KAMINENI ACADEMY OF MEDICAL SCI AND RESEARCH, HYD",
+    "course": "TM (036) - MD(TRANSFUSION MEDICINE)",
+    "rank": 141206,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "SHDN(060) - SHADAN INSTITUTE OF MEDICAL SCIENCES, HYD",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 33249,
+    "adm_details": "MQ1-MSM-P3"
+  },
+  {
+    "college": "SHDN(060) - SHADAN INSTITUTE OF MEDICAL SCIENCES, HYD",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 64044,
+    "adm_details": "MQ2-MSM-P1"
+  },
+  {
+    "college": "SHDN(060) - SHADAN INSTITUTE OF MEDICAL SCIENCES, HYD",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 32457,
+    "adm_details": "MQ1-MSM-P2"
+  },
+  {
+    "college": "SHDN(060) - SHADAN INSTITUTE OF MEDICAL SCIENCES, HYD",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 70892,
+    "adm_details": "MQ1-MSM-P1"
+  },
+  {
+    "college": "SHDN(060) - SHADAN INSTITUTE OF MEDICAL SCIENCES, HYD",
+    "course": "PM (004) - MD(PULMONARY MEDICINE)",
+    "rank": 198558,
+    "adm_details": "MQ2-MSM-P3"
+  },
+  {
+    "college": "SHDN(060) - SHADAN INSTITUTE OF MEDICAL SCIENCES, HYD",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 30269,
+    "adm_details": "MQ1-MSM-P2"
+  },
+  {
+    "college": "SHDN(060) - SHADAN INSTITUTE OF MEDICAL SCIENCES, HYD",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 177319,
+    "adm_details": "MQ2-MSM-P3"
+  },
+  {
+    "college": "SHDN(060) - SHADAN INSTITUTE OF MEDICAL SCIENCES, HYD",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 83135,
+    "adm_details": "MQ2-MSM-P1"
+  },
+  {
+    "college": "SHDN(060) - SHADAN INSTITUTE OF MEDICAL SCIENCES, HYD",
+    "course": "ENT (017) - MS(ENT)",
+    "rank": 114315,
+    "adm_details": "MQ1-MSM-P3"
+  },
+  {
+    "college": "SHDN(060) - SHADAN INSTITUTE OF MEDICAL SCIENCES, HYD",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 41493,
+    "adm_details": "MQ1-MSM-P2"
+  },
+  {
+    "college": "SHDN(060) - SHADAN INSTITUTE OF MEDICAL SCIENCES, HYD",
+    "course": "MICRO(027) - MD(MICROBIOLOGY)",
+    "rank": 162135,
+    "adm_details": "MQ1-MSM-P2"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 13424,
+    "adm_details": "MQ1-MSM-P1"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 148723,
+    "adm_details": "MQ2-MSM-P2"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 31234,
+    "adm_details": "MQ1-MSM-P1"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 150192,
+    "adm_details": "MQ2-MSM-P2"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 57275,
+    "adm_details": "MQ1-MSM-P1"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 65140,
+    "adm_details": "MQ1-MSM-P1"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 136047,
+    "adm_details": "MQ2-MSM-P2"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "PM (004) - MD(PULMONARY MEDICINE)",
+    "rank": 189293,
+    "adm_details": "MQ2-MSM-P3"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "DVL (005) - MD(DVL)",
+    "rank": 28192,
+    "adm_details": "MQ1-MSM-P1"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 15692,
+    "adm_details": "MQ1-MSM-P2"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 22974,
+    "adm_details": "MQ1-MSM-P2"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 129359,
+    "adm_details": "MQ2-MSM-P2"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "PSY (007) - MD(PSYCHIATRY)",
+    "rank": 112058,
+    "adm_details": "MQ1-MSM-P1"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 29758,
+    "adm_details": "MQ1-MSM-P1"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 44966,
+    "adm_details": "MQ1-MSM-P2"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 166099,
+    "adm_details": "MQ2-MSM-P3"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 62815,
+    "adm_details": "MQ1-MSM-P2"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 185247,
+    "adm_details": "MQ2-MSM-P3"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 63371,
+    "adm_details": "MQ1-MSM-P3"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "ENT (017) - MS(ENT)",
+    "rank": 50162,
+    "adm_details": "MQ1-MSM-P2"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "ENT (017) - MS(ENT)",
+    "rank": 139832,
+    "adm_details": "MQ2-MSM-P2"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 37996,
+    "adm_details": "MQ1-MSM-P1"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 45121,
+    "adm_details": "MQ1-MSM-P3"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 152462,
+    "adm_details": "MQ2-MSM-P2"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 154631,
+    "adm_details": "MQ2-MSM-P3"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "PHYSI(024) - MD(PHYSIOLOGY)",
+    "rank": 180797,
+    "adm_details": "MQ1-MSM-P2"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 109099,
+    "adm_details": "MQ1-MSM-P1"
+  },
+  {
+    "college": "DCMS(061) - DECCAN COLLEGE OF MEDICAL SCIENCES",
+    "course": "MICRO(027) - MD(MICROBIOLOGY)",
+    "rank": 121180,
+    "adm_details": "MQ1-MSM-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 11899,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 13674,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 13937,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 14910,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 15808,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 16247,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 45506,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 63229,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 73280,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 74012,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 19607,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 20034,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 20919,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 21619,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 50387,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 95122,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 46989,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 47984,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 49179,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 51870,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 68662,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 69737,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 71743,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 91291,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 152133,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 155380,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "PM (004) - MD(PULMONARY MEDICINE)",
+    "rank": 34491,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "DVL (005) - MD(DVL)",
+    "rank": 14395,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 8409,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 10796,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 11813,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 12685,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 50259,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 62486,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "PSY (007) - MD(PSYCHIATRY)",
+    "rank": 57468,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 18891,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 33763,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 35101,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 35676,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 37623,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 38015,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 80949,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 98180,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 111313,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 119378,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 30015,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 95926,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 34732,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 35600,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 114903,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 123512,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "ENT (017) - MS(ENT)",
+    "rank": 35836,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "ENT (017) - MS(ENT)",
+    "rank": 38047,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "ENT (017) - MS(ENT)",
+    "rank": 156302,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 19252,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 21011,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 21135,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 21956,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 22967,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 71941,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 76015,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 74753,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "MICRO(027) - MD(MICROBIOLOGY)",
+    "rank": 157876,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "SPM (030) - MD(SPM)",
+    "rank": 123401,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MLRD(062) - MALLA REDDY INSTITUTE OF MEDICAL SCIENCES, SURARAM, RR",
+    "course": "EM (035) - MD(EMERGENCY MEDICINE)",
+    "rank": 73916,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "APLO(063) - APOLLO MEDICAL COLLEGE, HYDERABAD",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 11267,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "APLO(063) - APOLLO MEDICAL COLLEGE, HYDERABAD",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 13281,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "APLO(063) - APOLLO MEDICAL COLLEGE, HYDERABAD",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 32454,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "APLO(063) - APOLLO MEDICAL COLLEGE, HYDERABAD",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 18864,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "APLO(063) - APOLLO MEDICAL COLLEGE, HYDERABAD",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 99325,
+    "adm_details": "MQ2-P1"
+  },
+  {
+    "college": "APLO(063) - APOLLO MEDICAL COLLEGE, HYDERABAD",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 40683,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "APLO(063) - APOLLO MEDICAL COLLEGE, HYDERABAD",
+    "course": "PM (004) - MD(PULMONARY MEDICINE)",
+    "rank": 35129,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "APLO(063) - APOLLO MEDICAL COLLEGE, HYDERABAD",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 7936,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "APLO(063) - APOLLO MEDICAL COLLEGE, HYDERABAD",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 29552,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "APLO(063) - APOLLO MEDICAL COLLEGE, HYDERABAD",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 136143,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "APLO(063) - APOLLO MEDICAL COLLEGE, HYDERABAD",
+    "course": "ENT (017) - MS(ENT)",
+    "rank": 167465,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "APLO(063) - APOLLO MEDICAL COLLEGE, HYDERABAD",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 17389,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "APLO(063) - APOLLO MEDICAL COLLEGE, HYDERABAD",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 106803,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "APLO(063) - APOLLO MEDICAL COLLEGE, HYDERABAD",
+    "course": "MICRO(027) - MD(MICROBIOLOGY)",
+    "rank": 166681,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "APLO(063) - APOLLO MEDICAL COLLEGE, HYDERABAD",
+    "course": "SPM (030) - MD(SPM)",
+    "rank": 169776,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "APLO(063) - APOLLO MEDICAL COLLEGE, HYDERABAD",
+    "course": "EM (035) - MD(EMERGENCY MEDICINE)",
+    "rank": 38192,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "APLO(063) - APOLLO MEDICAL COLLEGE, HYDERABAD",
+    "course": "EM (035) - MD(EMERGENCY MEDICINE)",
+    "rank": 177055,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "RVMC(064) - RVM INSTITUTE OF MEDICAL SCIENCES AND RESEARCH CENTER, MEDAK",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 18553,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "RVMC(064) - RVM INSTITUTE OF MEDICAL SCIENCES AND RESEARCH CENTER, MEDAK",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 115728,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "RVMC(064) - RVM INSTITUTE OF MEDICAL SCIENCES AND RESEARCH CENTER, MEDAK",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 33048,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "RVMC(064) - RVM INSTITUTE OF MEDICAL SCIENCES AND RESEARCH CENTER, MEDAK",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 67444,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "RVMC(064) - RVM INSTITUTE OF MEDICAL SCIENCES AND RESEARCH CENTER, MEDAK",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 17405,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "RVMC(064) - RVM INSTITUTE OF MEDICAL SCIENCES AND RESEARCH CENTER, MEDAK",
+    "course": "PSY (007) - MD(PSYCHIATRY)",
+    "rank": 91464,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "RVMC(064) - RVM INSTITUTE OF MEDICAL SCIENCES AND RESEARCH CENTER, MEDAK",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 15211,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "RVMC(064) - RVM INSTITUTE OF MEDICAL SCIENCES AND RESEARCH CENTER, MEDAK",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 140826,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "RVMC(064) - RVM INSTITUTE OF MEDICAL SCIENCES AND RESEARCH CENTER, MEDAK",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 50452,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "RVMC(064) - RVM INSTITUTE OF MEDICAL SCIENCES AND RESEARCH CENTER, MEDAK",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 71759,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "RVMC(064) - RVM INSTITUTE OF MEDICAL SCIENCES AND RESEARCH CENTER, MEDAK",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 125956,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "RVMC(064) - RVM INSTITUTE OF MEDICAL SCIENCES AND RESEARCH CENTER, MEDAK",
+    "course": "ENT (017) - MS(ENT)",
+    "rank": 80125,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "RVMC(064) - RVM INSTITUTE OF MEDICAL SCIENCES AND RESEARCH CENTER, MEDAK",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 30342,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "RVMC(064) - RVM INSTITUTE OF MEDICAL SCIENCES AND RESEARCH CENTER, MEDAK",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 140844,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "RVMC(064) - RVM INSTITUTE OF MEDICAL SCIENCES AND RESEARCH CENTER, MEDAK",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 110759,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "RVMC(064) - RVM INSTITUTE OF MEDICAL SCIENCES AND RESEARCH CENTER, MEDAK",
+    "course": "SPM (030) - MD(SPM)",
+    "rank": 166423,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 15546,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 20080,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 86271,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 24570,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 50683,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 72895,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 170537,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 171648,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR",
+    "course": "PM (004) - MD(PULMONARY MEDICINE)",
+    "rank": 35572,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR",
+    "course": "DVL (005) - MD(DVL)",
+    "rank": 14872,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 12457,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 84453,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 41028,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 113356,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 50762,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 38741,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR",
+    "course": "ENT (017) - MS(ENT)",
+    "rank": 170062,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 91368,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR",
+    "course": "PHARMA(028) - MD(PHARMACOLOGY)",
+    "rank": 106065,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR",
+    "course": "PHARMA(028) - MD(PHARMACOLOGY)",
+    "rank": 187407,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR",
+    "course": "RT (033) - MD(RADIO THERAPY)",
+    "rank": 77944,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR",
+    "course": "RT (033) - MD(RADIO THERAPY)",
+    "rank": 144366,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MRWN(065) - MALLAREDDY MEDICAL COLLEGE FOR WOMEN, SURARAM, RR",
+    "course": "EM (035) - MD(EMERGENCY MEDICINE)",
+    "rank": 79691,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MHVR(066) - MAHAVIR INST OF MED SCI, VIKARABAD",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 29571,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MHVR(066) - MAHAVIR INST OF MED SCI, VIKARABAD",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 30722,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MHVR(066) - MAHAVIR INST OF MED SCI, VIKARABAD",
+    "course": "DVL (005) - MD(DVL)",
+    "rank": 19852,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MHVR(066) - MAHAVIR INST OF MED SCI, VIKARABAD",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 19971,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MHVR(066) - MAHAVIR INST OF MED SCI, VIKARABAD",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 61399,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MHVR(066) - MAHAVIR INST OF MED SCI, VIKARABAD",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 94330,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MHVR(066) - MAHAVIR INST OF MED SCI, VIKARABAD",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 30923,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MHVR(066) - MAHAVIR INST OF MED SCI, VIKARABAD",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 145970,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "MHVR(066) - MAHAVIR INST OF MED SCI, VIKARABAD",
+    "course": "BIO (025) - MD(BIOCHEMISTRY)",
+    "rank": 137784,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "MHVR(066) - MAHAVIR INST OF MED SCI, VIKARABAD",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 81212,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "MHVR(066) - MAHAVIR INST OF MED SCI, VIKARABAD",
+    "course": "SPM (030) - MD(SPM)",
+    "rank": 195058,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "VRKW(067) - DR V R K WOMENS MEDICAL COLLEGE",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 36942,
+    "adm_details": "MQ1-MSM-P2"
+  },
+  {
+    "college": "VRKW(067) - DR V R K WOMENS MEDICAL COLLEGE",
+    "course": "PM (004) - MD(PULMONARY MEDICINE)",
+    "rank": 47668,
+    "adm_details": "MQ1-MSM-P1"
+  },
+  {
+    "college": "VRKW(067) - DR V R K WOMENS MEDICAL COLLEGE",
+    "course": "BIO (025) - MD(BIOCHEMISTRY)",
+    "rank": 191103,
+    "adm_details": "MQ1-MSM-P2"
+  },
+  {
+    "college": "VRKW(067) - DR V R K WOMENS MEDICAL COLLEGE",
+    "course": "PHARMA(028) - MD(PHARMACOLOGY)",
+    "rank": 154924,
+    "adm_details": "MQ2-MSM-P2"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 25132,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 29765,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 123054,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 124942,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 25421,
+    "adm_details": "MQ1-P1"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 149899,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 94828,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 99271,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 108925,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 196667,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "PM (004) - MD(PULMONARY MEDICINE)",
+    "rank": 47337,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "PM (004) - MD(PULMONARY MEDICINE)",
+    "rank": 163369,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "DVL (005) - MD(DVL)",
+    "rank": 21467,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "RD (006) - MD(RADIODIAGNOSIS)",
+    "rank": 18426,
+    "adm_details": "MQ1-P2"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "PSY (007) - MD(PSYCHIATRY)",
+    "rank": 93625,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "PSY (007) - MD(PSYCHIATRY)",
+    "rank": 122377,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 63302,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "GS (014) - MS(GENERAL SURGERY)",
+    "rank": 163533,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 66795,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "ORTHO(015) - MS(ORTHOPAEDICS)",
+    "rank": 165684,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 72509,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "ENT (017) - MS(ENT)",
+    "rank": 99811,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 34083,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 105409,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "DPMR(069) - DR PATNAM MAHENDER REDDY INST OF MED SCI, CHEVELLA",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 190786,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "MAMS(070) - MAMATA ACADEMY OF MED SCI, BACHUPALLY",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 100579,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MAMS(070) - MAMATA ACADEMY OF MED SCI, BACHUPALLY",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 115497,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "MAMS(070) - MAMATA ACADEMY OF MED SCI, BACHUPALLY",
+    "course": "PATH(026) - MD(PATHOLOGY)",
+    "rank": 154379,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "SURB(071) - SURABHI INST OF MED SCI, SIDDIPET",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 28781,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "SURB(071) - SURABHI INST OF MED SCI, SIDDIPET",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 30433,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "SURB(071) - SURABHI INST OF MED SCI, SIDDIPET",
+    "course": "GM (001) - MD(GENERAL MEDICINE)",
+    "rank": 110463,
+    "adm_details": "MQ2-P2"
+  },
+  {
+    "college": "SURB(071) - SURABHI INST OF MED SCI, SIDDIPET",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 34840,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "SURB(071) - SURABHI INST OF MED SCI, SIDDIPET",
+    "course": "PAED(002) - MD(PAEDIATRICS)",
+    "rank": 156556,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "SURB(071) - SURABHI INST OF MED SCI, SIDDIPET",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 99411,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "SURB(071) - SURABHI INST OF MED SCI, SIDDIPET",
+    "course": "ANES(003) - MD(ANAESTHESIA)",
+    "rank": 183999,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "SURB(071) - SURABHI INST OF MED SCI, SIDDIPET",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 50573,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "SURB(071) - SURABHI INST OF MED SCI, SIDDIPET",
+    "course": "OPTHAL(016) - MS(OPTHALMOLOGY)",
+    "rank": 146820,
+    "adm_details": "MQ2-P3"
+  },
+  {
+    "college": "SURB(071) - SURABHI INST OF MED SCI, SIDDIPET",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 39782,
+    "adm_details": "MQ1-P3"
+  },
+  {
+    "college": "SURB(071) - SURABHI INST OF MED SCI, SIDDIPET",
+    "course": "OBG (021) - MS(OBSTETRICS AND GYNAECOLOGY)",
+    "rank": 135505,
+    "adm_details": "MQ2-P3"
   }
-}
+]

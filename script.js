@@ -49,7 +49,7 @@ async function loadDataInternal() {
                 const response = await fetch(`./${fileInfo.path}?v=${cacheBuster}`);
                 if (response.ok) {
                     const data = await response.json();
-                    processData(data);
+                    processData(data, fileInfo);
                 }
             } catch (error) {
                 console.log(`Could not load ${fileInfo.path}:`, error);
@@ -62,13 +62,14 @@ async function loadDataInternal() {
         
         // Sort by phase descending to prioritize later phases
         allData.sort((a, b) => {
-            const phaseA = parseInt(a.phase?.replace('P', '') || '0');
-            const phaseB = parseInt(b.phase?.replace('P', '') || '0');
-            return phaseB - phaseA;
+            const phaseA = getPhaseValue(a.phase);
+            const phaseB = getPhaseValue(b.phase);
+            return phaseB - phaseA; // Higher phase value first
         });
         
         for (const candidate of allData) {
-            const key = `${candidate.rank}_${candidate.year}_${candidate.category}`;
+            // A candidate is unique by their rank in a given year.
+            const key = `${candidate.rank}_${candidate.year}`;
             if (!seen.has(key)) {
                 seen.add(key);
                 uniqueData.push(candidate);
@@ -122,39 +123,40 @@ async function toggleDataSource(source) {
     document.getElementById('telanganaLabel').classList.toggle('active', source === 'telangana');
     document.getElementById('allIndiaLabel').classList.toggle('active', source === 'aiq');
     document.getElementById('dataSourceToggle').classList.toggle('active', source === 'aiq');
-
+ 
     // Clear existing data and results
     allData = [];
     isDataLoaded = false;
     document.getElementById('dataContent').innerHTML = '';
     document.getElementById('resultCount').textContent = '';
-
+ 
     // Adjust filter visibility
-    document.getElementById('specialFilter').style.display = source === 'telangana' ? 'block' : 'none';
+    document.getElementById('specialFilter').style.display = 'block';
+    document.getElementById('minCheckbox').parentElement.style.display = source === 'telangana' ? 'flex' : 'none';
+    document.getElementById('phCheckbox').parentElement.style.display = 'flex';
     document.getElementById('femaleQuotaFilter').style.display = source === 'telangana' ? 'block' : 'none';
+    // Show new filters only for Telangana data
+    document.getElementById('localStatusFilter').style.display = source === 'telangana' ? 'block' : 'none';
+    document.getElementById('meritStatusFilter').style.display = source === 'telangana' ? 'block' : 'none';
+
     document.getElementById('courseTypeSection').style.display = source === 'aiq' ? 'block' : 'none';
     
-    // Hide/show category filter based on source (AIQ has different categories)
-    document.getElementById('categoryFilterSection').style.display = source === 'telangana' ? 'block' : 'none';
-
+    // Category filters are now dynamic, so we always show the section
+    document.getElementById('categoryFilterSection').style.display = 'block';
+ 
     // Clear and repopulate dynamic filters
     document.getElementById('quotaToggles').innerHTML = '';
     document.getElementById('collegeToggles').innerHTML = '';
     document.getElementById('courseToggles').innerHTML = '';
+    document.getElementById('categoryToggles').innerHTML = ''; // Clear dynamic categories
     
     // Reset search inputs
     document.getElementById('collegeSearch').value = '';
     document.getElementById('courseSearch').value = '';
-
-    if (source === 'telangana') {
-        await loadDataInternal();
-        populateDropdowns();
-        document.getElementById('dataContent').innerHTML = '<div class="loading">Data loaded for Telangana. Use filters above to search.</div>';
-    } else { // AIQ mode
-        // For AIQ, we'll display a "Coming soon" message and not load data yet
-        document.getElementById('dataContent').innerHTML = '<div class="loading">Coming soon... AIQ data and filters are under development.</div>';
-        populateDropdowns(); // Still populate with empty data to show filter structure
-    }
+    
+    // Load data for the selected source
+    await loadDataInternal();
+    
     loadSearchState(); // Load state after dropdowns are populated and data source is set
     saveSearchState(); // Save the new data source state
 }
@@ -197,82 +199,167 @@ function normalizeCourse(courseName) {
     return normalizedNames[courseKey] || courseName;
 }
 
-function processData(jsonData) {
-    // First normalize the course structure
-    const normalizedColleges = {};
-    
-    for (const [collegeName, courses] of Object.entries(jsonData.colleges)) {
-        normalizedColleges[collegeName] = {};
-        
-        for (const [courseName, candidates] of Object.entries(courses)) {
-            const normalizedCourseName = normalizeCourse(courseName);
-            
-            // Merge candidates if normalized course already exists
-            if (!normalizedColleges[collegeName][normalizedCourseName]) {
-                normalizedColleges[collegeName][normalizedCourseName] = [];
-            }
-            normalizedColleges[collegeName][normalizedCourseName].push(...candidates);
+function getPhaseValue(phase) {
+    if (!phase) return 0;
+    const phaseUpper = phase.toUpperCase();
+    // Higher number = later phase
+    if (phaseUpper.includes('STRAY')) return 5;
+    if (phaseUpper.includes('MOPUP') || phaseUpper.includes('MOP UP')) return 4;
+    if (phaseUpper.includes('R3') || phaseUpper.includes('P3')) return 3;
+    if (phaseUpper.includes('R2') || phaseUpper.includes('P2')) return 2;
+    if (phaseUpper.includes('R1') || phaseUpper.includes('P1')) return 1;
+    const num = parseInt(phaseUpper.replace(/\D/g, ''));
+    return isNaN(num) ? 0 : num;
+}
+
+function parseAdmDetails(detailsStr) {
+    const parts = detailsStr.split('-');
+    const result = {
+        admissionType: 'Unknown',
+        phase: 'Unknown',
+        allottedCategory: 'OC', // Default to OC
+        gender: 'M', // Default
+        isPH: false,
+        isMIN: false,
+        isMRC: false,
+        isLocal: false
+    };
+
+    if (!detailsStr || parts.length === 0) return result;
+
+    // First part is admission type
+    result.admissionType = parts.shift();
+
+    // Last part is phase
+    if (parts.length > 0) {
+        result.phase = parts.pop();
+    }
+
+    // Handle MQ cases first
+    if (result.admissionType.startsWith('MQ')) {
+        if (parts.includes('MSM')) {
+            result.isMIN = true;
+            result.allottedCategory = 'MIN';
         }
+        return result;
+    }
+
+    // Process remaining parts for NS/S
+    const remainingParts = new Set(parts);
+    
+    // Extract flags and remove them
+    if (remainingParts.has('PHO')) {
+        result.isPH = true;
+        remainingParts.delete('PHO');
+    }
+    if (remainingParts.has('MSM')) {
+        result.isMIN = true;
+        remainingParts.delete('MSM');
+    }
+    if (remainingParts.has('MRC')) {
+        result.isMRC = true;
+        remainingParts.delete('MRC');
+    }
+    if (remainingParts.has('LOC')) {
+        result.isLocal = true;
+        remainingParts.delete('LOC');
     }
     
-    // Now process the normalized structure
-    for (const [collegeName, courses] of Object.entries(normalizedColleges)) {
-        for (const [courseName, candidates] of Object.entries(courses)) {
-            for (const candidate of candidates) {
-                const candidateData = {
-                    ...candidate,
-                    college: collegeName,
-                    course: courseName,
-                    year: jsonData.year,
-                    category: jsonData.category,
-                    fileName: jsonData.fileName
-                };
-                
-                // Normalize and add missing properties for consistent filtering
-                const allottedCat = (candidate.allottedCategory || '').toUpperCase();
-                const allottedGen = (candidate.allottedGender || '').toUpperCase();
+    // Extract gender and remove
+    if (remainingParts.has('FEM')) {
+        result.gender = 'F';
+        remainingParts.delete('FEM');
+    } else if (remainingParts.has('GEN')) {
+        result.gender = 'M';
+        remainingParts.delete('GEN');
+    }
 
-                // 1. Set gender ('M' or 'F')
-                candidateData.gender = allottedGen.includes('FEM') ? 'F' : 'M';
+    // What's left in the set should be the category.
+    const knownCategories = ['BCA', 'BCB', 'BCC', 'BCD', 'BCE', 'SC', 'ST', 'MIN'];
+    let foundCategory = null;
+    for (const cat of knownCategories) {
+        if (remainingParts.has(cat)) {
+            foundCategory = cat;
+            break; // Find first specific category
+        }
+    }
 
-                // 2. Set special flags for PH (Physically Handicapped) and MIN (Minority)
-                candidateData.isPH = allottedGen.includes('PHO');
-                candidateData.isMIN = allottedCat === 'MIN';
+    if (foundCategory) {
+        result.allottedCategory = foundCategory;
+    } else if (remainingParts.has('OPEN') || remainingParts.has('UNR')) {
+        result.allottedCategory = 'OC';
+    }
 
-                // 3. Set a unified candidateCategory for filtering
-                candidateData.candidateCategory = (allottedCat === 'UNR' || allottedCat === 'OPEN') ? 'OC' : allottedCat;
+    return result;
+}
 
-                // Check for duplicates and keep latest phase
-                const existingIndex = allData.findIndex(existing => 
-                    existing.rank === candidate.rank && 
-                    existing.year === jsonData.year && 
-                    existing.category === jsonData.category
-                );
-                
-                if (existingIndex >= 0) {
-                    const existing = allData[existingIndex];
-                    const currentPhase = parseInt(candidate.phase?.replace('P', '') || '0');
-                    const existingPhase = parseInt(existing.phase?.replace('P', '') || '0');
-                    
-                    // Keep the higher phase (later assignment)
-                    if (currentPhase > existingPhase) {
-                        allData[existingIndex] = candidateData;
-                    }
-                    // If same phase, prefer non-stray files
-                    else if (currentPhase === existingPhase && !jsonData.fileName.toLowerCase().includes('stray')) {
-                        allData[existingIndex] = candidateData;
-                    }
-                } else {
-                    allData.push(candidateData);
+function processData(jsonData, fileInfo) {
+    if (fileInfo.category === 'AIQ') {
+        // Handle AIQ flat array structure
+        if (!Array.isArray(jsonData)) return; // Guard against wrong format
+        for (const candidate of jsonData) {
+            const candidateData = {};
+
+            // Map AIQ fields to our internal model
+            candidateData.rank = candidate.Rank;
+            candidateData.college = candidate.Institute;
+            candidateData.course = normalizeCourse(candidate.Course);
+            candidateData.admissionType = (candidate.Quota || '').replace('Managemen t', 'Management'); // Fix typo
+            candidateData.remarks = candidate.Remarks;
+            candidateData.allottedCategory = candidate.AllottedCategory;
+             candidateData.year = fileInfo.year;
+            candidateData.category = fileInfo.category; // 'AIQ'
+            candidateData.fileName = fileInfo.path;
+             let phase = '';
+            const remarkMatch = candidate.Remarks?.match(/(\d+)(?:st|nd|rd|th) Round/i);
+            if (remarkMatch) {
+                phase = `R${remarkMatch[1]}`;
+            } else if (candidate.Remarks?.toUpperCase().includes('UPGRADED')) {
+                phase = 'Upgraded';
+            }
+            if (!phase) {
+                const fileMatch = fileInfo.path.match(/(R\d+|MOPUP|STRAY)/i);
+                if (fileMatch) {
+                    phase = fileMatch[0].toUpperCase();
                 }
             }
+            candidateData.phase = phase;
+             const allottedCat = (candidate.AllottedCategory || '').toUpperCase();
+            candidateData.isPH = allottedCat.includes('PWD');
+            candidateData.isMIN = false; // Not applicable for AIQ
+            candidateData.gender = 'M'; // Not available in AIQ data
+             candidateData.candidateCategory = allottedCat.replace('-PWD', '').trim();
+
+            allData.push(candidateData);
+        }
+    } else if (fileInfo.category === 'CQ' || fileInfo.category === 'MQ') {
+        // Handle Telangana flat array structure
+        if (!Array.isArray(jsonData)) return; // Guard against wrong format
+        for (const candidate of jsonData) {
+            const parsedDetails = parseAdmDetails(candidate.adm_details);
+
+            const candidateData = {
+                rank: candidate.rank,
+                college: candidate.college,
+                course: normalizeCourse(candidate.course),
+                adm_details: candidate.adm_details, // Store the original string
+                year: fileInfo.year,
+                category: fileInfo.category,
+                fileName: fileInfo.path,
+                ...parsedDetails // Spread the parsed details
+            };
+            
+            // The `allottedCategory` from the parser is now the `candidateCategory`
+            candidateData.candidateCategory = candidateData.allottedCategory;
+
+            allData.push(candidateData);
         }
     }
 }
 
-
 let allColleges = [];
 let allCourses = [];
+let allCategories = [];
 
 function getQuotaDescription(admissionType) {
     const descriptions = {
@@ -305,11 +392,40 @@ function populateDropdowns() {
         const codeB = b.match(/\((\d+)\)/)?.[1] || '999';
         return parseInt(codeA) - parseInt(codeB);
     });
+    
+    // Get unique categories from the data itself
+    // Filter out 'MIN' as it has its own special filter
+    allCategories = [...new Set(allData.map(item => item.candidateCategory).filter(cat => cat && cat !== 'MIN'))].sort((a, b) => {
+        if (a === 'OC') return -1; // 'OC' (OPEN) always comes first
+        if (b === 'OC') return 1;
+        return a.localeCompare(b); // Alphabetical for the rest
+    });
     const admissionTypes = [...new Set(allData.map(item => item.admissionType).filter(type => type))].sort();
     
     populateToggles('college', allColleges);
     populateToggles('course', allCourses); // This will populate for both AIQ and Telangana
-    
+
+    // Populate category toggles directly, like quotas, for a plain layout
+    const categoryContainer = document.getElementById('categoryToggles');
+    categoryContainer.innerHTML = ''; // Clear previous categories
+    allCategories.forEach(cat => {
+        const label = document.createElement('label');
+        label.className = 'toggle';
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.value = cat;
+        checkbox.className = 'categoryCheckbox';
+        checkbox.checked = true; // Default to checked
+        const slider = document.createElement('span');
+        slider.className = 'slider';
+        // Display 'OPEN' for the 'OC' category value
+        const text = document.createTextNode(cat === 'OC' ? 'OPEN' : cat);
+        label.appendChild(checkbox);
+        label.appendChild(slider);
+        label.appendChild(text);
+        categoryContainer.appendChild(label);
+    });
+
     // Populate quota toggles with descriptions, NS first
     const quotaContainer = document.getElementById('quotaToggles');
     // Clear previous quotas before populating
@@ -438,6 +554,10 @@ function saveSearchState() {
         genders: Array.from(document.querySelectorAll('.genderCheckbox:checked')).map(cb => cb.value),
         minFilter: document.getElementById('minCheckbox').checked,
         phFilter: document.getElementById('phCheckbox').checked,
+        // Save new filter states
+        localFilter: document.getElementById('localCheckbox').checked,
+        unrFilter: document.getElementById('unrCheckbox').checked,
+        mrcFilter: document.getElementById('mrcCheckbox').checked,
         sortBy: document.getElementById('sortSelect').value,
         currentDataSource: currentDataSource, // Save current data source
     };
@@ -460,6 +580,11 @@ function loadSearchState() {
         document.getElementById('minCheckbox').checked = state.minFilter || false;
         document.getElementById('phCheckbox').checked = state.phFilter || false;
         document.getElementById('sortSelect').value = state.sortBy || 'rank-asc';
+
+        // Restore new filters, defaulting to true if not saved previously
+        document.getElementById('localCheckbox').checked = state.localFilter !== false;
+        document.getElementById('unrCheckbox').checked = state.unrFilter !== false;
+        document.getElementById('mrcCheckbox').checked = state.mrcFilter !== false;
     }
     // Always start with hamburger filters off
     document.getElementById('showOnlyPH').checked = false;
@@ -493,6 +618,11 @@ function searchData() {
     const phFilter = document.getElementById('phCheckbox').checked;
     const showGen = document.querySelector('.genderCheckbox[value="M"]').checked;
     const showFem = document.querySelector('.genderCheckbox[value="F"]').checked;
+
+    // Get new filter states
+    const localFilter = document.getElementById('localCheckbox').checked;
+    const unrFilter = document.getElementById('unrCheckbox').checked;
+    const mrcFilter = document.getElementById('mrcCheckbox').checked;
     
     // If the MIN special filter is checked, we should also consider candidates
     // with the 'MIN' category. This effectively adds 'MIN' to the list of
@@ -529,11 +659,20 @@ function searchData() {
             if (showGen) selectedGenders.push('M');
             if (showFem) selectedGenders.push('F');
             if (selectedGenders.length === 0) return false;
-            if (!selectedGenders.includes(candidate.gender)) return false;
+            if (candidate.gender && !selectedGenders.includes(candidate.gender)) return false;
 
             // Special Status Check: A candidate with a special status is only shown if that filter is checked.
             if (candidate.isMIN && !minFilter) return false;
             if (candidate.isPH && !phFilter) return false;
+            if (candidate.isMRC && !mrcFilter) return false;
+
+            // Local/UNR Check
+            const selectedLocalStatus = [];
+            if (localFilter) selectedLocalStatus.push(true);
+            if (unrFilter) selectedLocalStatus.push(false);
+            if (selectedLocalStatus.length === 0) return false;
+            // candidate.isLocal is true for LOC, false for UNR
+            if (!selectedLocalStatus.includes(candidate.isLocal)) return false;
         }
 
         return true;
@@ -619,27 +758,47 @@ function displayResults(data) {
     
     dataContent.innerHTML = Object.entries(groupedData).map(([college, candidates]) => {
         const candidateItems = candidates.map(candidate => {
-            // Build details parts, filtering out empty values
-            const detailsArray = [
-                candidate.candidateCategory,
-                getGenderDisplay(candidate.gender),
-                `20${candidate.year}`,
-                getQuotaDescription(candidate.admissionType),
-                candidate.phase
-            ].filter(Boolean);
-            
-            const detailsString = detailsArray.map(part => {
-                if (part === 'FEM') {
-                    return `<span class="detail-fem">${part}</span>`;
-                }
-                return part;
-            }).join(' | ');
-            
+            let detailsString = '';
             const tagParts = [];
-            if (candidate.isMIN) tagParts.push('<span class="tag-min">MIN</span>');
-            if (candidate.isPH) tagParts.push('<span class="tag-ph">PH</span>');
+
+            if (candidate.category === 'AIQ') {
+                // AIQ Logic: Keep the existing format
+                const detailsArray = [
+                    candidate.allottedCategory,
+                    getQuotaDescription(candidate.admissionType),
+                    candidate.phase
+                ].filter(Boolean);
+                detailsString = detailsArray.join(' | ');
+                if (candidate.isPH) tagParts.push('<span class="tag-ph">PH</span>');
+
+            } else { // Telangana (CQ/MQ) Logic
+                if (candidate.adm_details) {
+                    // Show the raw adm_details string with inline styling for special parts
+                    detailsString = candidate.adm_details.split('-').map(part => {
+                        switch(part) {
+                            case 'FEM': return `<span class="detail-fem">${part}</span>`;
+                            case 'S': return `<span class="tag-service">${part}</span>`;
+                            case 'MRC': return `<span class="tag-mrc">${part}</span>`;
+                            case 'MSM': return `<span class="tag-min">${part}</span>`;
+                            case 'UNR': return `<span class="detail-unr">${part}</span>`;
+                            case 'PHO': return `<span class="tag-ph">${part}</span>`;
+                            default: return part;
+                        }
+                    }).join('-');
+                } else {
+                    // Fallback for older Telangana data without adm_details
+                    const detailsArray = [
+                        candidate.candidateCategory,
+                        getGenderDisplay(candidate.gender),
+                        getQuotaDescription(candidate.admissionType),
+                        candidate.phase
+                    ].filter(Boolean);
+                    detailsString = detailsArray.map(part => (part === 'FEM') ? `<span class="detail-fem">${part}</span>` : part).join(' | ');
+                }
+            }
+
+            // Common tag logic for all data types (like stray from filename)
             if (candidate.fileName && candidate.fileName.toLowerCase().includes('stray')) tagParts.push('<span class="tag-stray">STRAY</span>');
-            if (candidate.admissionType === 'S') tagParts.push('<span class="tag-service">SERVICE</span>');
 
             return `
                 <div class="candidate-item">
@@ -650,6 +809,7 @@ function displayResults(data) {
                     </div>
                     <div class="candidate-info">
                         <div class="candidate-course">${candidate.course}</div>
+                        <div class="candidate-year">Year: 20${candidate.year}</div>
                         <div class="candidate-details">
                             ${detailsString}
                         </div>
@@ -708,6 +868,10 @@ function clearFilters() {
     document.querySelectorAll('.courseCheckbox').forEach(cb => cb.checked = false);
     document.getElementById('minCheckbox').checked = false;
     document.getElementById('phCheckbox').checked = false;
+    document.getElementById('localCheckbox').checked = true;
+    document.getElementById('unrCheckbox').checked = true;
+    document.getElementById('mrcCheckbox').checked = true;
+
 
     // Clear hamburger filters
     document.getElementById('showOnlyPH').checked = false;
@@ -732,13 +896,26 @@ function showRankHistory(rank, year, category) {
     fetch('./data_manifest.json')
         .then(response => response.json())
         .then(async manifest => {
-            for (const fileInfo of manifest.counsellingFiles) {
-                if (fileInfo.year === year && fileInfo.category === category) {
-                    try {
-                        const response = await fetch(`./${fileInfo.path}`);
-                        if (response.ok) {
-                            const data = await response.json();
-                            
+            const filesToSearch = manifest.counsellingFiles.filter(f => f.year === year && f.category === category);
+
+            for (const fileInfo of filesToSearch) {
+                try {
+                    const response = await fetch(`./${fileInfo.path}`);
+                    if (response.ok) {
+                        const data = await response.json();
+                        
+                        if (Array.isArray(data)) { // AIQ data
+                            const candidates = data.filter(c => c.Rank === rank);
+                            for (const candidate of candidates) {
+                                rankHistory.push({
+                                    phase: fileInfo.phase || '', // Get phase from manifest
+                                    college: candidate.Institute,
+                                    course: normalizeCourse(candidate.Course),
+                                    fileName: fileInfo.path,
+                                    admissionType: candidate.Quota
+                                });
+                            }
+                        } else if (data && data.colleges) { // Telangana data
                             // Search for the rank in this file
                             for (const [collegeName, courses] of Object.entries(data.colleges)) {
                                 for (const [courseName, candidates] of Object.entries(courses)) {
@@ -746,8 +923,8 @@ function showRankHistory(rank, year, category) {
                                     if (candidate) {
                                         rankHistory.push({
                                             phase: candidate.phase,
-                                            college: collegeName,
-                                            course: courseName,
+                                            college: collegeName, // College name is already correct
+                                            course: normalizeCourse(courseName),
                                             fileName: data.fileName,
                                             admissionType: candidate.admissionType
                                         });
@@ -755,16 +932,16 @@ function showRankHistory(rank, year, category) {
                                 }
                             }
                         }
-                    } catch (error) {
-                        console.log(`Error loading ${fileInfo.path}`);
                     }
+                } catch (error) {
+                    console.log(`Error loading ${fileInfo.path} for history:`, error);
                 }
             }
             
             // Sort by phase
             rankHistory.sort((a, b) => {
-                const phaseA = parseInt(a.phase?.replace('P', '') || '0');
-                const phaseB = parseInt(b.phase?.replace('P', '') || '0');
+                const phaseA = getPhaseValue(a.phase);
+                const phaseB = getPhaseValue(b.phase);
                 return phaseA - phaseB;
             });
             
