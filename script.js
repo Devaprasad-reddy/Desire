@@ -1023,6 +1023,27 @@ function displayRankHistory(rank, year, category, history) {
 
 // Load data when page loads
 window.addEventListener('load', () => {
+    // Add the scrolling marquee message
+    const h1 = document.querySelector('h1'); // Find the 'Desire' h1
+    if (h1 && h1.parentElement) {
+        const marquee = document.createElement('marquee');
+        marquee.innerHTML = '<strong>NEET PG 2025</strong> Counselling data for both Telangana and All India will be updated as soon as the counselling starts.';
+        marquee.style.flex = '1'; // Use flex shorthand to allow proper shrinking and growing.
+        marquee.style.marginLeft = '20px';
+        marquee.style.marginRight = '20px'; // Add right margin to prevent touching the edge
+        marquee.style.minWidth = '0'; // Prevents the marquee's content from overflowing its container.
+        marquee.style.border = '1px solid #ddd';
+        marquee.style.borderRadius = '4px';
+        marquee.style.padding = '5px';
+        marquee.style.backgroundColor = '#f8f9fa';
+        marquee.style.color = '#333';
+
+        const headerContainer = h1.parentElement;
+        headerContainer.style.display = 'flex';
+        headerContainer.style.alignItems = 'center';
+        h1.insertAdjacentElement('afterend', marquee);
+    }
+
     // Initialize data source toggle event listener
     document.getElementById('dataSourceToggle').addEventListener('click', () => {
         toggleDataSource(currentDataSource === 'telangana' ? 'aiq' : 'telangana');
